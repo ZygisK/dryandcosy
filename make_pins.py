@@ -47,10 +47,15 @@ print("text layout engine:", "raqm (kerning on)" if ENGINE == ImageFont.Layout.R
 def load_font(key, size, axes):
     f = ImageFont.truetype(str(font_file(key)), size, layout_engine=ENGINE)
     try:
-        names = [a["name"].decode() if isinstance(a["name"], bytes) else a["name"] for a in f.get_variation_axes()]
-        f.set_variation_by_axes([axes.get(n.lower()[:4], axes.get(n, 400)) for n in names])
-    except Exception:
-        pass
+        vals = []
+        for a in f.get_variation_axes():
+            n = (a["name"].decode() if isinstance(a["name"], bytes) else str(a["name"])).lower()
+            key = "opsz" if "optic" in n or n == "opsz" else "wght" if "weight" in n or n == "wght" else n
+            v = axes.get(key, a.get("default", 400))
+            vals.append(max(a["minimum"], min(a["maximum"], v)))
+        f.set_variation_by_axes(vals)
+    except Exception as ex:
+        print("variable font axes not set:", ex)
     return f
 
 def wrap(draw, text, font, width):
@@ -104,8 +109,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     try:
         fonts = {
-            "roman": lambda s: load_font("roman", s, {"opsz": 96, "wght": 400}),
-            "italic": lambda s: load_font("italic", s, {"opsz": 96, "wght": 400}),
+            "roman": lambda s: load_font("roman", s, {"opsz": 36, "wght": 430}),
+            "italic": lambda s: load_font("italic", s, {"opsz": 36, "wght": 430}),
             "sans": lambda s: load_font("sans", s, {"wght": 500}),
         }
         fonts["roman"](20)
