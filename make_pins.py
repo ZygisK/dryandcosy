@@ -24,7 +24,7 @@ html,body{{margin:0;width:1000px;height:1500px}}
 .pin img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
 .pin::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,22,19,0) 38%,rgba(18,22,19,.72) 100%)}}
 .cap{{position:absolute;left:68px;right:68px;bottom:68px;z-index:1;color:#fff}}
-.cap h1{{font:400 {size}px/1.04 'Bodoni Moda',serif;margin:0;letter-spacing:-.01em;text-wrap:balance}}
+.cap h1{{font:400 {size}px/1.04 'Bodoni Moda',serif;margin:0;letter-spacing:-.01em;text-wrap:balance;font-variation-settings:'opsz' 28}}
 .cap h1 em{{font-style:italic}}
 .cap p{{margin:32px 0 0;font-size:28px;letter-spacing:.06em;opacity:.9}}
 </style></head><body><div class="pin">
