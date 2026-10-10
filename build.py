@@ -131,7 +131,7 @@ def build():
         art = f"""{hero}<div class="wrap narrow"><article class="article">
 <p class="crumbs"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {e(meta.get('category','Guide'))}</p>
 <h1>{e(meta['title'])}</h1><p class="lede">{e(lede)}</p>
-<p class="meta">Updated {e(str(meta.get('updated','')))}. Contains paid links to Amazon.co.uk. {DISCLOSURE_LINE}</p>
+<p class="meta">Updated {e(str(meta.get('updated','')))}. Contains paid links. {DISCLOSURE_LINE}</p>
 {render_md(rest)}</article></div>"""
         write(f"{meta['slug']}/index.html", layout(f"{meta['title']} | Dry & Cosy", meta.get("description", ""), art, meta["slug"] + "/", og=meta.get("image")))
     posts.sort(key=lambda m: str(m.get("date", "")), reverse=True)
@@ -150,7 +150,7 @@ def build():
         content = f"""<section class="banner">{photo(c['image'], 2400, c['name'], eager=True)}<div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/shop/">Shop</a></p><h1>{e(c['name'])}</h1><p>{e(c['blurb'])}</p></div></section>
 <section class="section"><div class="wrap"><div class="index">{''.join(row(p) for p in by_cat[c['id']])}</div>
-<p class="paid">{len(by_cat[c['id']])} products. Links open Amazon.co.uk and are paid links.</p></div></section>{rel}"""
+<p class="paid">{len(by_cat[c['id']])} products. Paid links.</p></div></section>{rel}"""
         write(f"shop/{c['id']}/index.html", layout(f"{c['name']} | Dry & Cosy", c["blurb"], content, f"shop/{c['id']}/", og=c.get("image")))
 
     rooms = "".join(
@@ -159,7 +159,7 @@ def build():
         for c in CAT["categories"])
 
     shop = f"""<section class="plainhead"><div class="wrap"><p class="crumbs"><a href="/">Home</a></p><h1>The shop</h1>
-<p>{len(CAT['products'])} products for damp, cold and slow-drying washing, chosen for UK and Irish homes. Every link goes to Amazon.co.uk.</p></div></section>
+<p>{len(CAT['products'])} products for damp, cold and slow-drying washing, chosen for UK and Irish homes.</p></div></section>
 <div class="rail-wrap"><div class="rail">{rooms}</div></div>
 <section class="section band"><div class="wrap"><div class="head"><h2>Everything, A to Z</h2></div>
 <div class="index">{''.join(row(p, True) for p in sorted(CAT['products'], key=lambda p: p['name'].lower()))}</div></div></section>"""
@@ -190,14 +190,14 @@ def build():
 <div class="actions"><a class="btn dark" href="/{lead['slug']}/">Read the guide</a></div></div></div></section>
 
 <section class="section"><div class="wrap"><div class="head"><div><h2>The winter edit</h2><p>What homes reach for first when the heating goes on.</p></div><a class="textlink" href="/shop/">All products</a></div>
-<div class="index">{''.join(row(p, True) for p in featured)}</div><p class="paid">Links open Amazon.co.uk and are paid links.</p></div></section>
+<div class="index">{''.join(row(p, True) for p in featured)}</div><p class="paid">Paid links.</p></div></section>
 
 <section class="section band"><div class="wrap"><div class="head"><h2>From the guides</h2><a class="textlink" href="/guides/">All guides</a></div>
 <div class="journal">{''.join(entry(m) for m in posts[:2])}</div></div></section>
 
 <div class="wrap trust"><div><h3>Chosen, not listed</h3><p>We pick products for what they do for the problem, and leave out the rest.</p></div>
 <div><h3>Written for our homes</h3><p>Advice for Irish and UK weather, older housing and today's energy prices.</p></div>
-<div><h3>Clear about links</h3><p>Product links are paid links to Amazon.co.uk. The price you pay stays the same.</p></div></div>"""
+<div><h3>Clear about links</h3><p>Product links are paid links. The price you pay stays the same.</p></div></div>"""
     write("index.html", layout("Dry & Cosy | For a dry, warm home", SITE["tagline"], home, body_class="home", og=SITE["hero_image"]))
 
     urls = ["", "shop/", "guides/"] + [f"shop/{c['id']}/" for c in CAT["categories"]] + [m["slug"] + "/" for m in posts]
