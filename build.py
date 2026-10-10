@@ -82,6 +82,7 @@ def layout(title, desc, content, path="", body_class="", og=None):
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{canonical}">
+<meta name="p:domain_verify" content="{SITE.get('pinterest_verify','')}"/>
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{canonical}"><meta property="og:site_name" content="Dry &amp; Cosy">{og_img}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
