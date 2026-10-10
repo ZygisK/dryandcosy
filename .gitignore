@@ -3,3 +3,4 @@ preview/
 node_modules/
 __pycache__/
 *.zip
+.cache/

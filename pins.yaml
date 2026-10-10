@@ -1,57 +1,124 @@
-# One entry per pin. layout: headline | problem_fix | checklist
-# image: optional background photo (e.g. AI-generated scene) in pins/images/
-# board: must match a board name on Pinterest exactly
-- url: /dry-clothes-indoors-without-damp/
+# Pinterest pins. Rendered at build time by make_pins.py into dist/pins/v2/<slug>.jpg
+# photo: Unsplash photo id (free licence). head: main headline. tail: italic second part.
+# board: exact board name on Pinterest. url: page on dryandcosy.com the pin links to.
+# status: draft (not posted) | approved | posted
+- slug: free-fixes-drying-indoors
+  photo: photo-1655041448985-f6666cba2d6c
+  head: Five free fixes for drying washing indoors
+  tail: ""
+  url: /dry-clothes-indoors-without-damp/
   board: Drying Clothes Indoors
-  layout: headline
-  kicker: UK HOMES
-  title: How to Dry Clothes Indoors Without Damp
-  sub: The 4-step routine that stops condensation
-  description: Drying washing indoors in winter? Here's how to dry clothes indoors without damp, mould or streaming windows, plus the airers and dehumidifiers that help. (affiliate links)
-- url: /dry-clothes-indoors-without-damp/
+  title: Five free fixes for drying washing indoors
+  description: Drying washing indoors without a tumble dryer? Five free changes that stop damp and condensation, from spin speed to which room you use. For UK and Irish homes.
+- slug: dry-clothes-faster-winter
+  photo: photo-1614245693274-0be3f29a5c4a
+  head: Dry clothes faster,
+  tail: even in winter
+  url: /dry-clothes-indoors-without-damp/
   board: Drying Clothes Indoors
-  layout: problem_fix
-  problem: Washing on every radiator. Windows streaming.
-  fix: One room, door shut, dehumidifier on laundry mode.
-  title: Dry Clothes Indoors the Right Way
-  description: Stop drying clothes on radiators. This simple indoor drying routine keeps damp and mould away in small UK flats and houses. (affiliate links)
-- url: /dry-clothes-indoors-without-damp/
-  board: Drying Clothes Indoors
-  layout: checklist
-  title: 5 Free Fixes for Drying Washing Indoors
-  items: [Spin on the highest setting, Pick one room and shut the door, Open a window or trickle vents, Keep washing off radiators, Leave gaps between items]
-  description: Five free fixes for drying washing indoors without damp. Works in flats, rentals and small houses. (affiliate links)
-- url: /dry-clothes-indoors-without-damp/
-  board: Heated Airers & Clothes Airers
-  layout: headline
-  kicker: HEATED AIRER?
-  title: Heated Airer vs Dehumidifier
-  sub: Which one dries washing faster without damp
-  description: Heated airer or dehumidifier for drying clothes indoors? What each one does, typical running costs and which suits your home. (affiliate links)
-- url: /dry-clothes-indoors-without-damp/
-  board: Dehumidifiers for Damp Homes
-  layout: headline
-  kicker: COLD HOUSE?
-  title: Compressor or Desiccant Dehumidifier?
-  sub: Pick the wrong one and it barely works
-  description: Compressor vs desiccant dehumidifier explained simply. Desiccant models suit cold rooms; compressor suits heated homes. (affiliate links)
-- url: /condensation-on-windows-every-morning/
+  title: How to dry clothes faster indoors in winter
+  description: Clothes taking days to dry indoors? Simple ways to dry washing faster in winter without damp, plus the airers and dehumidifiers worth buying.
+- slug: small-flat-no-dryer
+  photo: photo-1501127122-f385ca6ddd9d
+  head: Small flat,
+  tail: no tumble dryer?
+  url: /shop/laundry/
+  board: Small Laundry Space Ideas
+  title: Drying ideas for a small flat with no tumble dryer
+  description: No tumble dryer and no space? Tiered airers, over-door racks and wall-mounted dryers that fit small flats and rentals.
+- slug: windows-wet-every-morning
+  photo: photo-1543699877-1496a5b39369
+  head: Why your windows are wet
+  tail: every morning
+  url: /condensation-on-windows-every-morning/
   board: Condensation & Damp Fixes
-  layout: problem_fix
-  problem: Windows soaking wet every single morning?
-  fix: Less moisture in, more moisture out. Here's how.
-  title: Stop Window Condensation
-  description: Condensation on windows every morning? Why it happens and the cheap fixes that stop it, from trickle vents to a quiet bedroom dehumidifier. (affiliate links)
-- url: /condensation-on-windows-every-morning/
-  board: Condensation & Damp Fixes
-  layout: checklist
-  title: Wet Windows Every Morning? Do This
-  items: [Wipe glass every morning, Open trickle vents, Lids on pans + extractor on, No drying clothes in bedrooms, Dehumidifier in the worst room]
-  description: A simple checklist to stop condensation on windows and black mould on frames in UK and Irish homes. (affiliate links)
-- url: /condensation-on-windows-every-morning/
+  title: Why your windows are wet every morning
+  description: Condensation on the windows every morning? What causes it and the cheap fixes that stop it, from trickle vents to a quiet bedroom dehumidifier.
+- slug: stop-condensation-before-mould
+  photo: photo-1729503019194-f3b46167904a
+  head: Stop condensation
+  tail: before it turns to mould
+  url: /condensation-on-windows-every-morning/
   board: Black Mould Prevention
-  layout: headline
-  kicker: BLACK MOULD ON FRAMES?
-  title: It Starts With Condensation
-  sub: Stop the water and the mould stops too
-  description: Black mould on window frames is a moisture problem. Here's how to stop condensation so the mould doesn't come back. (affiliate links)
+  title: Stop condensation before it turns to black mould
+  description: Black mould on window frames starts with condensation. How to stop the moisture so the mould never gets a hold.
+- slug: warm-without-heating-all-day
+  photo: photo-1605191353027-d21e534a419a
+  head: A warm home,
+  tail: without the heating on all day
+  url: /shop/heating/
+  board: Keep Your House Warm
+  title: How to stay warm without the heating on all day
+  description: Heated throws, electric blankets and small tricks that keep you warm for pennies an hour instead of heating the whole house.
+- slug: cosy-evenings-for-less
+  photo: photo-1674475761224-fec1d3263fbf
+  head: Cosy winter evenings,
+  tail: for less
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Cosy winter evenings for less
+  description: Chunky knits, heated throws and warm layers for a cosy home this winter without a big heating bill.
+- slug: keep-the-heat-you-pay-for
+  photo: photo-1698368304849-295fbd5d6d43
+  head: Keep the heat
+  tail: you pay for
+  url: /shop/draughts/
+  board: Draught Proofing Ideas
+  title: Draught proofing that keeps the heat you pay for
+  description: Door seals, letterbox brushes and draught excluders that stop warm air escaping. Cheap, quick and renter-friendly.
+- slug: heat-only-rooms-you-use
+  photo: photo-1686696037307-2f4cb1c9cf81
+  head: Heat only the rooms
+  tail: you actually use
+  url: /shop/energy/
+  board: Keep Your House Warm
+  title: Heat only the rooms you use with smart radiator valves
+  description: Smart radiator valves let you heat the rooms you use and leave the rest. A simple way to cut heating bills.
+- slug: which-dehumidifier
+  photo: photo-1658054857921-825454668a30
+  head: Compressor or desiccant?
+  tail: Choosing a dehumidifier
+  url: /dry-clothes-indoors-without-damp/
+  board: Dehumidifiers for Damp Homes
+  title: Compressor or desiccant dehumidifier, which one?
+  description: Compressor dehumidifiers suit heated homes; desiccant models work in cold rooms. How to choose the right one for your home.
+- slug: dry-mould-free-bathroom
+  photo: photo-1764551322786-54a994923d8f
+  head: A bathroom that stays
+  tail: dry and mould-free
+  url: /shop/bathroom/
+  board: Black Mould Prevention
+  title: How to keep a bathroom dry and mould-free
+  description: Extractor fans, squeegees and anti-mould sealant that keep the steamiest room in the house dry.
+- slug: wet-washing-dry-walls
+  photo: photo-1712123486120-c617559e95a7
+  head: Wet washing,
+  tail: dry walls
+  url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  title: Dry washing indoors without damp walls
+  description: One load of washing releases litres of water into your home. Here is how to dry it without damp walls or a musty smell.
+- slug: rainy-day-cosy-home
+  photo: photo-1667650231689-aa6bd2530e97
+  head: Rainy days,
+  tail: cosy home
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Rainy day, cosy home
+  description: Warm throws, soft lighting and small comforts for grey Irish and UK winter days.
+- slug: sheets-dry-no-damp-smell
+  photo: photo-1784218492133-17c010099807
+  head: Fresh sheets, dry by morning,
+  tail: no damp smell
+  url: /dry-clothes-indoors-without-damp/
+  board: Heated Airers & Clothes Airers
+  title: Dry bedding indoors without a damp smell
+  description: How to dry sheets and duvet covers indoors overnight, and the heated airers that make it easy.
+- slug: unused-fireplace-draught
+  photo: photo-1616799269569-1438d8dbd439
+  head: Unused fireplace?
+  tail: Stop the draught
+  url: /shop/draughts/
+  board: Draught Proofing Ideas
+  title: Stop draughts from an unused fireplace
+  description: An open chimney lets warm air straight out. Chimney draught stoppers fix it in minutes and come out easily when you want a fire.
