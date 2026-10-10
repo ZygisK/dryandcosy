@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pip install markdown pyyaml && python3 build.py",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": true
+}

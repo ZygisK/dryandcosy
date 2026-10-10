@@ -1,0 +1,57 @@
+# One entry per pin. layout: headline | problem_fix | checklist
+# image: optional background photo (e.g. AI-generated scene) in pins/images/
+# board: must match a board name on Pinterest exactly
+- url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  layout: headline
+  kicker: UK HOMES
+  title: How to Dry Clothes Indoors Without Damp
+  sub: The 4-step routine that stops condensation
+  description: Drying washing indoors in winter? Here's how to dry clothes indoors without damp, mould or streaming windows, plus the airers and dehumidifiers that help. (affiliate links)
+- url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  layout: problem_fix
+  problem: Washing on every radiator. Windows streaming.
+  fix: One room, door shut, dehumidifier on laundry mode.
+  title: Dry Clothes Indoors the Right Way
+  description: Stop drying clothes on radiators. This simple indoor drying routine keeps damp and mould away in small UK flats and houses. (affiliate links)
+- url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  layout: checklist
+  title: 5 Free Fixes for Drying Washing Indoors
+  items: [Spin on the highest setting, Pick one room and shut the door, Open a window or trickle vents, Keep washing off radiators, Leave gaps between items]
+  description: Five free fixes for drying washing indoors without damp. Works in flats, rentals and small houses. (affiliate links)
+- url: /dry-clothes-indoors-without-damp/
+  board: Heated Airers & Clothes Airers
+  layout: headline
+  kicker: HEATED AIRER?
+  title: Heated Airer vs Dehumidifier
+  sub: Which one dries washing faster without damp
+  description: Heated airer or dehumidifier for drying clothes indoors? What each one does, typical running costs and which suits your home. (affiliate links)
+- url: /dry-clothes-indoors-without-damp/
+  board: Dehumidifiers for Damp Homes
+  layout: headline
+  kicker: COLD HOUSE?
+  title: Compressor or Desiccant Dehumidifier?
+  sub: Pick the wrong one and it barely works
+  description: Compressor vs desiccant dehumidifier explained simply. Desiccant models suit cold rooms; compressor suits heated homes. (affiliate links)
+- url: /condensation-on-windows-every-morning/
+  board: Condensation & Damp Fixes
+  layout: problem_fix
+  problem: Windows soaking wet every single morning?
+  fix: Less moisture in, more moisture out. Here's how.
+  title: Stop Window Condensation
+  description: Condensation on windows every morning? Why it happens and the cheap fixes that stop it, from trickle vents to a quiet bedroom dehumidifier. (affiliate links)
+- url: /condensation-on-windows-every-morning/
+  board: Condensation & Damp Fixes
+  layout: checklist
+  title: Wet Windows Every Morning? Do This
+  items: [Wipe glass every morning, Open trickle vents, Lids on pans + extractor on, No drying clothes in bedrooms, Dehumidifier in the worst room]
+  description: A simple checklist to stop condensation on windows and black mould on frames in UK and Irish homes. (affiliate links)
+- url: /condensation-on-windows-every-morning/
+  board: Black Mould Prevention
+  layout: headline
+  kicker: BLACK MOULD ON FRAMES?
+  title: It Starts With Condensation
+  sub: Stop the water and the mould stops too
+  description: Black mould on window frames is a moisture problem. Here's how to stop condensation so the mould doesn't come back. (affiliate links)

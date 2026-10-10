@@ -1,0 +1,104 @@
+# Product catalogue. Each product appears on its category page and can be placed in guides with [[product id="..."]].
+# Until you add an ASIN, the button links to an Amazon.co.uk search for `search` (allowed under Associates when tagged).
+# take: your own one-line opinion (required by Amazon's original-content rule; write it before the product goes live).
+
+categories:
+  - id: laundry
+    name: Laundry & Drying
+    blurb: Airers, heated airers and dryers that get washing dry indoors without filling the house with moisture.
+    icon: hanger
+    image: photo-1635717850365-b2f7de8f61e5
+  - id: damp
+    name: Damp & Mould
+    blurb: Dehumidifiers, moisture traps and cleaning kit that deal with condensation and stop mould returning.
+    icon: drop
+    image: photo-1520971434558-0b482cb0013f
+  - id: heating
+    name: Heating & Warmth
+    blurb: "Low-cost ways to stay warm: heated throws, electric blankets and efficient room heaters."
+    icon: flame
+    image: photo-1634148737510-727f137375e0
+  - id: draughts
+    name: Draughts & Insulation
+    blurb: Seals, excluders and window film that keep the heat you pay for inside.
+    icon: wind
+    image: photo-1771354959667-96360bf59eab
+  - id: energy
+    name: Energy Saving
+    blurb: Smart valves, plugs and monitors that cut heating and electricity bills.
+    icon: plug
+    image: photo-1772066043908-0033fd15ecc4
+  - id: bathroom
+    name: Bathroom & Ventilation
+    blurb: Extractor fans, sealants and squeegees for the dampest room in the house.
+    icon: shower
+    image: photo-1721564130772-c9ee561ab87b
+
+products:
+  # Laundry & Drying
+  - {id: heated-airer-tiered, cat: laundry, name: "3-tier heated airer", best: "Fastest indoor drying", search: "3 tier heated airer"}
+  - {id: heated-airer-cover, cat: laundry, name: "Heated airer with cover", best: "Best value to run", search: "heated airer with cover"}
+  - {id: heated-airer-wing, cat: laundry, name: "Wing heated airer", best: "Large loads", search: "heated clothes airer wings"}
+  - {id: tiered-airer, cat: laundry, name: "Tall tiered clothes airer", best: "Small flats", search: "tiered clothes airer"}
+  - {id: wing-airer, cat: laundry, name: "Wing clothes airer", best: "Families", search: "wing clothes airer large"}
+  - {id: wall-airer, cat: laundry, name: "Wall-mounted drying rack", best: "No floor space", search: "wall mounted clothes drying rack"}
+  - {id: overdoor-airer, cat: laundry, name: "Over-door drying rack", best: "Renters", search: "over door clothes drying rack"}
+  - {id: pulley-airer, cat: laundry, name: "Ceiling pulley airer", best: "Kitchens and utility rooms", search: "ceiling pulley clothes airer"}
+  - {id: heat-pump-dryer, cat: laundry, name: "Heat pump tumble dryer", best: "Lowest running cost dryer", search: "heat pump tumble dryer"}
+  - {id: spin-dryer, cat: laundry, name: "Spin dryer", best: "Cutting drying time", search: "spin dryer"}
+  - {id: drying-pod, cat: laundry, name: "Heated drying pod", best: "Shirts and delicates", search: "heated clothes drying pod"}
+  - {id: airer-cover, cat: laundry, name: "Heated airer cover", best: "Speeding up a heated airer", search: "heated airer cover"}
+
+  # Damp & Mould
+  - {id: dehumidifier-compressor, cat: damp, name: "Compressor dehumidifier with laundry mode", best: "Heated homes", search: "compressor dehumidifier laundry mode"}
+  - {id: dehumidifier-desiccant, cat: damp, name: "Desiccant dehumidifier", best: "Cold rooms", search: "desiccant dehumidifier"}
+  - {id: dehumidifier-quiet, cat: damp, name: "Quiet bedroom dehumidifier", best: "Bedrooms", search: "quiet dehumidifier bedroom"}
+  - {id: dehumidifier-mini, cat: damp, name: "Mini dehumidifier", best: "Small rooms and cupboards", search: "mini dehumidifier"}
+  - {id: moisture-trap, cat: damp, name: "Moisture trap tubs", best: "Wardrobes and boxrooms", search: "moisture trap dehumidifier tub"}
+  - {id: hygrometer, cat: damp, name: "Digital hygrometer", best: "Knowing your humidity", search: "digital hygrometer thermometer"}
+  - {id: window-vac, cat: damp, name: "Window vacuum", best: "Morning condensation", search: "window vacuum cleaner"}
+  - {id: mould-spray, cat: damp, name: "Mould and mildew remover spray", best: "Cleaning black mould", search: "black mould remover spray"}
+  - {id: anti-mould-paint, cat: damp, name: "Anti-mould paint", best: "Repainting after mould", search: "anti mould paint"}
+  - {id: condensation-tape, cat: damp, name: "Window condensation absorber strips", best: "Wet sills", search: "window condensation absorber strip"}
+
+  # Heating & Warmth
+  - {id: heated-throw, cat: heating, name: "Heated throw", best: "Warming you, not the room", search: "heated throw"}
+  - {id: electric-blanket, cat: heating, name: "Electric blanket", best: "Cold bedrooms", search: "electric blanket double"}
+  - {id: heated-underblanket-dual, cat: heating, name: "Dual-control electric blanket", best: "Couples", search: "dual control electric blanket"}
+  - {id: oil-radiator, cat: heating, name: "Oil-filled radiator", best: "Steady background heat", search: "oil filled radiator"}
+  - {id: ceramic-heater, cat: heating, name: "Ceramic fan heater with thermostat", best: "Quick heat in small rooms", search: "ceramic fan heater thermostat"}
+  - {id: foot-warmer, cat: heating, name: "Heated foot warmer", best: "Desk workers", search: "heated foot warmer"}
+  - {id: hot-water-bottle, cat: heating, name: "Hot water bottle with cover", best: "Zero running cost", search: "hot water bottle with cover"}
+  - {id: thermal-curtains, cat: heating, name: "Thermal blackout curtains", best: "Cold windows", search: "thermal blackout curtains"}
+  - {id: heated-gilet, cat: heating, name: "Heated gilet", best: "Working from home", search: "heated gilet"}
+  - {id: wool-duvet, cat: heating, name: "Wool duvet", best: "Warm without overheating", search: "wool duvet"}
+
+  # Draughts & Insulation
+  - {id: draught-excluder, cat: draughts, name: "Door draught excluder", best: "Internal doors", search: "draught excluder door"}
+  - {id: door-brush, cat: draughts, name: "Door bottom brush strip", best: "External doors", search: "door brush draught strip"}
+  - {id: seal-strip, cat: draughts, name: "Self-adhesive draught seal", best: "Window and door frames", search: "self adhesive draught excluder strip"}
+  - {id: window-film, cat: draughts, name: "Window insulation film kit", best: "Single glazing", search: "window insulation film kit"}
+  - {id: letterbox, cat: draughts, name: "Letterbox draught excluder", best: "Front doors", search: "letterbox draught excluder"}
+  - {id: chimney-balloon, cat: draughts, name: "Chimney draught stopper", best: "Unused fireplaces", search: "chimney draught stopper"}
+  - {id: radiator-reflector, cat: draughts, name: "Radiator reflector panels", best: "Radiators on outside walls", search: "radiator reflector foil"}
+  - {id: door-curtain, cat: draughts, name: "Thermal door curtain", best: "Hallways", search: "thermal door curtain"}
+  - {id: floor-gap, cat: draughts, name: "Floorboard gap filler", best: "Draughty floors", search: "floorboard gap draught filler"}
+  - {id: keyhole-cover, cat: draughts, name: "Keyhole cover", best: "Old doors", search: "keyhole cover draught"}
+
+  # Energy Saving
+  - {id: smart-trv, cat: energy, name: "Smart radiator valves", best: "Heating rooms only when used", search: "smart thermostatic radiator valve"}
+  - {id: smart-thermostat, cat: energy, name: "Smart thermostat", best: "Whole-house heating control", search: "smart thermostat"}
+  - {id: smart-plug-energy, cat: energy, name: "Smart plug with energy monitoring", best: "Seeing what appliances cost", search: "smart plug energy monitoring"}
+  - {id: energy-monitor, cat: energy, name: "Home energy monitor", best: "Tracking daily use", search: "home energy monitor"}
+  - {id: timer-plug, cat: energy, name: "Digital timer plug", best: "Heaters and airers", search: "digital timer plug"}
+  - {id: led-bulbs, cat: energy, name: "LED bulb multipack", best: "Cutting lighting costs", search: "led bulbs multipack"}
+  - {id: tank-jacket, cat: energy, name: "Hot water cylinder jacket", best: "Hot water tanks", search: "hot water cylinder jacket"}
+  - {id: pipe-lagging, cat: energy, name: "Pipe lagging", best: "Exposed pipes", search: "pipe lagging insulation"}
+
+  # Bathroom & Ventilation
+  - {id: extractor-humidistat, cat: bathroom, name: "Extractor fan with humidity sensor", best: "Bathrooms that stay steamy", search: "bathroom extractor fan humidistat"}
+  - {id: shower-squeegee, cat: bathroom, name: "Shower squeegee", best: "Daily mould prevention", search: "shower squeegee"}
+  - {id: mould-sealant, cat: bathroom, name: "Anti-mould silicone sealant", best: "Resealing baths and showers", search: "anti mould silicone sealant"}
+  - {id: sealant-remover, cat: bathroom, name: "Silicone sealant remover", best: "Before resealing", search: "silicone sealant remover"}
+  - {id: bath-dehumidifier, cat: bathroom, name: "Compact dehumidifier for bathrooms", best: "No extractor fan", search: "small dehumidifier bathroom"}
+  - {id: grout-pen, cat: bathroom, name: "Grout whitening pen", best: "Stained grout", search: "grout pen white"}

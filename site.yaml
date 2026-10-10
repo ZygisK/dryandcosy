@@ -1,0 +1,13 @@
+name: Dry & Cosy
+tagline: Products and guides for damp, condensation, drying clothes indoors and keeping warm in UK and Irish homes.
+url: https://dryandcosy.com
+# Your Amazon.co.uk Associates tracking tag (ends in -21). Leave blank until approved.
+amazon_tag: ""
+amazon_domain: www.amazon.co.uk
+contact_email: hello@dryandcosy.com
+pinterest: https://uk.pinterest.com/dryandcosyhome/
+# Products shown under "Popular this winter" on the homepage
+featured: [heated-airer-tiered, dehumidifier-compressor, heated-throw, electric-blanket, dehumidifier-desiccant, tiered-airer, draught-excluder, smart-trv]
+# Unsplash photo ids (free licence). Shown via images.unsplash.com
+hero_image: photo-1726090401458-7abb00f7450c
+feature_image: photo-1635716991409-00154370338f
