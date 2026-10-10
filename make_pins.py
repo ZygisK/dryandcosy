@@ -40,8 +40,12 @@ def font_file(key):
         path.write_bytes(fetch(FONTS[key]))
     return path
 
+from PIL import features
+ENGINE = ImageFont.Layout.RAQM if features.check("raqm") else ImageFont.Layout.BASIC
+print("text layout engine:", "raqm (kerning on)" if ENGINE == ImageFont.Layout.RAQM else "basic (no kerning)")
+
 def load_font(key, size, axes):
-    f = ImageFont.truetype(str(font_file(key)), size)
+    f = ImageFont.truetype(str(font_file(key)), size, layout_engine=ENGINE)
     try:
         names = [a["name"].decode() if isinstance(a["name"], bytes) else a["name"] for a in f.get_variation_axes()]
         f.set_variation_by_axes([axes.get(n.lower()[:4], axes.get(n, 400)) for n in names])
