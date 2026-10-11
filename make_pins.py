@@ -31,7 +31,32 @@ html,body{{margin:0;width:1000px;height:1500px}}
 <img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
 <div class="cap"><h1>{head}{tail}</h1><p>dryandcosy.com</p></div></div></body></html>"""
 
+# "bold" style: the format that dominates Pinterest search for these topics.
+# Big heavy headline in a linen band on top, the photo of the actual problem below.
+BOLD = """<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;800;900&display=block" rel="stylesheet">
+<style>
+html,body{{margin:0;width:1000px;height:1500px}}
+.pin{{width:1000px;height:1500px;display:flex;flex-direction:column;background:#eeebe4;font-family:'Hanken Grotesk',sans-serif}}
+.top{{padding:70px 64px 50px;text-align:center}}
+.top .n{{display:block;font:900 230px/0.9 'Hanken Grotesk';color:#2f3f35;letter-spacing:-.04em}}
+.top h1{{font:800 {size}px/1.02 'Hanken Grotesk';color:#1c211e;margin:10px 0 0;letter-spacing:-.025em;text-wrap:balance;text-transform:uppercase}}
+.top p{{font:500 34px/1.3 'Hanken Grotesk';color:#59605a;margin:22px 0 0;text-wrap:balance}}
+.ph{{flex:1;position:relative;overflow:hidden}}
+.ph img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
+.ph span{{position:absolute;left:0;right:0;bottom:0;padding:22px;text-align:center;color:#fff;font:600 28px 'Hanken Grotesk';letter-spacing:.06em;background:linear-gradient(transparent,rgba(18,22,19,.6))}}
+</style></head><body><div class="pin">
+<div class="top">{num}<h1>{head}</h1>{sub}</div>
+<div class="ph"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1000&q=90"><span>dryandcosy.com</span></div>
+</div></body></html>"""
+
 def page_html(p):
+    if p.get("style") == "bold":
+        num = f'<span class="n">{html.escape(str(p["num"]))}</span>' if p.get("num") else ""
+        sub = f"<p>{html.escape(p['tail'])}</p>" if p.get("tail") else ""
+        words = len(p["head"].split())
+        size = 92 if words <= 5 else 80 if words <= 7 else 68
+        return BOLD.format(photo=p["photo"], num=num, head=html.escape(p["head"]), sub=sub, size=size)
     head = html.escape(p["head"])
     tail = f" <em>{html.escape(p['tail'])}</em>" if p.get("tail") else ""
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
