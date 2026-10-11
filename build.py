@@ -114,7 +114,8 @@ def layout(title, desc, content, path="", body_class="", og=None):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css"></head><body class="{body_class}">
+<link rel="stylesheet" href="/style.css">
+<script defer src="/_vercel/insights/script.js"></script></head><body class="{body_class}">
 <header class="site-head"><div class="wrap head-row">
 <a class="logo" href="/">Dry &amp; <em>Cosy</em></a>
 <nav class="nav"><a href="/shop/">Shop</a><a href="/guides/">Guides</a><a class="hide-sm" href="/about/">About</a></nav>
