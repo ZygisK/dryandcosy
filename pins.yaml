@@ -148,7 +148,7 @@
   board: Drying Clothes Indoors
   title: 9 ways to dry clothes indoors without a tumble dryer
   description: How to dry clothes indoors fast without a tumble dryer and without damp or condensation. Simple tips for flats and small UK homes, plus the airers worth buying.
-  status: draft
+  status: approved
 - slug: 7-ways-stop-window-condensation
   style: bold
   num: 7
@@ -159,7 +159,7 @@
   board: Condensation & Damp Fixes
   title: 7 ways to stop condensation on windows
   description: Wet windows every morning? Seven ways to stop window condensation, from trickle vents and a squeegee to a quiet bedroom dehumidifier. Most cost nothing.
-  status: draft
+  status: approved
 - slug: windows-look-like-this
   style: bold
   photo: photo-1522841147685-ec3230fd52f9
@@ -169,18 +169,18 @@
   board: Condensation & Damp Fixes
   title: Do your windows look like this every morning?
   description: Condensation pouring down the windows every morning is a moisture problem. What causes it and the cheap fixes that stop it in UK and Irish homes.
-  status: draft
+  status: approved
 - slug: 5-signs-need-dehumidifier
   style: bold
   num: 5
-  photo: photo-1790904084632-4747f92e1ba5
+  photo: photo-1518966820974-f748fde4b180
   head: Signs your home needs a dehumidifier
   tail: And which type to buy for a cold house
   url: /dry-clothes-indoors-without-damp/
   board: Dehumidifiers for Damp Homes
   title: 5 signs your home needs a dehumidifier
   description: Wet windows, musty smells, washing that won't dry, mould spots. Five signs you need a dehumidifier, and compressor vs desiccant explained.
-  status: draft
+  status: approved
 - slug: black-mould-coming-back
   style: bold
   photo: photo-1708895240122-418c6902685e
@@ -190,7 +190,7 @@
   board: Black Mould Prevention
   title: Why black mould keeps coming back
   description: Cleaning black mould only works if you stop the moisture feeding it. How to find the cause and keep mould from coming back.
-  status: draft
+  status: approved
 - slug: 6-cheap-ways-stay-warm
   style: bold
   num: 6
@@ -201,4 +201,4 @@
   board: Keep Your House Warm
   title: 6 cheap ways to stay warm without heating the whole house
   description: Heated throws, electric blankets, draught excluders and small habits that keep you warm for pennies an hour this winter.
-  status: draft
+  status: approved
