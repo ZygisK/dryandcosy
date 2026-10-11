@@ -50,8 +50,84 @@ html,body{{margin:0;width:1000px;height:1500px}}
 <div class="ph"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1000&q=90"><span>dryandcosy.com</span></div>
 </div></body></html>"""
 
+# Product-led templates (product photo from Amazon's CDN, blended onto the paper tone)
+FONTS = '<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Hanken+Grotesk:wght@500;600&display=block" rel="stylesheet">'
+BASE_CSS = """html,body{margin:0;width:1000px;height:1500px}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;background:#eeebe4;color:#1c211e;font-family:'Hanken Grotesk',sans-serif}
+.k{font:600 23px/1 'Hanken Grotesk';letter-spacing:.2em;text-transform:uppercase;color:#9c7a45}
+h1{font:400 var(--hs)/1.05 'Bodoni Moda',serif;margin:0;letter-spacing:-.01em;text-wrap:balance;font-variation-settings:'opsz' 28}
+h1 em{font-style:italic}
+.url{font:500 22px/1 'Hanken Grotesk';letter-spacing:.16em;text-transform:uppercase;color:#59605a}
+.stage{background:#f7f5f0;display:grid;place-items:center;overflow:hidden}
+.stage img{mix-blend-mode:multiply;object-fit:contain}"""
+
+PRODUCT = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{display:flex;flex-direction:column;align-items:center;text-align:center;padding:84px 70px 64px;box-sizing:border-box}}
+h1{{margin-top:26px}}
+.stage{{width:860px;flex:1;margin:44px 0 0}}
+.stage img{{width:78%;height:88%}}
+.stats{{display:grid;grid-template-columns:repeat(3,1fr);width:860px;border-top:1px solid #1c211e;margin-top:0}}
+.stats div{{padding:24px 10px 0;border-left:1px solid #d9d5cc}} .stats div:first-child{{border-left:0}}
+.stats b{{display:block;font:400 54px/1 'Bodoni Moda';font-variation-settings:'opsz' 28}}
+.stats span{{display:block;font:500 21px/1.3 'Hanken Grotesk';color:#59605a;margin-top:10px}}
+.sub{{font:500 27px/1.35 'Hanken Grotesk';color:#59605a;margin:30px 0 26px}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<div class="k">{kicker}</div><h1>{head}</h1>
+<div class="stage"><img src="{img}"></div>{stats}
+<p class="sub">{sub}</p><div class="url">dryandcosy.com</div></div></body></html>"""
+
+SCENE = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.ph{{position:absolute;left:0;top:0;width:1000px;height:930px;object-fit:cover}}
+.panel{{position:absolute;left:0;right:0;bottom:0;height:570px;padding:64px 0 0 70px;box-sizing:border-box}}
+.panel .txt{{width:540px}}
+.panel h1{{margin-top:22px}}
+.panel .url{{position:absolute;left:70px;bottom:62px}}
+.card{{position:absolute;right:64px;top:700px;width:330px}}
+.card .stage{{width:330px;height:420px;box-shadow:0 30px 60px -30px rgba(28,33,30,.35)}}
+.card .stage img{{width:80%;height:86%}}
+.card p{{font:500 20px/1.3 'Hanken Grotesk';color:#59605a;margin:16px 0 0;text-align:center;letter-spacing:.04em}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=930&q=90">
+<div class="panel"><div class="txt"><div class="k">{kicker}</div><h1>{head}</h1></div><div class="url">dryandcosy.com</div></div>
+<div class="card"><div class="stage"><img src="{img}"></div><p>{caption}</p></div></div></body></html>"""
+
+TRIO = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{display:flex;flex-direction:column;align-items:center;text-align:center;padding:90px 50px 64px;box-sizing:border-box}}
+h1{{margin-top:26px}}
+.cols{{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;width:900px;flex:1;margin-top:60px;border-top:1px solid #1c211e;padding-top:40px}}
+.cols .stage{{height:400px}} .cols .stage img{{width:84%;height:84%}}
+.n{{font:600 21px/1 'Hanken Grotesk';letter-spacing:.18em;color:#9c7a45;margin-top:28px}}
+.cols h2{{font:400 34px/1.15 'Bodoni Moda';margin:12px 0 0;font-variation-settings:'opsz' 28}}
+.cols p{{font:500 21px/1.35 'Hanken Grotesk';color:#59605a;margin:10px 0 0}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<div class="k">{kicker}</div><h1>{head}</h1><div class="cols">{cols}</div><div class="url">dryandcosy.com</div></div></body></html>"""
+
+CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
+
+def pimg(pid):
+    from urllib.parse import quote
+    return f"https://m.media-amazon.com/images/I/{quote(CATALOGUE[pid]['img'])}._AC_SL1500_.jpg"
+
+def fmt_head(p):
+    head = html.escape(p["head"])
+    return head + (f" <em>{html.escape(p['tail'])}</em>" if p.get("tail") else "")
+
 def page_html(p):
-    if p.get("style") == "bold":
+    st = p.get("style")
+    words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st == "product":
+        stats = "".join(f"<div><b>{html.escape(str(a))}</b><span>{html.escape(b)}</span></div>" for a, b in (p.get("stats") or []))
+        return PRODUCT.format(fonts=FONTS, base=BASE_CSS, size=86 if words <= 7 else 74, kicker=html.escape(p.get("kicker", "")),
+                              head=fmt_head(p), img=pimg(p["product"]), stats=f'<div class="stats">{stats}</div>' if stats else "",
+                              sub=html.escape(p.get("sub", "")))
+    if st == "scene":
+        return SCENE.format(fonts=FONTS, base=BASE_CSS, size=72 if words <= 6 else 62 if words <= 9 else 54, kicker=html.escape(p.get("kicker", "")),
+                            head=fmt_head(p), photo=p["photo"], img=pimg(p["product"]), caption=html.escape(p.get("caption", "")))
+    if st == "trio":
+        cols = "".join(f'<div><div class="stage"><img src="{pimg(pid)}"></div><div class="n">0{i+1}</div><h2>{html.escape(name)}</h2><p>{html.escape(why)}</p></div>'
+                       for i, (pid, name, why) in enumerate(p["items"]))
+        return TRIO.format(fonts=FONTS, base=BASE_CSS, size=80 if words <= 7 else 70, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), cols=cols)
+    if st == "bold":
         num = f'<span class="n">{html.escape(str(p["num"]))}</span>' if p.get("num") else ""
         sub = f"<p>{html.escape(p['tail'])}</p>" if p.get("tail") else ""
         words = len(p["head"].split())

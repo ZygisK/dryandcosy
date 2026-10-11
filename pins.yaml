@@ -202,3 +202,82 @@
   title: 6 cheap ways to stay warm without heating the whole house
   description: Heated throws, electric blankets, draught excluders and small habits that keep you warm for pennies an hour this winter.
   status: approved
+# --- Batch 3: Bosch Dry 1000 product pins (product photo + real scene). Link to the dehumidifier guide.
+- slug: bosch-dry-1000-hero
+  style: product
+  product: dehumidifier-quiet
+  kicker: The quiet one
+  head: A dehumidifier that looks good
+  tail: in a bedroom
+  sub: Bosch Dry 1000. Night mode, laundry mode, made for small rooms.
+  url: /best-dehumidifiers/
+  board: Dehumidifiers for Damp Homes
+  title: The best quiet dehumidifier for a bedroom (Bosch Dry 1000)
+  description: Looking for a quiet dehumidifier for the bedroom? The Bosch Dry 1000 is compact, minimal and runs at 34 dB in night mode. Stops window condensation and damp in UK and Irish homes. Our guide to the best dehumidifiers.
+  status: draft
+- slug: bosch-wake-up-dry-windows
+  style: scene
+  photo: photo-1699942681763-d1da9f692489
+  product: dehumidifier-quiet
+  kicker: Bedroom condensation
+  head: Wake up to
+  tail: dry windows
+  caption: Bosch Dry 1000
+  url: /best-dehumidifiers/
+  board: Condensation & Damp Fixes
+  title: How to stop condensation in the bedroom overnight
+  description: Most window condensation forms overnight in the bedroom. A quiet dehumidifier on night mode keeps humidity down so you wake up to dry windows and no black mould. Which dehumidifier to buy for UK homes.
+  status: draft
+- slug: bosch-windows-every-morning
+  style: scene
+  photo: photo-1701881365218-248049c12ce0
+  product: dehumidifier-quiet
+  kicker: Every morning?
+  head: Windows like this
+  tail: have a simple fix
+  caption: The fix, Bosch Dry 1000
+  url: /best-dehumidifiers/
+  board: Condensation & Damp Fixes
+  title: Condensation on windows every morning? The simple fix
+  description: Streaming windows every morning mean too much moisture indoors. A small dehumidifier is the simplest fix. How to choose the right dehumidifier for condensation, damp and mould in UK and Irish homes.
+  status: draft
+- slug: bosch-10-litres-a-day
+  style: product
+  product: dehumidifier-quiet
+  kicker: Small, silent, effective
+  head: Ten litres of water
+  tail: out of the air, every day
+  stats: [["10L", "a day, maximum"], ["34 dB", "in night mode"], ["2.5L", "tank, easy to empty"]]
+  sub: Bosch Dry 1000, with auto, night and laundry modes.
+  url: /best-dehumidifiers/
+  board: Dehumidifiers for Damp Homes
+  title: Bosch Dry 1000 dehumidifier, 10 litres a day and whisper quiet
+  description: The Bosch Dry 1000 removes up to 10 litres of moisture a day, runs at 34 dB in night mode and has a laundry mode for drying clothes indoors. A neat, quiet dehumidifier for flats and bedrooms.
+  status: draft
+- slug: bosch-dry-washing-no-damp
+  style: scene
+  photo: photo-1784218492260-15293c1c5fc5
+  product: dehumidifier-quiet
+  kicker: Drying indoors
+  head: Dry washing indoors,
+  tail: without the damp
+  caption: Laundry mode, Bosch Dry 1000
+  url: /best-dehumidifiers/
+  board: Drying Clothes Indoors
+  title: Dry clothes indoors without damp, using a dehumidifier
+  description: Drying washing indoors fills the house with moisture. Put a dehumidifier with laundry mode in the same room and the washing dries faster with no damp walls or condensation. Best dehumidifiers for drying clothes UK.
+  status: draft
+- slug: 3-dehumidifiers-worth-buying
+  style: trio
+  kicker: Winter buying guide
+  head: Three dehumidifiers
+  tail: worth buying
+  items:
+    - [dehumidifier-quiet, Bosch Dry 1000, Bedrooms and flats]
+    - [dehumidifier-desiccant, EcoAir DD1, Cold rooms]
+    - [dehumidifier-large, Russell Hobbs 20L, Whole house and laundry]
+  url: /best-dehumidifiers/
+  board: Dehumidifiers for Damp Homes
+  title: The 3 best dehumidifiers for UK homes this winter
+  description: Which dehumidifier should you buy? The best quiet dehumidifier for bedrooms, the best desiccant model for cold rooms and the best 20L dehumidifier for damp houses and drying washing. UK and Ireland.
+  status: draft
