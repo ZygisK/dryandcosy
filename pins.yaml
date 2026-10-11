@@ -457,7 +457,7 @@
   head: Washing smells damp?
   tail: Here's why
   items:
-    - [Dried in a cold, closed room, "Use the warmest room, or a dehumidifier"]
+    - ["Dried in a cold, closed room", "Use the warmest room, or a dehumidifier"]
     - [Hung too close together, "Space it out on a tall tiered airer"]
     - [Not spun hard enough, "Use the highest spin the fabric allows"]
     - [Left in the drum, "Hang it the moment the cycle ends"]
@@ -475,10 +475,10 @@
   head: Drying baby clothes
   tail: without the damp
   items:
-    - [Small loads, more often, "Less water released into the room at once"]
+    - ["Small loads, more often", "Less water released into the room at once"]
     - [Tiered airer in the warmest room, "Not in the nursery"]
     - [Never on the radiator, "It pushes moisture straight onto the walls"]
-    - [Dehumidifier on laundry mode, door shut, "Dry by morning"]
+    - ["Dehumidifier on laundry mode, door shut", "Dry by morning"]
     - [Heated airer for muslins and babygros, "Quick dry for the daily pile"]
     - [Hygrometer in the nursery, "Keep it between 40 and 60%"]
   url: /dry-clothes-indoors-without-damp/
