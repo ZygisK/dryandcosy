@@ -289,3 +289,13 @@
   title: Hiraeth, the Welsh word for longing for home
   description: Hiraeth (n.), Welsh. A deep longing for home, or for a place that feels like it. Moody autumn aesthetic, misty mornings and the feeling of coming home.
   status: draft
+# --- Photo-only mood pins: no text on image, soft product mention in the description.
+- slug: mood-stove-knit-blanket
+  style: photo
+  photo: photo-1672130474070-17cf3ade20df
+  head: Stove lit, blanket on
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Stove lit, blanket on, nowhere to be
+  description: Wrapped up by the stove on a cold evening. Our favourite way to stay warm without heating the whole house is a good heavy throw, or a heated throw on the sofa that costs pennies an hour to run. A few we like are on dryandcosy.com.
+  status: draft

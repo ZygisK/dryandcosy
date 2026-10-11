@@ -129,6 +129,10 @@ def fmt_head(p):
 def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st == "photo":
+        return (f'<!doctype html><html><head><meta charset="utf-8"><style>html,body{{margin:0;width:1000px;height:1500px}}'
+                f'img{{width:1000px;height:1500px;object-fit:cover;display:block}}</style></head><body>'
+                f'<img src="https://images.unsplash.com/{p["photo"]}?auto=format&fit=crop&w=1000&h=1500&q=92"></body></html>')
     if st == "word":
         return WORD.format(fonts=FONTS, base=BASE_CSS, pos=p.get("pos", ""), photo=p["photo"], word=html.escape(p["head"]),
                            meta=html.escape(p.get("meta", "")), definition=html.escape(p.get("definition", "")))
