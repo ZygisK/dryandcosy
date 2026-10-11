@@ -79,7 +79,7 @@ h1{{margin-top:26px}}
 SCENE = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .ph{{position:absolute;left:0;top:0;width:1000px;height:960px;object-fit:cover}}
 .panel{{position:absolute;left:0;right:0;bottom:0;height:540px;padding:58px 0 0 70px;box-sizing:border-box}}
-.panel .txt{{width:560px}}
+.panel .txt{{width:500px}}
 .panel h1{{margin-top:22px}}
 .panel .url{{position:absolute;left:70px;bottom:62px}}
 .card{{position:absolute;right:60px;top:735px;width:320px}}
@@ -121,7 +121,7 @@ def page_html(p):
                               head=fmt_head(p), img=pimg(p["product"]), stats=f'<div class="stats">{stats}</div>' if stats else "",
                               sub=html.escape(p.get("sub", "")))
     if st == "scene":
-        return SCENE.format(fonts=FONTS, base=BASE_CSS, size=94 if words <= 4 else 80 if words <= 6 else 70, kicker=html.escape(p.get("kicker", "")),
+        return SCENE.format(fonts=FONTS, base=BASE_CSS, size=86 if words <= 4 else 72 if words <= 6 else 64, kicker=html.escape(p.get("kicker", "")),
                             head=fmt_head(p), photo=p["photo"], img=pimg(p["product"]), caption=html.escape(p.get("caption", "")))
     if st == "trio":
         cols = "".join(f'<div><div class="stage"><img src="{pimg(pid)}"></div><div class="n">0{i+1}</div><h2>{html.escape(name)}</h2><p>{html.escape(why)}</p></div>'
