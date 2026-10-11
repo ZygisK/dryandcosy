@@ -1,0 +1,35 @@
+name: Connect Pinterest
+# One-off: swap the code from dryandcosy.com/oauth/ for a refresh token.
+# The token is shown in this run's summary; copy it into the PINTEREST_REFRESH_TOKEN secret, then delete this run.
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: Code shown on dryandcosy.com/oauth/
+        required: true
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exchange code for tokens
+        env:
+          APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          CODE: ${{ inputs.code }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, urllib.parse, urllib.request
+          body = urllib.parse.urlencode({"grant_type": "authorization_code", "code": os.environ["CODE"].strip(),
+                                         "redirect_uri": "https://dryandcosy.com/oauth/"}).encode()
+          auth = base64.b64encode(f"{os.environ['APP_ID']}:{os.environ['APP_SECRET']}".encode()).decode()
+          req = urllib.request.Request("https://api.pinterest.com/v5/oauth/token", data=body, method="POST",
+                headers={"Authorization": f"Basic {auth}", "Content-Type": "application/x-www-form-urlencoded"})
+          try:
+              out = json.load(urllib.request.urlopen(req, timeout=60))
+          except urllib.error.HTTPError as e:
+              raise SystemExit(f"Pinterest said {e.code}: {e.read().decode()[:300]}")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write("## Pinterest connected\n\nCopy this into the repo secret **PINTEREST_REFRESH_TOKEN**, then delete this run.\n\n")
+              f.write(f"```\n{out['refresh_token']}\n```\n\nScopes: {out.get('scope')}. Refresh token valid for about a year.\n")
+          print("Done. Open the run summary for the token.")
+          PY

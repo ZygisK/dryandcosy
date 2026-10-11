@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Connect Pinterest</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;background:#f7f5f0;color:#1c211e;max-width:560px;margin:64px auto;padding:0 16px}
+a.btn,button{display:inline-block;background:#2f3f35;color:#fff;border:0;padding:12px 20px;font:inherit;text-decoration:none;cursor:pointer}
+code{display:block;word-break:break-all;background:#fff;border:1px solid #ddd;padding:12px;margin:12px 0}</style></head><body>
+<h1>Dry &amp; Cosy Publisher</h1><div id="out"></div>
+<script>
+const APP_ID = "1622096", REDIRECT = "https://dryandcosy.com/oauth/";
+const q = new URLSearchParams(location.search), out = document.getElementById("out");
+if (q.get("code")) {
+  out.innerHTML = '<p>Pinterest connected. Copy this one-time code and paste it into the "Connect Pinterest" workflow on GitHub. It expires in a few minutes.</p><code id="c"></code><button id="b">Copy code</button>';
+  document.getElementById("c").textContent = q.get("code");
+  document.getElementById("b").onclick = () => navigator.clipboard.writeText(q.get("code")).then(() => document.getElementById("b").textContent = "Copied");
+} else if (q.get("error")) {
+  out.textContent = "Pinterest returned an error: " + q.get("error");
+} else {
+  const u = new URL("https://www.pinterest.com/oauth/");
+  u.search = new URLSearchParams({client_id: APP_ID, redirect_uri: REDIRECT, response_type: "code",
+    scope: "boards:read,pins:read,pins:write,user_accounts:read", state: crypto.randomUUID()});
+  out.innerHTML = '<p>Connect the Dry &amp; Cosy Pinterest account so approved pins can be published on schedule.</p>';
+  const a = document.createElement("a"); a.className = "btn"; a.href = u; a.textContent = "Connect Pinterest"; out.appendChild(a);
+}
+</script></body></html>
