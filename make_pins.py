@@ -105,12 +105,14 @@ h1{{margin-top:26px}}
 WORD = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
 .pin::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,17,15,.18) 0%,rgba(14,17,15,.42) 55%,rgba(14,17,15,.55) 100%)}}
-.w{{position:absolute;left:84px;right:84px;top:50%;transform:translateY(-50%);z-index:1;color:#fff}}
+.w{{position:absolute;left:84px;right:84px;top:50%;transform:translateY(-50%);z-index:1;color:#fff;text-shadow:0 2px 28px rgba(0,0,0,.45)}}
+.low .w{{top:auto;bottom:170px;transform:none}}
+.low::after{{background:linear-gradient(180deg,rgba(14,17,15,.05) 0%,rgba(14,17,15,.15) 35%,rgba(14,17,15,.82) 78%,rgba(14,17,15,.9) 100%)}}
 .w h1{{font:400 168px/1 'Bodoni Moda',serif;letter-spacing:-.015em;font-variation-settings:'opsz' 96}}
 .w .m{{font:italic 400 36px/1.3 'Bodoni Moda',serif;margin-top:18px;opacity:.92}}
 .w p{{font:500 36px/1.45 'Hanken Grotesk';margin:34px 0 0;max-width:760px;opacity:.95}}
 .u{{position:absolute;left:0;right:0;bottom:64px;text-align:center;z-index:1;font:500 21px/1 'Hanken Grotesk';letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.8)}}
-</style></head><body><div class="pin">
+</style></head><body><div class="pin {pos}">
 <img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
 <div class="w"><h1>{word}</h1><div class="m">{meta}</div><p>{definition}</p></div><div class="u">dryandcosy.com</div></div></body></html>"""
 
@@ -128,7 +130,7 @@ def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
     if st == "word":
-        return WORD.format(fonts=FONTS, base=BASE_CSS, photo=p["photo"], word=html.escape(p["head"]),
+        return WORD.format(fonts=FONTS, base=BASE_CSS, pos=p.get("pos", ""), photo=p["photo"], word=html.escape(p["head"]),
                            meta=html.escape(p.get("meta", "")), definition=html.escape(p.get("definition", "")))
     if st == "product":
         stats = "".join(f"<div><b>{html.escape(str(a))}</b><span>{html.escape(b)}</span></div>" for a, b in (p.get("stats") or []))

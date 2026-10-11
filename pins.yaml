@@ -256,6 +256,7 @@
   status: draft
 - slug: word-hygge
   style: word
+  pos: low
   photo: photo-1721510275545-5e5163f17bf0
   head: Hygge
   meta: (n.) Danish, hoo-gah
@@ -267,6 +268,7 @@
   status: draft
 - slug: word-cwtch
   style: word
+  pos: low
   photo: photo-1601804590276-e19ce20343da
   head: Cwtch
   meta: (n.) Welsh, kutch
