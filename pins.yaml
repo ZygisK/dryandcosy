@@ -394,3 +394,95 @@
   title: Winter-proof your home in a weekend, a simple checklist
   description: A simple weekend checklist to get your home ready for winter. Bleed radiators, draught-proof doors, letterboxes and chimneys, close thermal curtains, stop condensation and stay warm for less. For UK and Irish homes.
   status: draft
+# --- Batch 7: intent angles (problem / outcome / comparison / audience)
+- slug: renter-draught-fixes
+  style: checklist
+  photo: photo-1611822506999-793d04b7ddd8
+  kicker: No drilling, deposit safe
+  head: Renter-friendly
+  tail: draught fixes
+  items:
+    - [Foam seal on window and door frames, "Peels off cleanly when you move out"]
+    - [Under-door draught excluder, "Slides on, no screws"]
+    - [Thermal curtains on the existing pole, "Close them at dusk"]
+    - [Window insulation film, "Shrinks on with a hairdryer, peels off in spring"]
+    - [Chimney blocker in the unused fireplace, "Lifts straight back out"]
+    - [Radiator reflector behind the radiator, "Slips in, no tools"]
+    - [Push-fit keyhole cover, "Tiny gap, real draught"]
+    - [Heated throw instead of the heating, "Pennies an hour, takes it with you"]
+  url: /shop/draughts/
+  board: Draught Proofing Ideas
+  title: Renter-friendly draught proofing, no drilling and deposit safe
+  description: Cold rented flat? Eight renter-friendly ways to stop draughts with no drilling and nothing that damages your deposit. Foam seals, door excluders, thermal curtains, window film and more for UK and Irish rentals.
+  status: draft
+- slug: blanket-throw-bottle-costs
+  style: costs
+  kicker: Warm the person, not the room
+  head: Blanket, throw
+  tail: or hot water bottle?
+  lede: What each one really costs to keep you warm.
+  rows:
+    - [Electric blanket, "about 60 watts, per hour", "2p", win]
+    - [Heated throw, "about 120 watts, per hour", "3p", win]
+    - [Hot water bottle, "one kettle boil, warm for hours", "5p", win]
+    - [Plug-in heater in the bedroom, "2 kW, per hour", "54p", lose]
+  note: Approximate costs at 27p per kWh. Check your appliance's wattage and your own tariff.
+  url: /shop/heating/
+  board: Keep Your House Warm
+  title: Electric blanket vs heated throw vs hot water bottle, what each costs
+  description: Electric blanket, heated throw or hot water bottle? An electric blanket costs about 2p an hour, a heated throw about 3p and a hot water bottle about 5p a fill, compared with over 50p an hour for a plug-in heater. The cheapest ways to keep warm this winter.
+  status: draft
+- slug: mould-free-bathroom-routine
+  style: checklist
+  photo: photo-1609280069904-ab36feb3f20c
+  kicker: Five minutes a week
+  head: The mould-free
+  tail: bathroom routine
+  items:
+    - [Squeegee the shower glass and tiles, "Thirty seconds after every shower"]
+    - [Window open or fan on for 20 minutes, "Let the steam out, not into the walls"]
+    - [Mould spray on grout and silicone, "Once a week, before it spreads"]
+    - [Reseal with anti-mould silicone, "When the old seal turns black"]
+    - [Grout reviver pen, "White grout again in one evening"]
+    - [Moisture absorber if there's no fan, "Silent, no socket needed"]
+  url: /shop/bathroom/
+  board: Black Mould Prevention
+  title: The mould-free bathroom routine, five minutes a week
+  description: How to stop black mould in the bathroom for good. A simple weekly routine with a shower squeegee, mould spray, anti-mould sealant and grout pen. Works in rented bathrooms with no extractor fan too.
+  status: draft
+- slug: washing-smells-damp
+  style: checklist
+  photo: photo-1635717850365-b2f7de8f61e5
+  kicker: Fix the smell for good
+  head: Washing smells damp?
+  tail: Here's why
+  items:
+    - [Dried in a cold, closed room, "Use the warmest room, or a dehumidifier"]
+    - [Hung too close together, "Space it out on a tall tiered airer"]
+    - [Not spun hard enough, "Use the highest spin the fabric allows"]
+    - [Left in the drum, "Hang it the moment the cycle ends"]
+    - [Took more than a day to dry, "A heated airer gets it dry overnight"]
+    - [The machine itself smells, "Run an empty hot wash once a month"]
+  url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  title: Why your washing smells damp, and how to fix it
+  description: Washing smells musty after drying indoors? Six reasons clothes smell damp and the fix for each, from spin speed to airers, heated airers and dehumidifiers. For drying clothes indoors in UK and Irish winters.
+  status: draft
+- slug: baby-clothes-drying
+  style: checklist
+  photo: photo-1569974641446-22542de88536
+  kicker: For new parents
+  head: Drying baby clothes
+  tail: without the damp
+  items:
+    - [Small loads, more often, "Less water released into the room at once"]
+    - [Tiered airer in the warmest room, "Not in the nursery"]
+    - [Never on the radiator, "It pushes moisture straight onto the walls"]
+    - [Dehumidifier on laundry mode, door shut, "Dry by morning"]
+    - [Heated airer for muslins and babygros, "Quick dry for the daily pile"]
+    - [Hygrometer in the nursery, "Keep it between 40 and 60%"]
+  url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  title: How to dry baby clothes indoors without damp or mould
+  description: New baby, endless washing? How to dry baby clothes, muslins and babygros indoors without condensation or mould. Airers, heated airers and dehumidifier tips for parents in UK and Irish homes.
+  status: draft
