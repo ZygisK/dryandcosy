@@ -77,17 +77,17 @@ h1{{margin-top:26px}}
 <p class="sub">{sub}</p><div class="url">dryandcosy.com</div></div></body></html>"""
 
 SCENE = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
-.ph{{position:absolute;left:0;top:0;width:1000px;height:930px;object-fit:cover}}
-.panel{{position:absolute;left:0;right:0;bottom:0;height:570px;padding:64px 0 0 70px;box-sizing:border-box}}
-.panel .txt{{width:540px}}
+.ph{{position:absolute;left:0;top:0;width:1000px;height:960px;object-fit:cover}}
+.panel{{position:absolute;left:0;right:0;bottom:0;height:540px;padding:58px 0 0 70px;box-sizing:border-box}}
+.panel .txt{{width:560px}}
 .panel h1{{margin-top:22px}}
 .panel .url{{position:absolute;left:70px;bottom:62px}}
-.card{{position:absolute;right:64px;top:700px;width:330px}}
-.card .stage{{width:330px;height:420px;box-shadow:0 30px 60px -30px rgba(28,33,30,.35)}}
+.card{{position:absolute;right:60px;top:735px;width:320px}}
+.card .stage{{width:320px;height:420px;box-shadow:0 30px 60px -30px rgba(28,33,30,.35)}}
 .card .stage img{{width:80%;height:86%}}
 .card p{{font:500 20px/1.3 'Hanken Grotesk';color:#59605a;margin:16px 0 0;text-align:center;letter-spacing:.04em}}
 </style></head><body><div class="pin" style="--hs:{size}px">
-<img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=930&q=90">
+<img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=960&q=90">
 <div class="panel"><div class="txt"><div class="k">{kicker}</div><h1>{head}</h1></div><div class="url">dryandcosy.com</div></div>
 <div class="card"><div class="stage"><img src="{img}"></div><p>{caption}</p></div></div></body></html>"""
 
@@ -95,10 +95,10 @@ TRIO = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .pin{{display:flex;flex-direction:column;align-items:center;text-align:center;padding:90px 50px 64px;box-sizing:border-box}}
 h1{{margin-top:26px}}
 .cols{{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;width:900px;flex:1;margin-top:60px;border-top:1px solid #1c211e;padding-top:40px}}
-.cols .stage{{height:400px}} .cols .stage img{{width:84%;height:84%}}
+.cols .stage{{height:600px}} .cols .stage img{{width:84%;height:84%}}
 .n{{font:600 21px/1 'Hanken Grotesk';letter-spacing:.18em;color:#9c7a45;margin-top:28px}}
-.cols h2{{font:400 34px/1.15 'Bodoni Moda';margin:12px 0 0;font-variation-settings:'opsz' 28}}
-.cols p{{font:500 21px/1.35 'Hanken Grotesk';color:#59605a;margin:10px 0 0}}
+.cols h2{{font:400 40px/1.12 'Bodoni Moda';margin:12px 0 0;font-variation-settings:'opsz' 28}}
+.cols p{{font:500 23px/1.35 'Hanken Grotesk';color:#59605a;margin:10px 0 0}}
 </style></head><body><div class="pin" style="--hs:{size}px">
 <div class="k">{kicker}</div><h1>{head}</h1><div class="cols">{cols}</div><div class="url">dryandcosy.com</div></div></body></html>"""
 
@@ -121,7 +121,7 @@ def page_html(p):
                               head=fmt_head(p), img=pimg(p["product"]), stats=f'<div class="stats">{stats}</div>' if stats else "",
                               sub=html.escape(p.get("sub", "")))
     if st == "scene":
-        return SCENE.format(fonts=FONTS, base=BASE_CSS, size=72 if words <= 6 else 62 if words <= 9 else 54, kicker=html.escape(p.get("kicker", "")),
+        return SCENE.format(fonts=FONTS, base=BASE_CSS, size=94 if words <= 4 else 80 if words <= 6 else 70, kicker=html.escape(p.get("kicker", "")),
                             head=fmt_head(p), photo=p["photo"], img=pimg(p["product"]), caption=html.escape(p.get("caption", "")))
     if st == "trio":
         cols = "".join(f'<div><div class="stage"><img src="{pimg(pid)}"></div><div class="n">0{i+1}</div><h2>{html.escape(name)}</h2><p>{html.escape(why)}</p></div>'
