@@ -11,7 +11,7 @@ Run: python3 build.py   ->   dist/
 import html, re, shutil, sys
 from datetime import date
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import quote, quote_plus
 
 import markdown
 import yaml
@@ -47,12 +47,37 @@ def amazon_url(p):
 def label(p):
     return "View on Amazon" if p.get("asin") else "See options on Amazon"
 
+def pimg(p, size=500):
+    """Product photo from Amazon's image CDN (same URLs the Product Advertising API returns)."""
+    if not (p.get("img") and SITE.get("product_images", True)):
+        return ""
+    return (f'<img src="https://m.media-amazon.com/images/I/{quote(p["img"])}._AC_SL{size}_.jpg" '
+            f'alt="{e(p.get("title") or p["name"])}" loading="lazy" decoding="async">')
+
+def title(p):
+    return p.get("title") or p["name"]
+
 def row(p, show_cat=False):
     cat = f'<span class="cat">{e(CATS[p["cat"]]["name"])}</span>' if show_cat else ""
     take = f'<span class="take">{e(p["take"])}</span>' if p.get("take") else ""
-    return (f'<a class="row" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">'
-            f'<span class="name">{cat}{e(p["name"])}{take}</span><span class="for">Best for {e(p["best"].lower())}</span>'
+    thumb = f'<span class="thumb">{pimg(p, 200)}</span>' if p.get("img") else '<span class="thumb empty"></span>'
+    return (f'<a class="row has-thumb" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">{thumb}'
+            f'<span class="name">{cat}{e(title(p))}{take}</span><span class="for">Best for {e(p["best"].lower())}</span>'
             f'<span class="go">{label(p)}</span></a>')
+
+def card(p, show_cat=False):
+    cat = f'<span class="cat">{e(CATS[p["cat"]]["name"])}</span>' if show_cat else f'<span class="cat">Best for {e(p["best"].lower())}</span>'
+    take = f'<p class="take">{e(p["take"])}</p>' if p.get("take") else ""
+    return (f'<a class="card" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">'
+            f'<div class="pimg">{pimg(p)}</div>{cat}<h3>{e(title(p))}</h3>{take}<span class="go">{label(p)}</span></a>')
+
+def product_block(items, show_cat=False):
+    """Picked products (with a photo) as a card grid; the rest as a typographic list beneath."""
+    picked, rest = [p for p in items if p.get("img")], [p for p in items if not p.get("img")]
+    out = f'<div class="cards">{"".join(card(p, show_cat) for p in picked)}</div>' if picked else ""
+    if rest:
+        out += (f'<h3 class="more-head">More to browse</h3>' if picked else "") + f'<div class="index">{"".join(row(p, show_cat) for p in rest)}</div>'
+    return out
 
 def inline_product(m):
     attrs = dict(re.findall(r'(\w+)="([^"]*)"', m.group(1)))
@@ -61,7 +86,8 @@ def inline_product(m):
         raise SystemExit(f"Unknown product id in guide: {attrs.get('id')}")
     p.update({k: v for k, v in attrs.items() if k != "id"})
     take = f'<p class="take">{e(p["take"])}</p>' if p.get("take") else ""
-    return (f'<div class="pick"><div><span class="for">Best for {e(p["best"].lower())}</span><h4>{e(p["name"])}</h4>{take}</div>'
+    img = f'<a class="pimg" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">{pimg(p, 300)}</a>' if p.get("img") else ""
+    return (f'<div class="pick{" with-img" if img else ""}">{img}<div><span class="for">Best for {e(p["best"].lower())}</span><h4>{e(title(p))}</h4>{take}</div>'
             f'<a class="btn line" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">{label(p)}</a></div>')
 
 def render_md(body):
@@ -150,7 +176,7 @@ def build():
                f'<div class="journal">{"".join(entry(m) for m in related[:2])}</div></div></section>') if related else ""
         content = f"""<section class="banner">{photo(c['image'], 2400, c['name'], eager=True)}<div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/shop/">Shop</a></p><h1>{e(c['name'])}</h1><p>{e(c['blurb'])}</p></div></section>
-<section class="section"><div class="wrap"><div class="index">{''.join(row(p) for p in by_cat[c['id']])}</div>
+<section class="section"><div class="wrap">{product_block(by_cat[c['id']])}
 <p class="paid">{len(by_cat[c['id']])} products. Paid links.</p></div></section>{rel}"""
         write(f"shop/{c['id']}/index.html", layout(f"{c['name']} | Dry & Cosy", c["blurb"], content, f"shop/{c['id']}/", og=c.get("image")))
 
@@ -191,7 +217,7 @@ def build():
 <div class="actions"><a class="btn dark" href="/{lead['slug']}/">Read the guide</a></div></div></div></section>
 
 <section class="section"><div class="wrap"><div class="head"><div><h2>The winter edit</h2><p>What homes reach for first when the heating goes on.</p></div><a class="textlink" href="/shop/">All products</a></div>
-<div class="index">{''.join(row(p, True) for p in featured)}</div><p class="paid">Paid links.</p></div></section>
+<div class="cards">{''.join(card(p, True) for p in featured)}</div><p class="paid">Paid links.</p></div></section>
 
 <section class="section band"><div class="wrap"><div class="head"><h2>From the guides</h2><a class="textlink" href="/guides/">All guides</a></div>
 <div class="journal">{''.join(entry(m) for m in posts[:2])}</div></div></section>
