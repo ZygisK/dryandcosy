@@ -135,16 +135,16 @@ h1{{text-align:center;margin-top:22px}} .k{{text-align:center}}
 <div class="foot"><p>{note}</p><div class="url">dryandcosy.com</div></div></div></body></html>"""
 
 CHECK = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
-.top{{height:400px;position:relative;overflow:hidden}} .top img{{width:100%;height:100%;object-fit:cover}}
-.body{{padding:56px 76px 0}}
+.top{{height:320px;position:relative;overflow:hidden}} .top img{{width:100%;height:100%;object-fit:cover}}
+.body{{padding:46px 76px 0}}
 h1{{margin-top:18px}}
-ul{{list-style:none;padding:0;margin:40px 0 0}}
-li{{display:grid;grid-template-columns:44px 1fr;gap:20px;align-items:start;padding:15px 0;border-bottom:1px solid #d9d5cc;font:500 29px/1.3 'Hanken Grotesk'}}
+ul{{list-style:none;padding:0;margin:30px 0 0}}
+li{{display:grid;grid-template-columns:44px 1fr;gap:20px;align-items:start;padding:13px 0;border-bottom:1px solid #d9d5cc;font:500 28px/1.3 'Hanken Grotesk'}}
 li i{{width:30px;height:30px;border:2px solid #2f3f35;margin-top:3px;display:block}}
 li em{{font-style:normal;color:#7a7f78;font-size:22px;display:block;margin-top:2px}}
-.url{{position:absolute;left:76px;bottom:54px}}
+.url{{position:absolute;left:76px;bottom:44px}}
 </style></head><body><div class="pin" style="--hs:{size}px">
-<div class="top"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=400&q=90"></div>
+<div class="top"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=320&q=90"></div>
 <div class="body"><div class="k">{kicker}</div><h1>{head}</h1><ul>{items}</ul></div><div class="url">dryandcosy.com</div></div></body></html>"""
 
 CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
