@@ -353,3 +353,44 @@
   title: Coats on the hooks, cold kept outside
   description: A tidy hallway and a front door that actually keeps the cold out. A letterbox brush and a strip along the bottom of the door stop the draught for a few pounds. Our draught-proofing picks are on dryandcosy.com.
   status: draft
+# --- Batch 6: save-worthy value pins (numbers, checklists)
+- slug: cost-per-hour-stay-warm
+  style: costs
+  kicker: Cost of staying warm
+  head: What it actually costs
+  tail: per hour
+  lede: Heat yourself, not the whole room.
+  rows:
+    - [Electric blanket, "about 60 watts", "2p", win]
+    - [Heated throw, "about 120 watts", "3p", win]
+    - [Dehumidifier, "about 200 watts", "5p", win]
+    - [Heated airer, "about 300 watts", "8p", win]
+    - [Oil-filled radiator, "1.5 kW", "41p", lose]
+    - [Fan heater, "2 kW", "54p", lose]
+    - [Tumble dryer, "vented, per load", "£1.20", lose]
+  note: Approximate running costs at 27p per kWh. Check your appliance's wattage and your own tariff.
+  url: /shop/heating/
+  board: Keep Your House Warm
+  title: What it really costs per hour to stay warm (heated throw vs heater)
+  description: Heated throw vs fan heater vs tumble dryer. An electric blanket costs about 2p an hour and a heated throw about 3p, while a fan heater is over 50p. Cheap ways to stay warm this winter in UK and Irish homes, and the heated throws and blankets we recommend.
+  status: draft
+- slug: checklist-winter-proof-weekend
+  style: checklist
+  photo: photo-1722942723662-89baf88f0139
+  kicker: Save this for the weekend
+  head: Winter-proof your home
+  tail: in a weekend
+  items:
+    - [Bleed every radiator, "Cold at the top means trapped air"]
+    - [Brush strip on the front door, "Stops the draught under the door"]
+    - [Letterbox and keyhole covers, "Two small gaps, a lot of cold air"]
+    - [Block the unused chimney, "A wool blocker lifts straight out"]
+    - [Close thermal curtains at dusk, "Keeps the cold glass out of the room"]
+    - [Reflector panels behind radiators, "On outside walls especially"]
+    - [Dehumidifier set to 50 to 55%, "No more wet windows"]
+    - [Swap the heating for a heated throw, "Pennies an hour on the sofa"]
+  url: /shop/draughts/
+  board: Draught Proofing Ideas
+  title: Winter-proof your home in a weekend, a simple checklist
+  description: A simple weekend checklist to get your home ready for winter. Bleed radiators, draught-proof doors, letterboxes and chimneys, close thermal curtains, stop condensation and stay warm for less. For UK and Irish homes.
+  status: draft

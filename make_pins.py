@@ -116,6 +116,37 @@ WORD = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 <img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
 <div class="w"><h1>{word}</h1><div class="m">{meta}</div><p>{definition}</p></div><div class="u">dryandcosy.com</div></div></body></html>"""
 
+COSTS = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{padding:84px 72px 60px;box-sizing:border-box;display:flex;flex-direction:column}}
+h1{{text-align:center;margin-top:22px}} .k{{text-align:center}}
+.lede{{text-align:center;font:500 27px/1.4 'Hanken Grotesk';color:#59605a;margin:22px 40px 0}}
+.rows{{margin-top:48px;border-top:2px solid #1c211e;flex:1}}
+.r{{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding:22px 4px;border-bottom:1px solid #cfcabf}}
+.r b{{font:400 38px/1.2 'Bodoni Moda';font-variation-settings:'opsz' 28}}
+.r small{{display:block;font:500 21px/1.3 'Hanken Grotesk';color:#7a7f78;margin-top:4px}}
+.r span{{font:400 56px/1 'Bodoni Moda';font-variation-settings:'opsz' 28}}
+.r.win span{{color:#2f3f35}} .r.win b::after{{content:"  \\2713";color:#9c7a45;font-size:30px}}
+.r.lose span{{color:#9a4a34}}
+.foot{{display:flex;justify-content:space-between;align-items:flex-end;margin-top:26px}}
+.foot p{{font:500 19px/1.35 'Hanken Grotesk';color:#7a7f78;max-width:560px;margin:0}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<div class="k">{kicker}</div><h1>{head}</h1><p class="lede">{lede}</p>
+<div class="rows">{rows}</div>
+<div class="foot"><p>{note}</p><div class="url">dryandcosy.com</div></div></div></body></html>"""
+
+CHECK = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.top{{height:400px;position:relative;overflow:hidden}} .top img{{width:100%;height:100%;object-fit:cover}}
+.body{{padding:56px 76px 0}}
+h1{{margin-top:18px}}
+ul{{list-style:none;padding:0;margin:40px 0 0}}
+li{{display:grid;grid-template-columns:44px 1fr;gap:20px;align-items:start;padding:15px 0;border-bottom:1px solid #d9d5cc;font:500 29px/1.3 'Hanken Grotesk'}}
+li i{{width:30px;height:30px;border:2px solid #2f3f35;margin-top:3px;display:block}}
+li em{{font-style:normal;color:#7a7f78;font-size:22px;display:block;margin-top:2px}}
+.url{{position:absolute;left:76px;bottom:54px}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<div class="top"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=400&q=90"></div>
+<div class="body"><div class="k">{kicker}</div><h1>{head}</h1><ul>{items}</ul></div><div class="url">dryandcosy.com</div></div></body></html>"""
+
 CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
 
 def pimg(pid):
@@ -129,6 +160,15 @@ def fmt_head(p):
 def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st == "costs":
+        rows = "".join(f'<div class="r {c}"><div><b>{html.escape(n)}</b><small>{html.escape(w)}</small></div><span>{html.escape(v)}</span></div>'
+                       for n, w, v, c in p["rows"])
+        return COSTS.format(fonts=FONTS, base=BASE_CSS, size=80, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p),
+                            lede=html.escape(p.get("lede", "")), rows=rows, note=html.escape(p.get("note", "")))
+    if st == "checklist":
+        items = "".join(f'<li><i></i><div>{html.escape(a)}<em>{html.escape(b)}</em></div></li>' for a, b in p["items"])
+        return CHECK.format(fonts=FONTS, base=BASE_CSS, size=72, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p),
+                            photo=p["photo"], items=items)
     if st == "photo":
         return (f'<!doctype html><html><head><meta charset="utf-8"><style>html,body{{margin:0;width:1000px;height:1500px}}'
                 f'img{{width:1000px;height:1500px;object-fit:cover;display:block}}</style></head><body>'
