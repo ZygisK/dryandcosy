@@ -242,3 +242,48 @@
   title: The 3 best dehumidifiers for UK homes this winter
   description: Which dehumidifier should you buy? The best quiet dehumidifier for bedrooms, the best desiccant model for cold rooms and the best 20L dehumidifier for damp houses and drying washing. UK and Ireland.
   status: posted
+# --- Batch 4: "cosy words" (real moody photo + word definition). Reach and saves, soft link to the site.
+- slug: word-coorie
+  style: word
+  photo: photo-1659109383714-ea1043406a99
+  head: Coorie
+  meta: (v.) Scots
+  definition: To nestle in, get snug and shut out the weather.
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Coorie, the Scottish art of getting cosy
+  description: Coorie (v.), Scots. To nestle in, get snug and shut out the weather. Cosy winter aesthetic, rainy day mood and slow evenings at home in Scotland, Ireland and the UK.
+  status: draft
+- slug: word-hygge
+  style: word
+  photo: photo-1721510275545-5e5163f17bf0
+  head: Hygge
+  meta: (n.) Danish, hoo-gah
+  definition: A feeling of cosiness and contentment that comes from simple things. Candlelight, a blanket, good company.
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Hygge meaning, the Danish feeling of cosiness
+  description: Hygge (n.), Danish. A feeling of cosiness and contentment from simple things like candlelight, a soft blanket and good company. Hygge home ideas and cosy winter aesthetic inspiration.
+  status: draft
+- slug: word-cwtch
+  style: word
+  photo: photo-1601804590276-e19ce20343da
+  head: Cwtch
+  meta: (n.) Welsh, kutch
+  definition: A cuddle, and the safe, warm little place you have it in.
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Cwtch, the Welsh word for a cosy cuddle
+  description: Cwtch (n.), Welsh. A cuddle, and the safe, warm little place you have it in. Cosy aesthetic, autumn evenings and hygge-style comfort at home.
+  status: draft
+- slug: word-hiraeth
+  style: word
+  photo: photo-1673083636122-107bf34f8db7
+  head: Hiraeth
+  meta: (n.) Welsh, here-eyeth
+  definition: A deep longing for home, or for a place that feels like it.
+  url: /about/
+  board: Cosy Winter Home
+  title: Hiraeth, the Welsh word for longing for home
+  description: Hiraeth (n.), Welsh. A deep longing for home, or for a place that feels like it. Moody autumn aesthetic, misty mornings and the feeling of coming home.
+  status: draft
