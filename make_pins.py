@@ -22,7 +22,7 @@ TEMPLATE = """<!doctype html><html><head><meta charset="utf-8">
 html,body{{margin:0;width:1000px;height:1500px}}
 .pin{{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Hanken Grotesk',sans-serif}}
 .pin img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
-.pin::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,22,19,0) 38%,rgba(18,22,19,.72) 100%)}}
+.pin::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,22,19,0) 30%,rgba(18,22,19,.55) 62%,rgba(18,22,19,.85) 100%)}}
 .cap{{position:absolute;left:68px;right:68px;bottom:68px;z-index:1;color:#fff}}
 .cap h1{{font:400 {size}px/1.04 'Bodoni Moda',serif;margin:0;letter-spacing:-.01em;text-wrap:balance;font-variation-settings:'opsz' 28}}
 .cap h1 em{{font-style:italic}}
