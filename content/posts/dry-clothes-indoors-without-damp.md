@@ -71,6 +71,20 @@ A dehumidifier draws water out of the air into a tank. Many have a laundry setti
 
 [[product id="dehumidifier-desiccant"]]
 
+If you dry several loads a week, a bigger 20 litre unit with a laundry mode clears the air much faster.
+
+[[product id="dehumidifier-meaco-20l"]]
+
+[[product id="dehumidifier-large"]]
+
+## Fed up with drying indoors?
+
+Two upgrades take most of the damp out of the problem. A heated airer with a cover dries a full load in a few hours, and a heat pump tumble dryer dries it with no moisture released into the house at all.
+
+[[product id="airer-cover-bundle"]]
+
+[[product id="heat-pump-dryer"]]
+
 ## A routine that works
 
 1. Wash and spin on the highest setting the fabric allows.
