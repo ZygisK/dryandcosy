@@ -531,3 +531,57 @@
   title: Towels still damp the next day? How to dry them indoors
   description: Towels that never fully dry and start to smell? How to dry towels indoors in winter, and why a heated airer or towel rail fixes it for pennies.
   status: posted
+- slug: cosy-nights-for-less
+  photo: photo-1664989845570-6f03c42c47f6
+  head: Cosy nights in,
+  tail: for less
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Cosy nights in for less this winter
+  description: A candle, a soft throw and a book. How to keep winter evenings cosy without heating the whole house, from heated throws to warm lighting. Ideas for UK and Irish homes.
+  status: approved
+- slug: rainy-day-dry-washing
+  photo: photo-1772469592400-924de549e917
+  head: Rainy day?
+  tail: dry washing without the damp
+  url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  title: Rainy day? How to dry washing indoors without the damp
+  description: Raining again and the washing basket is full? How to dry clothes indoors without condensation, damp walls or a musty smell. Simple fixes plus the airers and dehumidifiers worth having.
+  status: approved
+- slug: photo-stove-rain-outside
+  style: photo
+  photo: photo-1761319914911-71b059a655d8
+  head: Stove on, rain outside
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: Stove on, rain outside, nowhere to be
+  description: Winter home inspiration. A wood stove, big windows and soft light on a grey day. Cosy Scandi living room ideas, and how to keep a room this warm for less.
+  status: approved
+- slug: wet-windows-not-the-windows
+  photo: photo-1773581965471-98ee237dde0a
+  head: Wet windows by morning?
+  tail: it is not the windows
+  url: /condensation-on-windows-every-morning/
+  board: Condensation & Damp Fixes
+  title: Wet windows every morning? It is not the windows
+  description: Condensation on the inside of your windows is a moisture problem in the room, not a window problem. What causes it and the cheap fixes that stop it for good.
+  status: approved
+- slug: airer-full-again
+  photo: photo-1595308410283-be55d58e060e
+  head: Airer full again?
+  tail: dry it faster
+  url: /dry-clothes-indoors-without-damp/
+  board: Heated Airers & Clothes Airers
+  title: Clothes airer full again? How to dry a load faster indoors
+  description: Airer full and nothing drying? How to dry a full load of washing faster indoors in winter, from spacing and airflow to heated airers and covers.
+  status: approved
+- slug: photo-slow-sunday-plants
+  style: photo
+  photo: photo-1626965556114-27c91c051269
+  head: Slow Sunday at home
+  url: /shop/heating/
+  board: Cosy Winter Home
+  title: A slow Sunday at home
+  description: Cosy living room inspiration with plants, soft light and a sofa by the window. Slow living ideas for autumn and winter at home.
+  status: approved
