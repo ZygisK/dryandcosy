@@ -288,7 +288,7 @@
   board: Cosy Winter Home
   title: Hiraeth, the Welsh word for longing for home
   description: Hiraeth (n.), Welsh. A deep longing for home, or for a place that feels like it. Moody autumn aesthetic, misty mornings and the feeling of coming home.
-  status: draft
+  status: posted
 # --- Photo-only mood pins: no text on image, soft product mention in the description.
 - slug: mood-stove-knit-blanket
   style: photo
