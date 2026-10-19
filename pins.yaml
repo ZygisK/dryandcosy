@@ -393,7 +393,7 @@
   board: Draught Proofing Ideas
   title: Winter-proof your home in a weekend, a simple checklist
   description: A simple weekend checklist to get your home ready for winter. Bleed radiators, draught-proof doors, letterboxes and chimneys, close thermal curtains, stop condensation and stay warm for less. For UK and Irish homes.
-  status: draft
+  status: approved
 # --- Batch 7: intent angles (problem / outcome / comparison / audience)
 - slug: renter-draught-fixes
   style: checklist
@@ -585,3 +585,89 @@
   title: A slow Sunday at home
   description: Cosy living room inspiration with plants, soft light and a sofa by the window. Slow living ideas for autumn and winter at home.
   status: posted
+# --- Batch 9: evergreen, save-worthy "ultimate guide" pins with products (user ask 18 Oct)
+- slug: ultimate-guide-dry-warm-home
+  style: checklist
+  photo: photo-1641232458416-feace752b346
+  kicker: The ultimate guide, save this
+  head: A dry, warm home
+  tail: all winter
+  items:
+    - [Keep humidity at 40 to 60%, "A cheap hygrometer tells you"]
+    - [Dry washing in one room, "Door shut, window cracked"]
+    - [Heated airer with a cover, "A full load dry in hours"]
+    - [Clear window condensation daily, "Before it soaks the frames"]
+    - [Kill mould, then stop the moisture, "Or it comes straight back"]
+    - [Run a dehumidifier, "The one buy that fixes most damp"]
+    - [Block draughts first, "Doors, letterbox, chimney"]
+    - [Heat yourself, not the house, "Heated throw on the sofa"]
+  url: /ultimate-guide-dry-warm-home/
+  board: Condensation & Damp Fixes
+  title: The ultimate guide to a dry, warm home this winter
+  description: Everything that keeps a UK or Irish home dry, warm and mould-free in winter. Drying washing indoors, stopping condensation, black mould, draughts and staying warm for less, with the few products worth buying. Save this for winter.
+  status: approved
+- slug: heated-airers-worth-buying
+  style: trio
+  kicker: Winter buying guide
+  head: Three heated airers
+  tail: worth buying
+  items:
+    - [airer-cover-bundle, Dry:Soon with cover, Fastest dry per penny]
+    - [heated-airer-tiered, Dry:Soon 3-tier, Small spaces]
+    - [heated-airer-wing, Status winged, Sheets and big loads]
+  url: /dry-clothes-indoors-without-damp/
+  board: Heated Airers & Clothes Airers
+  title: The 3 best heated clothes airers for drying washing indoors this winter
+  description: Which heated airer should you buy? The best heated clothes airer with a cover, the best for small flats and the best winged airer for sheets and towels. Dry washing indoors fast without damp. UK and Ireland.
+  status: approved
+- slug: condensation-guide-save-this
+  style: checklist
+  photo: photo-1713352533011-601ad0689860
+  kicker: Save this before winter
+  head: Stop condensation
+  tail: for good
+  items:
+    - [Open trickle vents, "Or crack a window after you wake"]
+    - [Clear windows every morning, "A window vac takes minutes"]
+    - [Bedroom doors open at night, "Spreads the moisture out"]
+    - [Lids on pans, extractor on, "Cooking adds litres a day"]
+    - [Dry washing in one room, "Not on radiators around the house"]
+    - [Keep rooms at least 16C, "Cold rooms collect condensation"]
+    - [Quiet bedroom dehumidifier, "If windows stream every day"]
+  url: /condensation-on-windows-every-morning/
+  board: Condensation & Damp Fixes
+  title: How to stop condensation on windows for good, a simple checklist
+  description: How to stop condensation on windows every morning. A simple checklist for UK and Irish homes, from trickle vents and window vacs to the quiet bedroom dehumidifier that fixes it for good. Save this before winter.
+  status: approved
+- slug: stay-warm-for-less-trio
+  style: trio
+  kicker: Stay warm for less
+  head: Heat yourself,
+  tail: not the whole house
+  items:
+    - [heated-throw, Heated throw, Pennies an hour on the sofa]
+    - [electric-blanket, Electric blanket, A warm bed with the heating off]
+    - [oil-radiator, Oil radiator, One room, steady heat]
+  url: /shop/heating/
+  board: Keep Your House Warm
+  title: How to stay warm this winter without heating the whole house
+  description: Three cheap ways to stay warm in winter without heating the whole house. A heated throw for the sofa, an electric blanket for bed and an oil radiator for one room. Lower heating bills for UK and Irish homes.
+  status: approved
+- slug: black-mould-checklist
+  style: checklist
+  photo: photo-1695755114252-a310bcca1886
+  kicker: Save this for later
+  head: Black mould
+  tail: gone for good
+  items:
+    - [Clean it properly, "Mould remover, gloves, window open"]
+    - [Squeegee after every shower, "Ten seconds, no standing water"]
+    - [Fan on for 15 minutes, "Or a fan with a humidistat"]
+    - [Replace black silicone, "Anti-mould sealant, not bleach"]
+    - [Repaint with anti-mould paint, "Once the wall is clean and dry"]
+    - [Keep humidity under 60%, "A dehumidifier does it for you"]
+  url: /ultimate-guide-dry-warm-home/
+  board: Black Mould Prevention
+  title: How to get rid of black mould for good, a simple checklist
+  description: How to remove black mould and stop it coming back. A simple checklist for bathrooms, windows and walls in UK and Irish homes, with the mould remover, sealant and anti-mould paint that actually work. Save this for later.
+  status: approved
