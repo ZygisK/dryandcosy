@@ -597,10 +597,10 @@
     - [Dry washing in one room, "Door shut, window cracked"]
     - [Heated airer with a cover, "A full load dry in hours"]
     - [Clear window condensation daily, "Before it soaks the frames"]
-    - [Kill mould, then stop the moisture, "Or it comes straight back"]
+    - ["Kill mould, then stop the moisture", "Or it comes straight back"]
     - [Run a dehumidifier, "The one buy that fixes most damp"]
     - [Block draughts first, "Doors, letterbox, chimney"]
-    - [Heat yourself, not the house, "Heated throw on the sofa"]
+    - ["Heat yourself, not the house", "Heated throw on the sofa"]
   url: /ultimate-guide-dry-warm-home/
   board: Condensation & Damp Fixes
   title: The ultimate guide to a dry, warm home this winter
@@ -630,7 +630,7 @@
     - [Open trickle vents, "Or crack a window after you wake"]
     - [Clear windows every morning, "A window vac takes minutes"]
     - [Bedroom doors open at night, "Spreads the moisture out"]
-    - [Lids on pans, extractor on, "Cooking adds litres a day"]
+    - ["Lids on pans, extractor on", "Cooking adds litres a day"]
     - [Dry washing in one room, "Not on radiators around the house"]
     - [Keep rooms at least 16C, "Cold rooms collect condensation"]
     - [Quiet bedroom dehumidifier, "If windows stream every day"]
@@ -647,7 +647,7 @@
   items:
     - [heated-throw, Heated throw, Pennies an hour on the sofa]
     - [electric-blanket, Electric blanket, A warm bed with the heating off]
-    - [oil-radiator, Oil radiator, One room, steady heat]
+    - [oil-radiator, Oil radiator, "One room, steady heat"]
   url: /shop/heating/
   board: Keep Your House Warm
   title: How to stay warm this winter without heating the whole house
