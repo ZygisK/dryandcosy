@@ -729,3 +729,102 @@
   description: "How to get rid of black mould for good, a simple black mould removal checklist. How to clean mould in the bathroom, on window frames and on walls, then stop it coming back with ventilation, sealant and a dehumidifier. For UK and Irish homes. Save this mould removal checklist."
   status: posted
   alt: "Black mould removal: a simple checklist to get rid of it for good. How to get rid of black mould for good, a simple black mould removal checklist."
+# --- Batch 10: evergreen Tuesday (keyword-led titles from ops/keywords-2026-10-18.md)
+- slug: cosy-winter-home-checklist
+  style: checklist
+  photo: photo-1777895868494-4e01af8487b6
+  kicker: Save this for winter
+  head: A cosy winter home
+  tail: for less
+  items:
+    - [Layer a heavy throw on the sofa, "Or a heated one for pennies an hour"]
+    - [Swap big lights for lamps, "Warm bulbs, low and soft"]
+    - [Rugs on hard floors, "Warmer feet, warmer room"]
+    - [Thermal curtains closed at dusk, "Keeps the cold glass out"]
+    - [Block the draught under the door, "A brush strip, five minutes"]
+    - [Electric blanket on before bed, "Bedroom heating can stay low"]
+    - [Keep the air dry, "Damp air feels colder"]
+  url: /ultimate-guide-dry-warm-home/
+  board: Cosy Winter Home
+  title: "Cosy winter home ideas: a simple checklist for less"
+  description: Cosy winter home ideas that cost less to run. A simple checklist for a cosy home aesthetic this winter, from heavy throws and warm lamps to thermal curtains, draught excluders and an electric blanket, so the heating can stay low. Cosy winter living room and bedroom ideas for UK and Irish homes. Save this for winter.
+  status: approved
+- slug: clothes-airer-ideas-small-spaces
+  style: trio
+  kicker: Small space buying guide
+  head: Clothes airers
+  tail: that fold away
+  items:
+    - [tiered-airer, Tall tiered airer, A full load in a chair's footprint]
+    - [wall-airer, Wall-mounted rack, Folds flat against the wall]
+    - [pulley-airer, Ceiling pulley airer, Warm air rises and it is out of the way]
+  url: /shop/laundry/
+  board: Small Laundry Space Ideas
+  title: "Clothes airer ideas for small spaces: 3 that fold away"
+  description: Clothes airer ideas for small spaces and flats. A tall tiered clothes drying rack indoors, a wall mounted clothes airer that folds flat and a ceiling pulley airer that keeps washing out of the way. Drying clothes indoors in small spaces without the clutter, for UK and Irish homes. Save this for your next airer.
+  status: approved
+- slug: drying-clothes-indoors-checklist
+  style: checklist
+  photo: photo-1635716991409-00154370338f
+  kicker: The drying checklist, save this
+  head: Dry washing indoors
+  tail: without the damp
+  items:
+    - [Spin on the highest setting, "Less water in, less water in the air"]
+    - [One room, door shut, "Window cracked or dehumidifier on"]
+    - [Space everything out, "A crowded airer takes days"]
+    - [Shirts on hangers, "Dry faster and need less ironing"]
+    - [Heated airer with a cover, "A full load dry in hours"]
+    - [Not on radiators around the house, "It ends up on your windows"]
+    - [Empty the dehumidifier tank, "That water would be on your walls"]
+  url: /dry-clothes-indoors-without-damp/
+  board: Drying Clothes Indoors
+  title: "Drying clothes indoors hacks: a checklist to stop damp"
+  description: Drying clothes indoors hacks that stop damp, condensation and that musty smell. A simple checklist for drying clothes indoors in winter, from spin speed and spacing to a heated airer with a cover and a dehumidifier on laundry mode. Air drying clothes indoors tips for UK and Irish homes. Save this checklist for wash day.
+  status: approved
+- slug: dehumidifier-buying-guide-trio
+  style: trio
+  kicker: Dehumidifier buying guide
+  head: The right dehumidifier
+  tail: for your home
+  items:
+    - [dehumidifier-quiet, Bosch Dry 1000, Bedrooms and flats]
+    - [dehumidifier-desiccant, EcoAir DD1, Cold rooms and bathrooms]
+    - [dehumidifier-meaco-20l, Meaco 20L, Laundry and damp houses]
+  url: /best-dehumidifiers/
+  board: Dehumidifiers for Damp Homes
+  title: "Dehumidifier buying guide: 3 best for UK and Irish homes"
+  description: Which dehumidifier should you buy? A quiet dehumidifier for the bedroom, a desiccant dehumidifier for cold rooms and bathrooms, and a 20L dehumidifier with laundry mode for drying clothes indoors and damp houses. Stop condensation on windows and black mould for good. Save this dehumidifier guide.
+  status: approved
+- slug: draught-excluder-ideas-trio
+  style: trio
+  kicker: Cheap winter fixes
+  head: Draught excluder ideas
+  tail: that keep the heat in
+  items:
+    - [door-brush, Door brush strip, Stops the gap under the door]
+    - [letterbox, Letterbox brush, A big leak you never notice]
+    - [chimney-balloon, Chimney blocker, Lifts out when you want a fire]
+  url: /shop/draughts/
+  board: Draught Proofing Ideas
+  title: "Draught excluder ideas for doors, letterboxes and chimneys"
+  description: Draught excluder ideas that keep the heat you pay for. A brush strip draught excluder for the front door, a letterbox brush and a chimney draught stopper for an unused fireplace. Cheap, renter friendly draught proofing for your home this winter, UK and Ireland. Save this before the cold sets in.
+  status: approved
+- slug: energy-saving-tips-checklist
+  style: checklist
+  photo: photo-1674475761224-fec1d3263fbf
+  kicker: Save this, cut the bill
+  head: Energy saving tips
+  tail: for winter
+  items:
+    - [Heat the person, not the house, "Heated throw on the sofa"]
+    - [Smart radiator valves, "Heat only the rooms you use"]
+    - [Bleed the radiators, "Cold at the top wastes heat"]
+    - [Reflector panels behind radiators, "On outside walls especially"]
+    - [Timer plugs on heaters, "Warm when you need it"]
+    - [Draught-proof before you turn it up, "Keep the heat you pay for"]
+  url: /ultimate-guide-dry-warm-home/
+  board: Keep Your House Warm
+  title: "Energy saving tips for winter: how to stay warm for less"
+  description: Energy saving tips for winter that actually lower the bill. How to stay warm in winter for less with a heated throw blanket, smart radiator valves, reflector panels, timer plugs and simple draught proofing. Stay warm and cozy without heating the whole house, for UK and Irish homes. Save this checklist.
+  status: approved
