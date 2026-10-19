@@ -30,6 +30,11 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Commit everything (author ZygisK, trailers) and push.
 - Schedule the next review with send_later at 20:45Z (21:45 Dublin; 21:45Z after clocks go back on 25 Oct).
 
+## SEO rules (every new pin)
+- Title starts with a real Pinterest search phrase from ops/keywords-*.md, 40-75 chars.
+- Description 280-480 chars, 3-5 keyword variants in natural sentences, UK/Irish, ends with a save prompt. No hashtags.
+- Alt text set (pins.yaml `alt`). Refresh keywords monthly via AdvancedTypeaheadResource; pivot to Christmas/New Year phrases from early Nov.
+
 ## Hard rules
 - Real photos only (Unsplash), no AI-looking images, no product cut-outs pasted onto scenes.
 - No em dashes on the site or pins.
