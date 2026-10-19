@@ -771,7 +771,7 @@
   tail: without the damp
   items:
     - [Spin on the highest setting, "Less water in, less water in the air"]
-    - [One room, door shut, "Window cracked or dehumidifier on"]
+    - ["One room, door shut", "Window cracked or dehumidifier on"]
     - [Space everything out, "A crowded airer takes days"]
     - [Shirts on hangers, "Dry faster and need less ironing"]
     - [Heated airer with a cover, "A full load dry in hours"]
@@ -817,7 +817,7 @@
   head: Energy saving tips
   tail: for winter
   items:
-    - [Heat the person, not the house, "Heated throw on the sofa"]
+    - ["Heat the person, not the house", "Heated throw on the sofa"]
     - [Smart radiator valves, "Heat only the rooms you use"]
     - [Bleed the radiators, "Cold at the top wastes heat"]
     - [Reflector panels behind radiators, "On outside walls especially"]
