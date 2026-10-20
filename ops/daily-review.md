@@ -24,6 +24,7 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Site: if a pin topic wins and the landing page is thin, improve that page (more picks, clearer top pick, comparison table). If a topic has no product coverage, add products (real ASINs with the dryandcosy-21 tag).
 - Engagement: save 6 relevant, high-save pins from other accounts onto our matching boards (BaseSearchResource search, RepinResource/create). No promoted pins, no competitors' affiliate spam, never our own pins.
 - Keep tomorrow's posting chain full (6-8 pins/day). If the queue has fewer than 2 days of approved pins, build more.
+- Vary posting times every day (user, 20 Oct): never reuse yesterday's slots. Pick one random time inside each window (Dublin): 08:00-09:30, 10:15-11:45, 12:30-14:00, 14:45-16:15, 17:00-18:45, 19:30-21:15. Use odd minutes (not :00/:05/:10 etc). Gaps of at least 60 min. Also shuffle the topic order.
 
 ## 4. Report
 - PushNotification with a 2-3 line summary: numbers vs yesterday, what changed, what's next.
