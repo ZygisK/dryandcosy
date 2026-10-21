@@ -930,3 +930,199 @@
   description: "Electric blanket vs heated throw vs hot water bottle: what each costs to run and which to buy first. An electric blanket warms the bed for a couple of pence, a heated throw blanket keeps you warm on the sofa without heating the room. Electric blankets in winter, explained for UK and Irish homes. Save this before the cold sets in."
   alt: "Electric blanket, heated throw and hot water bottle compared, with running costs"
   status: approved
+- slug: condensation-renters-checklist
+  style: checklist
+  photo: photo-1515764371993-7995b2dba0b9
+  kicker: Renter friendly, save this
+  head: Stop condensation
+  tail: without drilling
+  items:
+  - ["Clear the glass every morning", "A window vac takes two minutes"]
+  - ["Open the trickle vents", "Leave them open all winter"]
+  - ["Check the humidity", "Aim for 40 to 60%"]
+  - ["Small dehumidifier in the bedroom", "It moves with you"]
+  - ["Lids on pans, hood on", "Less steam in the air"]
+  - ["Furniture off outside walls", "A few centimetres is enough"]
+  url: /stop-condensation-renters/
+  board: Condensation & Damp Fixes
+  title: "Condensation on windows hacks for renters, no drilling"
+  description: "Condensation on windows hacks that work in a rented home. How to stop condensation on windows with no drilling and no lost deposit: clear the glass each morning, open trickle vents, check humidity and run a small dehumidifier in the bedroom. Condensation windows tips for UK and Irish renters. Save this for winter."
+  alt: "Fogged up window panes with a renter friendly checklist to stop condensation on windows"
+  status: approved
+- slug: dehumidifier-for-bathroom-trio
+  style: trio
+  kicker: Bathroom buying guide
+  head: The right dehumidifier
+  tail: for a bathroom
+  items:
+  - [bath-dehumidifier, "Compact bathroom unit", "Small, light and quiet"]
+  - [dehumidifier-desiccant, "Desiccant dehumidifier", "Works in a cold bathroom"]
+  - [extractor-humidistat, "Humidity sensor fan", "Switches itself on"]
+  url: /dehumidifier-for-bathroom/
+  board: Dehumidifiers for Damp Homes
+  title: "Dehumidifier for bathroom: the best picks and when you need one"
+  description: "Do you need a dehumidifier for the bathroom? If mould keeps coming back and there is no extractor fan, a compact dehumidifier for the bathroom fixes steam and damp. Desiccant dehumidifiers for cold bathrooms, a humidity sensor fan, and a mould free bathroom routine for UK and Irish homes. Save this guide."
+  alt: "Three ways to dry a bathroom: a compact dehumidifier, a desiccant dehumidifier and a humidity sensor extractor fan"
+  status: approved
+- slug: winter-home-checklist-12-jobs
+  style: checklist
+  photo: photo-1501186758051-167ca3c0fde8
+  kicker: Save this, do it this weekend
+  head: Winter home checklist
+  tail: before the cold
+  items:
+  - ["Bleed the radiators", "Cold at the top wastes heat"]
+  - ["Reflectors behind radiators", "On outside walls"]
+  - ["Brush strip on the front door", "Plus letterbox and keyhole"]
+  - ["Chimney stopper", "In any unused fireplace"]
+  - ["Lag exposed pipes", "Avoid a burst in January"]
+  - ["Check the humidity", "Over 60% means mould is coming"]
+  url: /winter-home-checklist/
+  board: Cosy Winter Home
+  title: "Winter home checklist: 12 jobs to do before the cold sets in"
+  description: "A winter home checklist for UK and Irish homes. Bleed radiators, fit reflector panels, block draughts at doors, letterboxes and chimneys, lag pipes and check for damp before the cold sets in. Get your house ready for winter in a weekend and keep the heating bills down. Save this winter home checklist."
+  alt: "Window with a curtain and a winter home checklist of jobs to do before the cold"
+  status: approved
+- slug: small-laundry-room-ideas-trio
+  style: trio
+  kicker: No utility room?
+  head: Small laundry room ideas
+  tail: that actually fit
+  items:
+  - [spin-dryer, "Spin dryer", "Dry in half the time"]
+  - [drying-pod, "Heated drying pod", "Zips up, folds away"]
+  - [overdoor-airer, "Over-door rack", "Zero floor space"]
+  url: /small-laundry-room-ideas/
+  board: Small Laundry Space Ideas
+  title: "Small laundry room ideas for homes with no utility room"
+  description: "Small laundry room ideas for flats and homes with no utility room. A spin dryer that halves drying time, a heated drying pod that zips up and folds away, and an over-door rack that uses no floor space. Laundry room small space ideas and laundry room organization for UK and Irish homes. Save this for later."
+  alt: "Three small laundry space ideas: a spin dryer, a heated drying pod and an over-door rack"
+  status: approved
+- slug: heat-pump-dryer-vs-heated-airer-trio
+  style: trio
+  kicker: Cheapest way to dry?
+  head: Tumble dryer
+  tail: vs heated airer
+  items:
+  - [heat-pump-dryer, "Heat pump dryer", "Fastest, low cost per load"]
+  - [airer-cover-bundle, "Heated airer and cover", "Cheapest upfront"]
+  - [dehumidifier-meaco-20l, "20L dehumidifier", "Dries washing and the house"]
+  url: /heat-pump-dryer-vs-heated-airer/
+  board: Drying Clothes Indoors
+  title: "Heat pump tumble dryer vs heated airer: which is cheaper to run?"
+  description: "Heat pump tumble dryer vs heated airer vs dehumidifier: which is cheaper to run for drying clothes indoors in winter? Running costs per load, drying times and upfront cost compared, so you can pick the right one for your home. Drying clothes indoors without a tumble dryer, or with a better one. Save this comparison."
+  alt: "Heat pump tumble dryer, heated airer with cover and 20L dehumidifier compared for drying clothes indoors"
+  status: approved
+- slug: window-insulation-ideas-trio
+  style: trio
+  kicker: Keep the heat in
+  head: Window insulation ideas
+  tail: for winter
+  items:
+  - [thermal-curtains, "Thermal curtains", "Closed at dusk"]
+  - [window-film, "Window film kit", "Cheap secondary glazing"]
+  - [seal-strip, "Draught seal strip", "Stops the whistle"]
+  url: /window-insulation-ideas/
+  board: Draught Proofing Ideas
+  title: "How to keep heat in through windows: cheap insulation ideas"
+  description: "How to keep heat in through windows this winter without new glazing. Thermal curtains, window insulation film and draught seal strips that stop cold air leaking in through old or single glazed windows. Cheap, renter friendly draught proofing for UK and Irish homes. Save this before the cold sets in."
+  alt: "Three cheap window insulation ideas: thermal curtains, window film kit and draught seal strip"
+  status: approved
+- slug: dry-towels-indoors-trio
+  style: trio
+  kicker: Soft, not musty
+  head: How to dry towels
+  tail: indoors in a day
+  items:
+  - [spin-dryer, "Spin them hard", "Far less water in"]
+  - [heated-airer-wing, "Hang them open", "Never folded over a rail"]
+  - [dehumidifier-compressor, "Dehumidifier on", "Door shut, dry overnight"]
+  url: /dry-towels-indoors/
+  board: Drying Clothes Indoors
+  title: "How to dry towels indoors so they are soft, not damp"
+  description: "How to dry towels indoors in winter without a tumble dryer, and stop towels smelling damp. Spin them hard, hang them open on a wing airer instead of folded over a rail, and run a dehumidifier with the door shut. Drying clothes indoors hacks for soft, fresh towels in UK and Irish homes. Save this for wash day."
+  alt: "Three steps to dry towels indoors: spin dryer, wing heated airer and dehumidifier"
+  status: approved
+- slug: musty-wardrobe-checklist
+  style: checklist
+  photo: photo-1567401893414-76b7b1e5a7a5
+  kicker: Save this for winter
+  head: Musty wardrobe?
+  tail: Fix it like this
+  items:
+  - ["Pull it off the wall", "Five to ten centimetres"]
+  - ["Moisture trap inside", "Swap the refill when full"]
+  - ["Never hang clothes damp", "Even jumpers and jeans"]
+  - ["Clean any mould on the wall", "Proper spray, window open"]
+  - ["Bedroom under 60% humidity", "A quiet dehumidifier helps"]
+  - ["Air it once a week", "Doors open, window cracked"]
+  url: /musty-smell-wardrobe/
+  board: Condensation & Damp Fixes
+  title: "Musty smell in the wardrobe? How to get rid of damp in wardrobes"
+  description: "How to get rid of a musty smell in the wardrobe and stop clothes smelling damp. Pull the wardrobe off the outside wall, add a moisture trap, never hang clothes damp and keep bedroom humidity under 60% with a dehumidifier. Damp and condensation fixes for UK and Irish homes. Save this checklist."
+  alt: "Wardrobe full of clothes with a checklist to get rid of a musty damp smell"
+  status: approved
+- slug: hygge-winter-home-checklist
+  style: checklist
+  photo: photo-1632489376751-18a62c663af8
+  kicker: The hygge list, save this
+  head: Hygge winter home
+  tail: for less
+  items:
+  - ["Lamps, not the big light", "Warm white bulbs"]
+  - ["A heavy throw on every sofa", "Or a heated one"]
+  - ["Wool duvet on the bed", "Warm, never clammy"]
+  - ["Curtains closed at dusk", "Cosy and keeps heat in"]
+  - ["Hot water bottle and a film", "Nearly free warmth"]
+  - ["Socks before the thermostat", "Heat yourself first"]
+  url: /hygge-winter-home-ideas/
+  board: Cosy Winter Home
+  title: "Hygge winter home ideas: how to make your home cosy for less"
+  description: "Hygge winter home ideas that make a house feel warm and cosy without big spending. Hygge decor the Danish way: lamps instead of the big light, heavy throws, a wool duvet, curtains closed at dusk and a hot water bottle. Cosy home aesthetic and winter vibes for UK and Irish homes. Save this for winter."
+  alt: "Candles and fairy lights with a hygge winter home checklist"
+  status: approved
+- slug: smart-radiator-valves-trio
+  style: trio
+  kicker: Smart heating explained
+  head: Heat only the rooms
+  tail: you actually use
+  items:
+  - [smart-trv, "Smart radiator valves", "Room by room schedules"]
+  - [smart-thermostat, "Smart thermostat", "Off when you are out"]
+  - [smart-plug-energy, "Energy monitor plug", "See what things cost"]
+  url: /smart-radiator-valves-worth-it/
+  board: Keep Your House Warm
+  title: "Are smart radiator valves worth it? How smart heating cuts bills"
+  description: "Are smart radiator valves worth it? Smart TRVs heat each room only when you use it, so empty rooms stop eating heat. Plus a smart thermostat and an energy monitoring plug to see what everything costs. Energy saving tips for winter that keep the house warm for less in UK and Irish homes. Save this guide."
+  alt: "Smart radiator valves, a smart thermostat and an energy monitoring plug"
+  status: approved
+- slug: spin-dryer-worth-it-trio
+  style: trio
+  kicker: No tumble dryer?
+  head: Dry clothes faster
+  tail: for pennies
+  items:
+  - [spin-dryer, "Spin dryer", "Minutes, a penny a load"]
+  - [heated-airer-tiered, "Heated airer", "Then hang it all"]
+  - [dehumidifier-compressor, "Dehumidifier", "No damp walls"]
+  url: /spin-dryer-guide/
+  board: Heated Airers & Clothes Airers
+  title: "Is a spin dryer worth it? Dry clothes faster indoors for pennies"
+  description: "Is a spin dryer worth it if you have no tumble dryer? A spin dryer pulls far more water out than a washing machine, so clothes dry much faster on a heated airer and put less damp into your home. Pair it with a dehumidifier for drying clothes indoors in winter. Hacks for UK and Irish homes. Save this."
+  alt: "Spin dryer, heated airer and dehumidifier for drying clothes indoors faster"
+  status: approved
+- slug: stay-warm-working-from-home-trio
+  style: trio
+  kicker: Working from home?
+  head: Stay warm at your desk
+  tail: not the whole house
+  items:
+  - [foot-warmer, "Heated foot warmer", "Pennies an hour"]
+  - [heated-gilet, "Heated gilet", "Warm core, moves with you"]
+  - [heated-throw, "Heated throw", "Over your lap on calls"]
+  url: /stay-warm-working-from-home/
+  board: Keep Your House Warm
+  title: "How to stay warm working from home without heating the house"
+  description: "How to stay warm working from home in winter without heating the whole house all day. A heated foot warmer under the desk, a rechargeable heated gilet and a heated throw blanket over your lap cost pennies an hour. How to stay warm in winter for less, for UK and Irish homes. Save this for cold work days."
+  alt: "Heated foot warmer, heated gilet and heated throw for staying warm working from home"
+  status: approved
