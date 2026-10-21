@@ -877,3 +877,56 @@
   description: "Clothes airer ideas for small spaces with no floor to spare. An over-door drying rack, a wall mounted clothes airer that folds flat and a ceiling pulley airer for drying clothes indoors in a small flat. Small laundry room ideas and laundry room small space ideas for UK and Irish homes. Save this for your next airer."
   alt: "Three space-saving clothes airers: an over-door rack, a wall-mounted rack and a ceiling pulley airer"
   status: posted
+- slug: black-mould-bathroom-checklist
+  style: checklist
+  photo: photo-1590880265945-6b43effeb599
+  kicker: Save this for cleaning day
+  head: Black mould in the bathroom
+  tail: gone for good
+  items:
+  - ["Mould spray, not bleach", "Gloves on, window open"]
+  - ["Black silicone? Replace it", "Anti-mould sealant lasts years"]
+  - ["Squeegee after every shower", "Ten seconds, no standing water"]
+  - ["Fan on for 15 minutes", "Or one with a humidity sensor"]
+  - ["Anti-mould paint on ceilings", "Once it is clean and dry"]
+  - ["Five minutes a week", "Spray corners, wipe the sill"]
+  url: /black-mould-in-bathroom/
+  board: Black Mould Prevention
+  title: "Black mould in the bathroom? How to remove it and stop it coming back"
+  description: "Black mould removal for the bathroom, step by step. How to clean mould in the bathroom off silicone, grout and the ceiling, when to replace black sealant, and the simple squeegee and fan routine that stops mould on bathroom walls coming back. A mould free bathroom for UK and Irish homes. Save this checklist for cleaning day."
+  alt: "Clean white tiled shower with a checklist for removing black mould in the bathroom"
+  status: approved
+- slug: cosy-winter-bedroom-checklist
+  style: checklist
+  photo: photo-1660407761025-539c2dbc1dc6
+  kicker: Save this for winter
+  head: A cosy winter bedroom
+  tail: that stays warm
+  items:
+  - ["Electric blanket on before bed", "A couple of pence a night"]
+  - ["Swap to a wool duvet", "Warm without the clammy feeling"]
+  - ["A heavy throw on the bed", "Warmth and the cosy look"]
+  - ["Thermal curtains at dusk", "Keep the cold glass out"]
+  - ["Lamps, not the big light", "Warm white bulbs"]
+  - ["Keep humidity under 60%", "Damp air feels colder"]
+  url: /cosy-winter-bedroom-ideas/
+  board: Cosy Winter Home
+  title: "Cosy winter bedroom ideas that keep you warm for less"
+  description: "Cosy winter bedroom ideas that make the room warmer, not just prettier. Winter bedroom ideas cozy enough for cold nights: an electric blanket, a wool duvet, a heavy throw, thermal curtains and soft lamp light, with a dry room so the heating can stay low. Cosy bedroom aesthetic for UK and Irish homes. Save this for winter."
+  alt: "Cosy bedroom with a lamp, cushions and soft bedding, with a winter bedroom checklist"
+  status: approved
+- slug: electric-blanket-vs-heated-throw-trio
+  style: trio
+  kicker: Which one should you buy?
+  head: Electric blanket
+  tail: vs heated throw
+  items:
+  - [electric-blanket, "Electric blanket", "For a warm bed, 2 to 4p an hour"]
+  - [heated-throw, "Heated throw", "For the sofa, 3 to 5p an hour"]
+  - [hot-water-bottle, "Hot water bottle", "Quick warmth, nearly free"]
+  url: /electric-blanket-vs-heated-throw/
+  board: Keep Your House Warm
+  title: "Electric blanket vs heated throw: which keeps you warmer for less?"
+  description: "Electric blanket vs heated throw vs hot water bottle: what each costs to run and which to buy first. An electric blanket warms the bed for a couple of pence, a heated throw blanket keeps you warm on the sofa without heating the room. Electric blankets in winter, explained for UK and Irish homes. Save this before the cold sets in."
+  alt: "Electric blanket, heated throw and hot water bottle compared, with running costs"
+  status: approved
