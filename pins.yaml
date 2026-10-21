@@ -828,3 +828,52 @@
   title: "Energy saving tips for winter: how to stay warm for less"
   description: Energy saving tips for winter that actually lower the bill. How to stay warm in winter for less with a heated throw blanket, smart radiator valves, reflector panels, timer plugs and simple draught proofing. Stay warm and cozy without heating the whole house, for UK and Irish homes. Save this checklist.
   status: posted
+- slug: heated-clothes-airer-worth-it
+  style: trio
+  kicker: Heated airer buying guide
+  head: Heated clothes airers
+  tail: worth buying
+  items:
+  - [heated-airer-tiered, "3-tier heated airer", "Full loads, folds flat"]
+  - [airer-cover-bundle, "Airer and cover bundle", "Dry in hours, not days"]
+  - [heated-airer-wing, "Wing heated airer", "Lay jumpers flat"]
+  url: /heated-clothes-airer-guide/
+  board: Heated Airers & Clothes Airers
+  title: "Are heated clothes airers worth it? Running costs and best picks"
+  description: "Are heated clothes airers worth it? A heated airer with a cover dries a full load indoors in a few hours for pennies an hour. Heated clothes airer running costs, why the cover matters, and the best heated airers for UK and Irish homes, from a 3-tier heated airer to a wing airer. Drying clothes indoors in winter, sorted. Save this guide."
+  alt: "Three heated clothes airers worth buying: a 3-tier heated airer, an airer and cover bundle and a wing heated airer"
+  status: approved
+- slug: stay-warm-for-less-guide
+  style: checklist
+  photo: photo-1515852216175-927860d2be80
+  kicker: The ultimate guide, save this
+  head: Stay warm for less
+  tail: this winter
+  items:
+  - ["Heat yourself first", "Heated throw, a few pence an hour"]
+  - ["Electric blanket before bed", "Then the bedroom heating stays low"]
+  - ["Brush strip on the front door", "Keep the heat you pay for"]
+  - ["Chimney stopper in unused fireplaces", "A big hidden draught"]
+  - ["Thermal curtains at dusk", "Cold glass shut out"]
+  - ["Smart radiator valves", "Heat only the rooms you use"]
+  url: /how-to-stay-warm-for-less/
+  board: Keep Your House Warm
+  title: "How to stay warm in winter for less: the ultimate guide"
+  description: "How to stay warm in winter without heating the whole house. The ultimate guide to staying warm for less: heat yourself first with a heated throw blanket or electric blanket, keep the heat in with draught proofing and thermal curtains, then heat only the rooms you use. Stay warm and cosy with real running costs for UK and Irish homes. Save this for winter."
+  alt: "Leather sofa with a soft throw blanket, with a checklist of ways to stay warm in winter for less"
+  status: approved
+- slug: small-space-airers-no-floor
+  style: trio
+  kicker: Small space laundry
+  head: Clothes airers
+  tail: that use no floor space
+  items:
+  - [overdoor-airer, "Over-door rack", "No drilling, renter friendly"]
+  - [wall-airer, "Wall-mounted rack", "Folds flat when you are done"]
+  - [pulley-airer, "Ceiling pulley airer", "Up where the warm air is"]
+  url: /clothes-airer-ideas-small-spaces/
+  board: Small Laundry Space Ideas
+  title: "Clothes airer ideas for small spaces that fold away"
+  description: "Clothes airer ideas for small spaces with no floor to spare. An over-door drying rack, a wall mounted clothes airer that folds flat and a ceiling pulley airer for drying clothes indoors in a small flat. Small laundry room ideas and laundry room small space ideas for UK and Irish homes. Save this for your next airer."
+  alt: "Three space-saving clothes airers: an over-door rack, a wall-mounted rack and a ceiling pulley airer"
+  status: approved
