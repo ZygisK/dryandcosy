@@ -1175,3 +1175,52 @@
   description: "How to remove black mould on window frames, sills and seals, and stop it coming back. Black mould removal step by step, then clear condensation on windows every morning, open trickle vents and keep humidity under 60%. Condensation windows tips that stop mould for good in UK and Irish homes. Save this checklist."
   alt: "Condensation droplets on a window with a checklist to remove mould on window frames"
   status: approved
+- slug: washing-smells-damp-fix
+  style: checklist
+  photo: photo-1692576855758-318a1fa8ff6d
+  kicker: Save this for wash day
+  head: Washing smells damp?
+  tail: How to fix it
+  items:
+  - ["Spin it harder", "Or a spin dryer, less water in"]
+  - ["Space it out", "A tall airer, never crowded"]
+  - ["Hang it straight away", "Never leave it in the drum"]
+  - ["Dry it in hours", "Heated airer with a cover"]
+  - ["Dehumidifier on, door shut", "Dry overnight, no damp walls"]
+  - ["Clean the machine monthly", "Hot empty wash, wipe the seal"]
+  url: /washing-smells-damp/
+  board: Drying Clothes Indoors
+  title: "Why does my washing smell damp? How to fix musty laundry"
+  description: "Why does washing smell damp after drying indoors? It dried too slowly. How to fix musty laundry for good: spin harder, space clothes out on a tall airer, hang it straight away, dry it in hours on a heated airer and run a dehumidifier. Air drying clothes indoors tips for UK and Irish homes. Save this for wash day."
+  alt: "Laundry baskets with a checklist to fix washing that smells damp"
+  status: approved
+- slug: condensation-bedroom-trio
+  style: trio
+  kicker: Wet windows every morning?
+  head: Condensation in the bedroom
+  tail: stopped
+  items:
+  - [hygrometer, "Hygrometer", "Over 60% means trouble"]
+  - [dehumidifier-quiet, "Quiet dehumidifier", "Runs all night, dry by morning"]
+  - [window-vac, "Window vac", "Water off in two minutes"]
+  url: /condensation-in-bedroom/
+  board: Condensation & Damp Fixes
+  title: "Condensation in the bedroom: why it happens and how to stop it"
+  description: "Condensation in the bedroom, wet windows every morning and mould behind the wardrobe? Why bedrooms get the worst condensation and how to stop condensation on windows: check the humidity, run a quiet dehumidifier overnight and clear the glass with a window vac. Condensation windows tips for UK and Irish homes. Save this."
+  alt: "Hygrometer, quiet dehumidifier and window vac for stopping condensation in the bedroom"
+  status: approved
+- slug: floorboard-draughts-trio
+  style: trio
+  kicker: Cold floors?
+  head: Stop draughts through
+  tail: floorboards
+  items:
+  - [floor-gap, "Floorboard gap filler", "Invisible once it is in"]
+  - [seal-strip, "Skirting seal strip", "Where floor meets wall"]
+  - [draught-excluder, "Door draught excluder", "The last cold gap"]
+  url: /stop-draughts-floorboards/
+  board: Draught Proofing Ideas
+  title: "How to stop draughts through floorboards and skirting"
+  description: "How to stop draughts through floorboards and under skirting boards without lifting the floor. A floorboard gap filler, a skirting seal strip and a door draught excluder keep rooms with wooden floors warm. Cheap, renter friendly draught proofing home ideas for UK and Irish homes. Save this before the cold sets in."
+  alt: "Floorboard gap filler, skirting seal strip and door draught excluder"
+  status: approved
