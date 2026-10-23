@@ -1126,3 +1126,52 @@
   description: "How to stay warm working from home in winter without heating the whole house all day. A heated foot warmer under the desk, a rechargeable heated gilet and a heated throw blanket over your lap cost pennies an hour. How to stay warm in winter for less, for UK and Irish homes. Save this for cold work days."
   alt: "Heated foot warmer, heated gilet and heated throw for staying warm working from home"
   status: approved
+- slug: dehumidifier-running-cost-trio
+  style: trio
+  kicker: What it really costs
+  head: Dehumidifier running costs
+  tail: per hour
+  items:
+  - [dehumidifier-quiet, "Quiet 10L", "About 4 to 6p an hour"]
+  - [dehumidifier-meaco-20l, "20L laundry mode", "About 7 to 12p an hour"]
+  - [dehumidifier-desiccant, "Desiccant", "Costs more, works in the cold"]
+  url: /dehumidifier-running-cost/
+  board: Dehumidifiers for Damp Homes
+  title: "How much does a dehumidifier cost to run? UK and Ireland"
+  description: "How much does a dehumidifier cost to run? A quiet compressor dehumidifier costs a few pence an hour, a 20L dehumidifier with laundry mode a little more, and a desiccant dehumidifier more again but works in cold rooms. Running costs per hour and per month, plus tips to keep the bill down. Save this dehumidifier guide."
+  alt: "Three dehumidifiers with their running costs per hour: quiet 10L, 20L laundry mode and desiccant"
+  status: approved
+- slug: front-door-draught-proofing-trio
+  style: trio
+  kicker: Draught excluder ideas
+  head: Front door draughts
+  tail: fixed for less
+  items:
+  - [door-brush, "Brush strip", "Seals the gap underneath"]
+  - [letterbox, "Letterbox brush", "Post still gets through"]
+  - [door-curtain, "Thermal door curtain", "The best fix for old doors"]
+  url: /front-door-draught-proofing/
+  board: Draught Proofing Ideas
+  title: "Front door draught proofing: 6 cheap fixes that keep the heat in"
+  description: "Front door draught proofing that keeps the heat you pay for. A draught excluder brush strip for the bottom of the door, a letterbox brush, a keyhole cover, frame seals and a thermal door curtain. Cheap, renter friendly draught excluder ideas for the front door in UK and Irish homes. Save this before winter."
+  alt: "Front door draught fixes: door brush strip, letterbox brush and thermal door curtain"
+  status: approved
+- slug: mould-window-frames-checklist
+  style: checklist
+  photo: photo-1518966820974-f748fde4b180
+  kicker: Save this for winter
+  head: Mould on window frames
+  tail: gone for good
+  items:
+  - ["Mould spray, gloves on", "Window open, toothbrush on seals"]
+  - ["Window vac every morning", "Water off the glass and frame"]
+  - ["Trickle vents open", "Leave them open all winter"]
+  - ["Humidity under 60%", "A quiet dehumidifier overnight"]
+  - ["Curtains open in the day", "Let the frame dry out"]
+  - ["Black silicone? Replace it", "Anti-mould sealant"]
+  url: /mould-on-window-frames/
+  board: Black Mould Prevention
+  title: "Mould on window frames: how to clean it and stop it coming back"
+  description: "How to remove black mould on window frames, sills and seals, and stop it coming back. Black mould removal step by step, then clear condensation on windows every morning, open trickle vents and keep humidity under 60%. Condensation windows tips that stop mould for good in UK and Irish homes. Save this checklist."
+  alt: "Condensation droplets on a window with a checklist to remove mould on window frames"
+  status: approved
