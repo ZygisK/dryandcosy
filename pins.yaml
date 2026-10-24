@@ -1224,3 +1224,52 @@
   description: "How to stop draughts through floorboards and under skirting boards without lifting the floor. A floorboard gap filler, a skirting seal strip and a door draught excluder keep rooms with wooden floors warm. Cheap, renter friendly draught proofing home ideas for UK and Irish homes. Save this before the cold sets in."
   alt: "Floorboard gap filler, skirting seal strip and door draught excluder"
   status: approved
+- slug: renter-draught-proofing-checklist
+  style: checklist
+  photo: photo-1771354959667-96360bf59eab
+  kicker: Renter friendly, save this
+  head: Draught proofing
+  tail: no drilling
+  items:
+  - ["Draught excluder at the door", "Nothing to fit"]
+  - ["Letterbox and keyhole covers", "Clip or stick on"]
+  - ["Foam seal round the frames", "Peels off cleanly"]
+  - ["Window film on old glass", "Comes off in spring"]
+  - ["Chimney balloon", "Deflate and pull out"]
+  - ["Gap filler in floorboards", "Pulls out when you leave"]
+  url: /renter-draught-proofing/
+  board: Draught Proofing Ideas
+  title: "Renter friendly draught proofing: no drilling, deposit safe"
+  description: "Renter friendly draught proofing that needs no drilling and comes off cleanly when you move out. A draught excluder for the door, letterbox and keyhole covers, foam seals, window film, a chimney balloon and floorboard gap filler. Draught proofing home ideas for UK and Irish renters. Save this before the cold sets in."
+  alt: "Bright hallway with a white front door and a renter friendly draught proofing checklist"
+  status: approved
+- slug: oil-radiator-vs-heater-trio
+  style: trio
+  kicker: Cheapest way to heat a room?
+  head: Oil radiator
+  tail: vs electric heater
+  items:
+  - [oil-radiator, "Oil filled radiator", "Slow, steady, silent"]
+  - [ceramic-heater, "Ceramic heater", "Fast heat for small rooms"]
+  - [timer-plug, "Timer plug", "Never left on by mistake"]
+  url: /oil-radiator-vs-electric-heater/
+  board: Keep Your House Warm
+  title: "Oil filled radiator vs electric heater: which is cheaper to run?"
+  description: "Oil filled radiator vs electric heater vs ceramic fan heater: running costs per hour and which heats a room best. Energy saving tips for winter: use the thermostat, heat one room with the door shut and put heaters on a timer plug. How to stay warm in winter for less in UK and Irish homes. Save this before the cold sets in."
+  alt: "Oil filled radiator, ceramic heater and timer plug compared for heating a room"
+  status: approved
+- slug: mould-on-walls-trio
+  style: trio
+  kicker: Mould on the walls?
+  head: Get rid of it
+  tail: for good
+  items:
+  - [mould-spray, "Mould spray", "Clean it, never dry brush"]
+  - [anti-mould-paint, "Anti-mould paint", "Once it is clean and dry"]
+  - [dehumidifier-meaco-20l, "20L dehumidifier", "Stops it coming back"]
+  url: /mould-on-walls/
+  board: Black Mould Prevention
+  title: "Mould on walls: how to get rid of it and stop it coming back"
+  description: "How to get rid of black mould on walls in the bedroom, bathroom and on outside walls. Black mould removal with a proper mould spray, repaint with anti-mould paint, then keep humidity under 60% with a dehumidifier so mould on walls never comes back. Damp and mould fixes for UK and Irish homes. Save this."
+  alt: "Mould spray, anti-mould paint and 20L dehumidifier for getting rid of mould on walls"
+  status: approved
