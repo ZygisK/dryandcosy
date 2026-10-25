@@ -1384,3 +1384,45 @@
   title: preview only
   description: preview only
   status: preview
+- slug: dry-clothes-indoors-fast-cover
+  style: v3cover
+  theme: terracotta
+  photo: photo-1653103725296-bff7e65afe10
+  kicker: Save this for wash day
+  head: Dry clothes indoors
+  tail: in a day, not three
+  sub: "The 4 step routine that works even in winter"
+  url: /dry-clothes-indoors-fast/
+  board: Drying Clothes Indoors
+  title: "How to dry clothes indoors fast in winter, in a day not three"
+  description: "How to dry clothes indoors fast in winter without a tumble dryer. Drying clothes indoors hacks in the right order: spin harder, space everything out on a tall airer, add a heated airer with a cover and run a dehumidifier. Air drying clothes indoors tips that get a full load dry in a day in UK and Irish homes. Save this."
+  alt: "Laundry basket in a sunny room with the title how to dry clothes indoors in a day"
+  status: approved
+- slug: rainy-day-cosy-home-cover
+  style: v3cover
+  theme: cream
+  photo: photo-1734127317339-ece0bb42738e
+  kicker: Rainy day aesthetic
+  head: A rainy day at home
+  tail: done cosy
+  sub: "Soft light, a warm throw and no draughts"
+  url: /rainy-day-cosy-home/
+  board: Cosy Winter Home
+  title: "Rainy day at home: cosy ideas to make it feel warm and calm"
+  description: "Cosy rainy day at home ideas for wet winter days. Rainy day aesthetic made easy: lamps instead of the big light, a chair by the window with a heated throw, a draught excluder at the door, curtains closed early and a hot water bottle. Cosy home aesthetic and winter vibes for UK and Irish homes. Save this for the next rainy day."
+  alt: "Cosy window seat with cushions on a grey day, titled a rainy day at home done cosy"
+  status: approved
+- slug: hot-water-bottle-guide-cover
+  style: v3cover
+  theme: forest
+  photo: photo-1602891867080-1d56348202a3
+  kicker: The cheapest heat there is
+  head: Hot water bottle
+  tail: guide
+  sub: "How to choose one and use it safely"
+  url: /hot-water-bottle-guide/
+  board: Keep Your House Warm
+  title: "Hot water bottle guide: how to choose and use one safely"
+  description: "Hot water bottle guide: the cheapest way to stay warm in winter. How to choose a good hot water bottle with a soft cover, fill it safely, and when to replace it, plus cosy extras like an electric blanket and heated throw blanket. How to stay warm in winter for less in UK and Irish homes. Save this for cold nights."
+  alt: "Hands holding a mug on a soft blanket, titled hot water bottle guide"
+  status: approved
