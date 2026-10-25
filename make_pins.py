@@ -147,6 +147,70 @@ li em{{font-style:normal;color:#7a7f78;font-size:calc(var(--lf) * .78);display:b
 <div class="top"><img src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=320&q=90"></div>
 <div class="body"><div class="k">{kicker}</div><h1>{head}</h1><ul>{items}</ul></div><div class="url">dryandcosy.com</div></div></body></html>"""
 
+
+# ---- v3 "aesthetic" styles (Oct 25): warm palette, Fraunces display serif, rounded cards ----
+V3_FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600;1,9..144,700&family=DM+Sans:wght@500;700&display=block" rel="stylesheet">'
+V3_THEMES = {
+    "forest": ("#233a2e", "#f7f0e6", "#f2c96d", "#c8643b"),
+    "terracotta": ("#b9583a", "#fbf3ea", "#ffd98a", "#233a2e"),
+    "sage": ("#a9b89c", "#1f2b23", "#fff6e3", "#b9583a"),
+    "cream": ("#f4ebdd", "#233a2e", "#c8643b", "#c8643b"),
+}
+V3_CSS = """html,body{margin:0;width:1000px;height:1500px}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--fg)}
+.tag{display:inline-block;background:var(--hi);color:#1f2b23;font:700 24px/1 'DM Sans';letter-spacing:.14em;text-transform:uppercase;padding:16px 26px;border-radius:999px}
+h1{font:800 var(--hs)/.98 'Fraunces',serif;margin:0;letter-spacing:-.02em;text-wrap:balance;font-variation-settings:'opsz' 144}
+h1 em{font-style:italic;font-weight:700;color:var(--ac)}
+.url{font:700 22px/1 'DM Sans';letter-spacing:.2em;text-transform:uppercase}"""
+
+V3CHECK = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{css}
+.ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
+.pin::before{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,0) 30%);z-index:1}}
+.tagw{{position:absolute;left:48px;top:48px;z-index:2}}
+.card{{position:absolute;left:44px;right:44px;bottom:44px;z-index:2;background:#f8f1e7;color:#1f2b23;border-radius:40px;padding:58px 58px 46px;box-shadow:0 40px 80px -30px rgba(0,0,0,.55)}}
+.card h1{{color:#233a2e}} .card h1 em{{color:#b9583a}}
+ul{{list-style:none;padding:0;margin:34px 0 0}}
+li{{display:grid;grid-template-columns:52px 1fr;gap:20px;align-items:center;padding:var(--lp) 0;border-top:2px dashed #e2d6c4;font:700 var(--lf)/1.2 'DM Sans'}}
+li i{{width:46px;height:46px;border-radius:50%;background:#b9583a;color:#fff;display:grid;place-items:center;font:700 26px/1 'DM Sans';font-style:normal}}
+li em{{display:block;font:500 calc(var(--lf) * .76)/1.3 'DM Sans';color:#6d6a60;font-style:normal;margin-top:4px}}
+.foot{{display:flex;justify-content:space-between;align-items:center;margin-top:30px;color:#6d6a60}}
+.foot b{{font:700 22px/1 'DM Sans';letter-spacing:.06em;color:#b9583a}}
+</style></head><body><div class="pin" style="--hs:{size}px;--lp:{lp}px;--lf:{lf}px;--hi:#f2c96d">
+<img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
+<div class="tagw"><span class="tag">{kicker}</span></div>
+<div class="card"><h1>{head}</h1><ul>{items}</ul><div class="foot"><span class="url">dryandcosy.com</span><b>Save for later &#9733;</b></div></div>
+</div></body></html>"""
+
+V3TRIO = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{css}
+.pin{{padding:76px 56px 56px;box-sizing:border-box;display:flex;flex-direction:column}}
+.pin::after{{content:"";position:absolute;right:-180px;top:-180px;width:560px;height:560px;border-radius:50%;background:var(--hi);opacity:.16}}
+h1{{margin-top:30px;position:relative;z-index:1}}
+.cards{{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px;flex:1}}
+.c{{background:#fff;border-radius:30px;padding:22px 20px 28px;display:flex;flex-direction:column;position:relative;box-shadow:0 24px 50px -28px rgba(0,0,0,.5)}}
+.c .im{{flex:1;display:grid;place-items:center;background:#f6f1ea;border-radius:20px;overflow:hidden}}
+.c .im img{{width:86%;height:80%;object-fit:contain;mix-blend-mode:multiply}}
+.c .n{{position:absolute;left:-12px;top:-14px;width:62px;height:62px;border-radius:50%;background:var(--ac);color:#fff;display:grid;place-items:center;font:800 30px/1 'Fraunces'}}
+.c h2{{font:800 34px/1.05 'Fraunces',serif;color:#1f2b23;margin:22px 0 0;letter-spacing:-.01em}}
+.c p{{font:500 22px/1.3 'DM Sans';color:#6d6a60;margin:10px 0 0}}
+.foot{{display:flex;justify-content:space-between;align-items:center;margin-top:40px}}
+.foot .pill{{background:var(--hi);color:#1f2b23;font:700 22px/1 'DM Sans';padding:14px 24px;border-radius:999px}}
+</style></head><body><div class="pin" style="--hs:{size}px;--bg:{bg};--fg:{fg};--hi:{hi};--ac:{ac}">
+<div><span class="tag">{kicker}</span></div><h1>{head}</h1>
+<div class="cards">{cards}</div>
+<div class="foot"><span class="url">dryandcosy.com</span><span class="pill">Save this &#9733;</span></div></div></body></html>"""
+
+V3COVER = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{css}
+.ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
+.box{{position:absolute;left:52px;right:52px;top:64px;z-index:2;background:var(--bg);color:var(--fg);border-radius:40px;padding:52px 56px 56px;text-align:center;box-shadow:0 40px 80px -30px rgba(0,0,0,.5)}}
+.box h1{{margin-top:26px}}
+.box p{{font:500 32px/1.35 'DM Sans';margin:24px 0 0;opacity:.9;text-wrap:balance}}
+.bot{{position:absolute;left:0;right:0;bottom:56px;z-index:2;text-align:center}}
+.bot span{{display:inline-block;background:rgba(255,255,255,.92);color:#1f2b23;font:700 22px/1 'DM Sans';letter-spacing:.2em;text-transform:uppercase;padding:18px 30px;border-radius:999px}}
+</style></head><body><div class="pin" style="--hs:{size}px;--bg:{bg};--fg:{fg};--hi:{hi};--ac:{ac}">
+<img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
+<div class="box"><span class="tag">{kicker}</span><h1>{head}</h1>{sub}</div>
+<div class="bot"><span>dryandcosy.com</span></div></div></body></html>"""
+
 CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
 
 def pimg(pid):
@@ -160,6 +224,21 @@ def fmt_head(p):
 def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st in ("v3check", "v3trio", "v3cover"):
+        bg, fg, hi, ac = V3_THEMES[p.get("theme", "forest" if st != "v3cover" else "cream")]
+        if st == "v3check":
+            n = len(p["items"])
+            items = "".join(f'<li><i>&#10003;</i><div>{html.escape(a)}<em>{html.escape(b)}</em></div></li>' for a, b in p["items"])
+            return V3CHECK.format(fonts=V3_FONTS, css=V3_CSS, size=86 if words <= 5 else 74, lp=16 if n >= 7 else 20, lf=30 if n >= 7 else 32,
+                                  photo=p["photo"], kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), items=items)
+        if st == "v3trio":
+            cards = "".join(f'<div class="c"><span class="n">{i+1}</span><div class="im"><img src="{pimg(pid)}"></div><h2>{html.escape(name)}</h2><p>{html.escape(why)}</p></div>'
+                            for i, (pid, name, why) in enumerate(p["items"]))
+            return V3TRIO.format(fonts=V3_FONTS, css=V3_CSS, size=100 if words <= 5 else 86 if words <= 7 else 76, bg=bg, fg=fg, hi=hi, ac=ac,
+                                 kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), cards=cards)
+        sub = f"<p>{html.escape(p['sub'])}</p>" if p.get("sub") else ""
+        return V3COVER.format(fonts=V3_FONTS, css=V3_CSS, size=104 if words <= 5 else 90 if words <= 7 else 78, bg=bg, fg=fg, hi=hi, ac=ac,
+                              photo=p["photo"], kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), sub=sub)
     if st == "costs":
         rows = "".join(f'<div class="r {c}"><div><b>{html.escape(n)}</b><small>{html.escape(w)}</small></div><span>{html.escape(v)}</span></div>'
                        for n, w, v, c in p["rows"])

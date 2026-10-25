@@ -1273,3 +1273,77 @@
   description: "How to get rid of black mould on walls in the bedroom, bathroom and on outside walls. Black mould removal with a proper mould spray, repaint with anti-mould paint, then keep humidity under 60% with a dehumidifier so mould on walls never comes back. Damp and mould fixes for UK and Irish homes. Save this."
   alt: "Mould spray, anti-mould paint and 20L dehumidifier for getting rid of mould on walls"
   status: approved
+- slug: preview-v3-check
+  style: v3check
+  photo: photo-1567401893414-76b7b1e5a7a5
+  kicker: Save this for winter
+  head: Musty wardrobe?
+  tail: Fix it like this
+  items:
+  - ["Pull it off the wall", "Five to ten centimetres"]
+  - ["Moisture trap inside", "Swap the refill when full"]
+  - ["Never hang clothes damp", "Even jumpers and jeans"]
+  - ["Clean any mould on the wall", "Proper spray, window open"]
+  - ["Bedroom under 60% humidity", "A quiet dehumidifier helps"]
+  - ["Air it once a week", "Doors open, window cracked"]
+  url: /musty-smell-wardrobe/
+  board: Condensation & Damp Fixes
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v3-trio-forest
+  style: v3trio
+  theme: forest
+  kicker: Smart heating explained
+  head: Heat only the rooms
+  tail: you actually use
+  items:
+  - [smart-trv, "Smart radiator valves", "Room by room schedules"]
+  - [smart-thermostat, "Smart thermostat", "Off when you are out"]
+  - [smart-plug-energy, "Energy monitor plug", "See what things cost"]
+  url: /smart-radiator-valves-worth-it/
+  board: Keep Your House Warm
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v3-trio-terracotta
+  style: v3trio
+  theme: terracotta
+  kicker: No tumble dryer?
+  head: Dry clothes faster
+  tail: for pennies
+  items:
+  - [spin-dryer, "Spin dryer", "Minutes, a penny a load"]
+  - [heated-airer-tiered, "Heated airer", "Then hang it all"]
+  - [dehumidifier-compressor, "Dehumidifier", "No damp walls"]
+  url: /spin-dryer-guide/
+  board: Heated Airers & Clothes Airers
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v3-cover
+  style: v3cover
+  theme: cream
+  photo: photo-1632489376751-18a62c663af8
+  kicker: The ultimate guide
+  head: Hygge winter home
+  tail: for less
+  sub: "Lamps, throws, wool and warm light: cosy without the big bill"
+  url: /hygge-winter-home-ideas/
+  board: Cosy Winter Home
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v3-cover-forest
+  style: v3cover
+  theme: forest
+  photo: photo-1692576855758-318a1fa8ff6d
+  kicker: Wash day fix
+  head: Washing smells damp?
+  tail: Here is why
+  sub: "6 fixes for musty laundry when you dry clothes indoors"
+  url: /washing-smells-damp/
+  board: Drying Clothes Indoors
+  title: preview only
+  description: preview only
+  status: preview
