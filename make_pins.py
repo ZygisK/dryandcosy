@@ -159,7 +159,7 @@ V3_THEMES = {
 V3_CSS = """html,body{margin:0;width:1000px;height:1500px}
 .pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--fg)}
 .tag{display:inline-block;background:var(--hi);color:#1f2b23;font:700 24px/1 'DM Sans';letter-spacing:.14em;text-transform:uppercase;padding:16px 26px;border-radius:999px}
-h1{font:800 var(--hs)/.98 'Fraunces',serif;margin:0;letter-spacing:-.02em;text-wrap:balance;font-variation-settings:'opsz' 144}
+h1{font:800 var(--hs)/1.0 'Fraunces',serif;margin:0;letter-spacing:-.008em;word-spacing:.05em;text-wrap:balance;font-variation-settings:'opsz' 144}
 h1 em{font-style:italic;font-weight:700;color:var(--ac)}
 .url{font:700 22px/1 'DM Sans';letter-spacing:.2em;text-transform:uppercase}"""
 

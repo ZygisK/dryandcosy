@@ -37,6 +37,9 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Description 280-480 chars, 3-5 keyword variants in natural sentences, UK/Irish, ends with a save prompt. No hashtags.
 - Alt text set (pins.yaml `alt`). Refresh keywords monthly via AdvancedTypeaheadResource; pivot to Christmas/New Year phrases from early Nov.
 
+## Pin style (user, 25 Oct)
+- All new pins use style: v3cover (full-bleed Unsplash photo, rounded title box in Fraunces, theme forest/cream/terracotta rotated, a one-line `sub`). The user rejected the old beige checklist/trio looks as too basic.
+
 ## Hard rules
 - Real photos only (Unsplash), no AI-looking images, no product cut-outs pasted onto scenes.
 - No em dashes on the site or pins.

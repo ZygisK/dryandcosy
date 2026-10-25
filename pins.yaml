@@ -1044,8 +1044,10 @@
   alt: "Three steps to dry towels indoors: spin dryer, wing heated airer and dehumidifier"
   status: posted
 - slug: musty-wardrobe-checklist
-  style: checklist
+  style: v3cover
+  theme: forest
   photo: photo-1567401893414-76b7b1e5a7a5
+  sub: "6 simple fixes to get rid of damp in wardrobes"
   kicker: Save this for winter
   head: Musty wardrobe?
   tail: Fix it like this
@@ -1063,8 +1065,10 @@
   alt: "Wardrobe full of clothes with a checklist to get rid of a musty damp smell"
   status: approved
 - slug: hygge-winter-home-checklist
-  style: checklist
+  style: v3cover
+  theme: cream
   photo: photo-1632489376751-18a62c663af8
+  sub: "Lamps, throws, wool and warm light, without the big bill"
   kicker: The hygge list, save this
   head: Hygge winter home
   tail: for less
@@ -1082,7 +1086,10 @@
   alt: "Candles and fairy lights with a hygge winter home checklist"
   status: approved
 - slug: smart-radiator-valves-trio
-  style: trio
+  style: v3cover
+  theme: terracotta
+  photo: photo-1669729227685-770f727fb709
+  sub: "Are smart radiator valves worth it? What they save"
   kicker: Smart heating explained
   head: Heat only the rooms
   tail: you actually use
@@ -1097,7 +1104,10 @@
   alt: "Smart radiator valves, a smart thermostat and an energy monitoring plug"
   status: approved
 - slug: spin-dryer-worth-it-trio
-  style: trio
+  style: v3cover
+  theme: forest
+  photo: photo-1635716991409-00154370338f
+  sub: "No tumble dryer? The cheapest way to dry indoors"
   kicker: No tumble dryer?
   head: Dry clothes faster
   tail: for pennies
@@ -1112,7 +1122,10 @@
   alt: "Spin dryer, heated airer and dehumidifier for drying clothes indoors faster"
   status: approved
 - slug: stay-warm-working-from-home-trio
-  style: trio
+  style: v3cover
+  theme: cream
+  photo: photo-1547586696-ea22b4d4235d
+  sub: "Warm at your desk without heating the whole house"
   kicker: Working from home?
   head: Stay warm at your desk
   tail: not the whole house
@@ -1127,7 +1140,10 @@
   alt: "Heated foot warmer, heated gilet and heated throw for staying warm working from home"
   status: approved
 - slug: dehumidifier-running-cost-trio
-  style: trio
+  style: v3cover
+  theme: forest
+  photo: photo-1652352529254-5106f4c8e03c
+  sub: "What it really costs per hour, and how to cut it"
   kicker: What it really costs
   head: Dehumidifier running costs
   tail: per hour
@@ -1142,7 +1158,10 @@
   alt: "Three dehumidifiers with their running costs per hour: quiet 10L, 20L laundry mode and desiccant"
   status: approved
 - slug: front-door-draught-proofing-trio
-  style: trio
+  style: v3cover
+  theme: cream
+  photo: photo-1780245988750-d2aac18c2d02
+  sub: "6 cheap fixes that keep the heat in"
   kicker: Draught excluder ideas
   head: Front door draughts
   tail: fixed for less
@@ -1157,8 +1176,10 @@
   alt: "Front door draught fixes: door brush strip, letterbox brush and thermal door curtain"
   status: approved
 - slug: mould-window-frames-checklist
-  style: checklist
+  style: v3cover
+  theme: terracotta
   photo: photo-1518966820974-f748fde4b180
+  sub: "Clean it once, then stop the condensation feeding it"
   kicker: Save this for winter
   head: Mould on window frames
   tail: gone for good
@@ -1176,8 +1197,10 @@
   alt: "Condensation droplets on a window with a checklist to remove mould on window frames"
   status: approved
 - slug: washing-smells-damp-fix
-  style: checklist
+  style: v3cover
+  theme: forest
   photo: photo-1692576855758-318a1fa8ff6d
+  sub: "6 fixes for musty laundry when you dry indoors"
   kicker: Save this for wash day
   head: Washing smells damp?
   tail: How to fix it
@@ -1195,7 +1218,10 @@
   alt: "Laundry baskets with a checklist to fix washing that smells damp"
   status: approved
 - slug: condensation-bedroom-trio
-  style: trio
+  style: v3cover
+  theme: cream
+  photo: photo-1586205009278-cf9854b97d0c
+  sub: "Wet windows every morning? Why, and how to stop it"
   kicker: Wet windows every morning?
   head: Condensation in the bedroom
   tail: stopped
@@ -1210,7 +1236,10 @@
   alt: "Hygrometer, quiet dehumidifier and window vac for stopping condensation in the bedroom"
   status: approved
 - slug: floorboard-draughts-trio
-  style: trio
+  style: v3cover
+  theme: terracotta
+  photo: photo-1560184897-1ee3713708ee
+  sub: "Cheap, renter friendly fixes for cold wooden floors"
   kicker: Cold floors?
   head: Stop draughts through
   tail: floorboards
@@ -1225,8 +1254,10 @@
   alt: "Floorboard gap filler, skirting seal strip and door draught excluder"
   status: approved
 - slug: renter-draught-proofing-checklist
-  style: checklist
+  style: v3cover
+  theme: forest
   photo: photo-1771354959667-96360bf59eab
+  sub: "No drilling, deposit safe, all comes off when you move"
   kicker: Renter friendly, save this
   head: Draught proofing
   tail: no drilling
@@ -1244,7 +1275,10 @@
   alt: "Bright hallway with a white front door and a renter friendly draught proofing checklist"
   status: approved
 - slug: oil-radiator-vs-heater-trio
-  style: trio
+  style: v3cover
+  theme: cream
+  photo: photo-1669724290258-cbc731160fb3
+  sub: "Which is cheaper to run? Real costs per hour"
   kicker: Cheapest way to heat a room?
   head: Oil radiator
   tail: vs electric heater
@@ -1259,7 +1293,10 @@
   alt: "Oil filled radiator, ceramic heater and timer plug compared for heating a room"
   status: approved
 - slug: mould-on-walls-trio
-  style: trio
+  style: v3cover
+  theme: forest
+  photo: photo-1770208741428-b874de629eb9
+  sub: "How to get rid of it and stop it coming back"
   kicker: Mould on the walls?
   head: Get rid of it
   tail: for good
