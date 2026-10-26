@@ -1426,3 +1426,45 @@
   description: "Hot water bottle guide: the cheapest way to stay warm in winter. How to choose a good hot water bottle with a soft cover, fill it safely, and when to replace it, plus cosy extras like an electric blanket and heated throw blanket. How to stay warm in winter for less in UK and Irish homes. Save this for cold nights."
   alt: "Hands holding a mug on a soft blanket, titled hot water bottle guide"
   status: approved
+- slug: where-to-dry-washing-cover
+  style: v3cover
+  theme: forest
+  photo: photo-1655041448985-f6666cba2d6c
+  kicker: Save this for wash day
+  head: Where to dry washing
+  tail: indoors
+  sub: "The best spots, the worst spots, and the one rule that stops damp"
+  url: /where-to-dry-washing-indoors/
+  board: Drying Clothes Indoors
+  title: "Where to dry washing indoors: the best and worst spots"
+  description: "Where to dry washing indoors without damp. The best place to dry clothes indoors is a small warm room with the door shut and a dehumidifier or window cracked, never on radiators around the house. Drying clothes indoors ideas for small spaces in winter, with a tall airer and heated airer. Save this for wash day."
+  alt: "Small laundry corner with a washing machine and hanging rail, titled where to dry washing indoors"
+  status: approved
+- slug: hygge-meaning-cover
+  style: v3cover
+  theme: cream
+  photo: photo-1601617956235-c97e358d054f
+  kicker: The Danish art of cosy
+  head: What is hygge?
+  tail: And how to do it
+  sub: "The meaning, and easy ways to bring it home this winter"
+  url: /hygge-meaning/
+  board: Cosy Winter Home
+  title: "Hygge meaning: what is hygge and how to bring it home"
+  description: "Hygge meaning explained: the Danish feeling of cosy, simple contentment. How to pronounce hygge, where it comes from and easy hygge decor ideas for a hygge winter home: warm lamps, a heavy throw, a wool duvet, curtains closed at dusk and a hot water bottle. Cosy home aesthetic for UK and Irish homes. Save this."
+  alt: "Armchair in warm evening light, titled what is hygge and how to do it"
+  status: approved
+- slug: cosy-living-room-cover
+  style: v3cover
+  theme: terracotta
+  photo: photo-1696814543693-31fcf942ccb7
+  kicker: Cosy winter living room
+  head: A living room that
+  tail: stays warm
+  sub: "Cosy ideas that look good and keep the heat in"
+  url: /cosy-living-room-ideas/
+  board: Cosy Winter Home
+  title: "Cosy living room ideas for winter that also keep it warm"
+  description: "Cosy living room ideas for winter and autumn that make the room warmer, not just prettier. Layered lamps with warm bulbs, a heated throw, a big rug, thermal curtains closed at dusk, a draught excluder and a chimney stopper. Cosy winter living room and cosy home aesthetic ideas for UK and Irish homes. Save this."
+  alt: "Living room with a lit fireplace, titled a living room that stays warm"
+  status: approved
