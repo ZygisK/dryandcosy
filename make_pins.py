@@ -249,14 +249,15 @@ V4EDIT = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base
 .cap .line{{width:60px;height:1px;background:#efe4d2;margin:26px auto 0}}
 .cap p{{font:400 25px/1.5 'Jost';margin:22px auto 0;max-width:720px;color:#f5eee4}}
 .cap .u{{color:#efe4d2;margin-top:30px}}
-.left::after{{background:linear-gradient(90deg,rgba(24,18,12,.62) 0%,rgba(24,18,12,.35) 38%,rgba(24,18,12,0) 62%),linear-gradient(180deg,rgba(24,18,12,0) 70%,rgba(24,18,12,.35) 100%)}}
-.left .cap{{left:58px;right:auto;width:400px;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}}
-.left .cap h1{{font-size:calc(var(--hs) * .92);line-height:1.02}}
+.left::after{{background:linear-gradient(90deg,rgba(22,16,10,.82) 0%,rgba(22,16,10,.66) 30%,rgba(22,16,10,.28) 52%,rgba(22,16,10,0) 70%),linear-gradient(180deg,rgba(22,16,10,.15) 0%,rgba(22,16,10,0) 25%,rgba(22,16,10,0) 75%,rgba(22,16,10,.45) 100%)}}
+.left .cap{{left:60px;right:auto;width:440px;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}}
+.left .cap h1{{font-size:calc(var(--hs) * 1.05);line-height:1.0;text-shadow:0 2px 24px rgba(0,0,0,.35)}}
 .left .cap .line{{margin:28px 0 0}}
 .left .cap p{{font-size:24px;line-height:1.5;margin:24px 0 0}}
-.left .cap .u{{position:fixed;left:58px;bottom:54px;margin:0}}
+.left .cap .u{{display:none}}
+.foot{{display:none}} .left .foot{{display:block;position:absolute;left:60px;bottom:56px;z-index:2;font:500 18px/1 'Jost';letter-spacing:.32em;text-transform:uppercase;color:#efe4d2}}
 </style></head><body><div class="pin {pos}" style="--hs:{size}px">
-<img class="ph" src="{img}"><div class="cap"><div class="k">{kicker}</div><h1>{head}</h1><div class="line"></div>{sub}<div class="u">dryandcosy.com</div></div></div></body></html>"""
+<img class="ph" src="{img}"><div class="cap"><div class="k">{kicker}</div><h1>{head}</h1><div class="line"></div>{sub}<div class="u">dryandcosy.com</div></div><div class="foot">dryandcosy.com</div></div></body></html>"""
 
 V4GRID = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .pin{{padding:40px}}
