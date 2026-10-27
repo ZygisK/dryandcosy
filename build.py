@@ -230,7 +230,7 @@ def build():
 <div class="wrap trust"><div><h3>Chosen, not listed</h3><p>We pick products for what they do for the problem, and leave out the rest.</p></div>
 <div><h3>Written for our homes</h3><p>Advice for Irish and UK weather, older housing and today's energy prices.</p></div>
 <div><h3>Clear about links</h3><p>Product links are paid links. The price you pay stays the same.</p></div></div>"""
-    write("index.html", layout("Dry & Cosy | For a dry, warm home", SITE["tagline"], home, body_class="home", og=SITE["hero_image"]))
+    write("index.html", layout("Dry & Cosy | A calm, clean, cosy home", SITE["tagline"], home, body_class="home", og=SITE["hero_image"]))
 
     urls = ["", "shop/", "guides/"] + [f"shop/{c['id']}/" for c in CAT["categories"]] + [m["slug"] + "/" for m in posts]
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE['url']}/sitemap.xml\n")
