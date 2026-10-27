@@ -37,6 +37,10 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Description 280-480 chars, 3-5 keyword variants in natural sentences, UK/Irish, ends with a save prompt. No hashtags.
 - Alt text set (pins.yaml `alt`). Refresh keywords monthly via AdvancedTypeaheadResource; pivot to Christmas/New Year phrases from early Nov.
 
+## Cadence and links (user, 27 Oct)
+- 2 pins a day. Only 1 of the 2 carries a link to dryandcosy.com; the other is a pure aesthetic pin with NO link (set `url:` empty in pins.yaml). Alternate which slot gets the link.
+- Styles to use: v4edit (editorial full photo) and v4grid (inspo grid), photos made with Higgsfield z_image, realistic, never stock.
+
 ## Pin style (user, 27 Oct)
 - User rejected v3cover (bold boxes, 'no luxury'). Go back to the original clean, sleek beige editorial styles (checklist / trio / Bodoni). Do not use v3cover.
 - ALL POSTING PAUSED by the user on 27 Oct. Do not post or schedule pins until the user says to resume.
