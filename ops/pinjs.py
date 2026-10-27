@@ -3,5 +3,5 @@ B={"Drying Clothes Indoors":"1150669842234840914","Heated Airers & Clothes Airer
 p=next(x for x in yaml.safe_load(open("pins.yaml")) if x["slug"]==sys.argv[1])
 o={"board_id":B[p["board"]],"image_url":f"https://dryandcosy.com/pins/v2/{p['slug']}.jpg","link":("https://dryandcosy.com"+p["url"]) if p.get("url") else "","title":p["title"][:100],"description":p["description"][:500],"alt_text":p.get("alt",p["title"])[:500],"method":"scraped","scrape_metric":{"source":"www_url_scrape"}}
 if not p.get("url"):
-    o.pop("link"); o["method"]="uploaded"; o.pop("scrape_metric")
+    o.pop("link")
 print("const options="+json.dumps(o)+";")
