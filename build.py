@@ -26,6 +26,9 @@ DISCLOSURE_LINE = "As an Amazon Associate I earn from qualifying purchases."
 e = html.escape
 
 def photo(pid, w=1600, alt="", cls="", eager=False):
+    if str(pid).startswith("/"):
+        load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+        return f'<img src="{pid}" alt="{e(alt)}" {load} decoding="async"{f" class={cls}" if cls else ""}>'
     src = f"https://images.unsplash.com/{pid}?auto=format&fit=crop&w={w}&q=80"
     srcset = ", ".join(f"https://images.unsplash.com/{pid}?auto=format&fit=crop&w={x}&q=80 {x}w" for x in (640, 1080, 1600, 2400) if x <= w * 1.5)
     load = 'fetchpriority="high"' if eager else 'loading="lazy"'
@@ -103,7 +106,8 @@ function f(){h.classList.toggle('solid',window.scrollY>window.innerHeight*0.6)}f
 def layout(title, desc, content, path="", body_class="", og=None):
     canonical = SITE["url"].rstrip("/") + "/" + path
     foot_cats = "".join(f'<li><a href="/shop/{c["id"]}/">{e(c["name"])}</a></li>' for c in CAT["categories"])
-    og_img = f'<meta property="og:image" content="https://images.unsplash.com/{og}?auto=format&fit=crop&w=1200&q=80">' if og else ""
+    og_src = (SITE["url"].rstrip("/") + og) if og and str(og).startswith("/") else f"https://images.unsplash.com/{og}?auto=format&fit=crop&w=1200&q=80"
+    og_img = f'<meta property="og:image" content="{og_src}">' if og else ""
     return f"""<!doctype html><html lang="en-GB"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
@@ -113,7 +117,7 @@ def layout(title, desc, content, path="", body_class="", og=None):
 <meta property="og:url" content="{canonical}"><meta property="og:site_name" content="Dry &amp; Cosy">{og_img}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 <script defer src="/_vercel/insights/script.js"></script></head><body class="{body_class}">
 <header class="site-head"><div class="wrap head-row">
@@ -202,13 +206,13 @@ def build():
     featured = [PRODUCTS[i] for i in SITE.get("featured", []) if i in PRODUCTS][:8]
     lead = posts[-1] if posts else None
     lead = next((m for m in posts if m["slug"] == "dry-clothes-indoors-without-damp"), lead)
-    home = f"""<section class="hero">{photo(SITE['hero_image'], 2400, 'A bright living room on a grey morning', eager=True)}
-<div class="hero-copy"><div class="wrap"><h1>A dry, warm home, all winter.</h1>
-<p>Considered products and plain advice for the damp, the cold and the washing that never dries. Chosen for UK and Irish homes.</p>
+    home = f"""<section class="hero">{photo(SITE['hero_image'], 2400, 'A linen cupboard with folded towels in soft daylight', eager=True)}
+<div class="hero-copy"><div class="wrap"><h1>A calm, clean, <em>cosy</em> home.</h1>
+<p>Quiet, considered guides and a few beautiful things for a home that stays dry, warm and fresh. Chosen for UK and Irish homes.</p>
 <div class="actions"><a class="btn light" href="/shop/">Explore the shop</a></div></div></div></section>
 
-<section class="statement"><div class="wrap"><p>Most damp starts with everyday moisture. Most cold starts at the door.</p>
-<p class="sub">We start with what causes the problem and the free fixes. Then we point you to the few products that genuinely help, from airers and dehumidifiers to throws, seals and smart valves.</p></div></section>
+<section class="statement"><div class="wrap"><p>A calm home is mostly small rituals: dry air, fresh linen, warm light.</p>
+<p class="sub">We start with what causes the problem and the free fixes. Then we point you to the few products that genuinely help, from linen care and natural cleaning to airers, dehumidifiers and throws.</p></div></section>
 
 <section><div class="wrap head"><div><h2>Shop by room and problem</h2><p>{len(CAT['products'])} products across {len(CAT['categories'])} collections.</p></div><a class="textlink" href="/shop/">View the full shop</a></div>
 <div class="rail-wrap"><div class="rail">{rooms}</div></div></section>
