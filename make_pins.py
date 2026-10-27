@@ -249,7 +249,13 @@ V4EDIT = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base
 .cap .line{{width:60px;height:1px;background:#efe4d2;margin:26px auto 0}}
 .cap p{{font:400 25px/1.5 'Jost';margin:22px auto 0;max-width:720px;color:#f5eee4}}
 .cap .u{{color:#efe4d2;margin-top:30px}}
-</style></head><body><div class="pin" style="--hs:{size}px">
+.left::after{{background:linear-gradient(90deg,rgba(24,18,12,.62) 0%,rgba(24,18,12,.35) 38%,rgba(24,18,12,0) 62%),linear-gradient(180deg,rgba(24,18,12,0) 70%,rgba(24,18,12,.35) 100%)}}
+.left .cap{{left:58px;right:auto;width:400px;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}}
+.left .cap h1{{font-size:calc(var(--hs) * .92);line-height:1.02}}
+.left .cap .line{{margin:28px 0 0}}
+.left .cap p{{font-size:24px;line-height:1.5;margin:24px 0 0}}
+.left .cap .u{{position:fixed;left:58px;bottom:54px;margin:0}}
+</style></head><body><div class="pin {pos}" style="--hs:{size}px">
 <img class="ph" src="{img}"><div class="cap"><div class="k">{kicker}</div><h1>{head}</h1><div class="line"></div>{sub}<div class="u">dryandcosy.com</div></div></div></body></html>"""
 
 V4GRID = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
@@ -307,7 +313,7 @@ def page_html(p):
         sub = f"<p>{html.escape(p['sub'])}</p>" if p.get("sub") else ""
         kw = dict(fonts=V4_FONTS, base=V4_BASE, size=size, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p))
         if st == "v4edit":
-            return V4EDIT.format(img=html.escape(p["img"]), sub=sub, **kw)
+            return V4EDIT.format(img=html.escape(p["img"]), sub=sub, pos=p.get("pos", ""), **kw)
         if st == "v4grid":
             ims = [html.escape(x) for x in p["imgs"]]
             return V4GRID.format(i0=ims[0], i1=ims[1], i2=ims[2], i3=ims[3], sub=sub, **kw)
