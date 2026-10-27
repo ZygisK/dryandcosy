@@ -1468,3 +1468,26 @@
   description: "Cosy living room ideas for winter and autumn that make the room warmer, not just prettier. Layered lamps with warm bulbs, a heated throw, a big rug, thermal curtains closed at dusk, a draught excluder and a chimney stopper. Cosy winter living room and cosy home aesthetic ideas for UK and Irish homes. Save this."
   alt: "Living room with a lit fireplace, titled a living room that stays warm"
   status: approved
+- slug: preview-v4-cleaning-recipes
+  style: v4recipe
+  kicker: Save this for cleaning day
+  head: Natural cleaning
+  tail: recipes
+  rows:
+  - img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214021_cc680ad1-df2a-49de-8905-73eccddfdff5.png
+    name: Streak-free glass
+    list: ["1 cup water", "1 cup white vinegar", "1 tbsp lemon juice"]
+    note: Not for marble or stone
+  - img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214021_f72b2a6a-147c-4530-b792-3cdc34a2476a.png
+    name: Mildew spray
+    list: ["2 cups water", "1 tsp tea tree oil", "Shake before each use"]
+    note: Spray, leave an hour, wipe
+  - img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214021_c49f6db3-df16-45af-997d-219d28e1e8b0.png
+    name: Linen cupboard fresh
+    list: ["1 jar bicarbonate of soda", "10 drops lavender oil", "Lid with small holes"]
+    note: Absorbs damp, smells clean
+  url: /
+  board: Cosy Winter Home
+  title: preview only
+  description: preview only
+  status: preview

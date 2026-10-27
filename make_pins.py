@@ -211,6 +211,28 @@ V3COVER = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{css
 <div class="box"><span class="tag">{kicker}</span><h1>{head}</h1>{sub}</div>
 <div class="bot"><span>dryandcosy.com</span></div></div></body></html>"""
 
+# ---- v4 "recipe card" (Oct 27): luxury, save-worthy stacked panels, realistic AI photos by URL ----
+V4_FONTS = '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500&display=block" rel="stylesheet">'
+V4RECIPE = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>
+html,body{{margin:0;width:1000px;height:1500px}}
+.pin{{width:1000px;height:1500px;background:#f3eee6;color:#2b2724;font-family:'Jost',sans-serif;display:flex;flex-direction:column;box-sizing:border-box;padding:58px 54px 44px}}
+.hd{{text-align:center}}
+.k{{font:500 19px/1 'Jost';letter-spacing:.32em;text-transform:uppercase;color:#9a8466}}
+h1{{font:500 {size}px/1 'Cormorant Garamond',serif;margin:16px 0 0;letter-spacing:-.005em}}
+h1 em{{font-style:italic;color:#7b6a52}}
+.rows{{flex:1;display:flex;flex-direction:column;gap:18px;margin-top:38px}}
+.r{{flex:1;display:grid;grid-template-columns:47% 1fr;background:#fbf8f3;border:1px solid #e3dbcf}}
+.r img{{width:100%;height:100%;object-fit:cover;display:block}}
+.t{{padding:30px 34px;display:flex;flex-direction:column;justify-content:center}}
+.t h2{{font:italic 600 46px/1.02 'Cormorant Garamond',serif;margin:0;color:#2b2724}}
+.t ul{{list-style:none;padding:0;margin:18px 0 0}}
+.t li{{font:400 23px/1.5 'Jost';color:#4a443d}} .t li::before{{content:"\\2014  ";content:"\\00B7  ";color:#9a8466}}
+.t p{{font:400 18px/1.4 'Jost';color:#8a8177;margin:12px 0 0;letter-spacing:.02em}}
+.ft{{text-align:center;margin-top:26px;font:500 18px/1 'Jost';letter-spacing:.32em;text-transform:uppercase;color:#9a8466}}
+</style></head><body><div class="pin">
+<div class="hd"><div class="k">{kicker}</div><h1>{head}</h1></div>
+<div class="rows">{rows}</div><div class="ft">dryandcosy.com</div></div></body></html>"""
+
 CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
 
 def pimg(pid):
@@ -224,6 +246,9 @@ def fmt_head(p):
 def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st == "v4recipe":
+        rows = "".join(f'<div class="r"><img src="{html.escape(r["img"])}"><div class="t"><h2>{html.escape(r["name"])}</h2><ul>' + "".join(f"<li>{html.escape(x)}</li>" for x in r["list"]) + "</ul>" + (f'<p>{html.escape(r["note"])}</p>' if r.get("note") else "") + "</div></div>" for r in p["rows"])
+        return V4RECIPE.format(fonts=V4_FONTS, size=84 if words <= 5 else 72, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), rows=rows)
     if st in ("v3check", "v3trio", "v3cover"):
         bg, fg, hi, ac = V3_THEMES[p.get("theme", "forest" if st != "v3cover" else "cream")]
         if st == "v3check":
