@@ -1491,3 +1491,63 @@
   title: preview only
   description: preview only
   status: preview
+- slug: preview-v4-edit
+  style: v4edit
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214429_86bf9310-622b-409a-ad1f-ecfeb1c50629.png
+  kicker: The calm home edit
+  head: A linen cupboard
+  tail: that smells clean
+  sub: "Fold in thirds, store in sets, a lavender pouch on every shelf"
+  url: /
+  board: Cosy Winter Home
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v4-grid
+  style: v4grid
+  imgs:
+  - https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214430_ec76ab6c-e9e2-4b75-a0c6-739ea6c10b3b.png
+  - https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214505_73f0d965-46b4-4dc8-8cc3-7fb53b835ab7.png
+  - https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214430_2f4457f1-7a62-4e5e-acc4-55ef5bc882b8.png
+  - https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214530_dd98edd4-fea8-442a-8e89-664134024b91.png
+  kicker: Small laundry room inspo
+  head: Calm laundry
+  tail: corner
+  sub: "Oak, linen and glass jars. Save for your next refresh"
+  url: /
+  board: Small Laundry Space Ideas
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v4-shop
+  style: v4shop
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214429_b61df70d-f28d-4e32-951d-ba2a4628ca83.png
+  kicker: Get the look
+  head: A spa bathroom
+  tail: without the mould
+  items:
+  - [shower-squeegee, "Steel squeegee", "Ten seconds after a shower"]
+  - [mould-sealant, "Anti-mould sealant", "Clean white edges for years"]
+  - [bath-dehumidifier, "Compact dehumidifier", "No more steamy walls"]
+  url: /
+  board: Black Mould Prevention
+  title: preview only
+  description: preview only
+  status: preview
+- slug: preview-v4-steps
+  style: v4steps
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_214429_838d4f79-7886-47e1-a2cf-80d132cb2aae.png
+  kicker: The evening ritual
+  head: A warm bed
+  tail: in five steps
+  steps:
+  - ["Curtains closed at dusk", "Keep the cold glass out"]
+  - ["Electric blanket on for 30 minutes", "Then off when you get in"]
+  - ["Wool throw at the foot of the bed", "Warmth where you need it"]
+  - ["Lamp, not the big light", "Warm white, low and soft"]
+  - ["Door shut, draught excluder down", "Hold the warmth in"]
+  url: /
+  board: Cosy Winter Home
+  title: preview only
+  description: preview only
+  status: preview

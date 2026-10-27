@@ -233,6 +233,62 @@ h1 em{{font-style:italic;color:#7b6a52}}
 <div class="hd"><div class="k">{kicker}</div><h1>{head}</h1></div>
 <div class="rows">{rows}</div><div class="ft">dryandcosy.com</div></div></body></html>"""
 
+V4_BASE = """html,body{margin:0;width:1000px;height:1500px}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;background:#f3eee6;color:#2b2724;font-family:'Jost',sans-serif;box-sizing:border-box}
+.k{font:500 19px/1 'Jost';letter-spacing:.32em;text-transform:uppercase;color:#9a8466}
+h1{font:500 var(--hs)/1 'Cormorant Garamond',serif;margin:0;letter-spacing:-.005em;text-wrap:balance}
+h1 em{font-style:italic;color:#7b6a52}
+.u{font:500 18px/1 'Jost';letter-spacing:.32em;text-transform:uppercase;color:#9a8466}
+img{display:block;object-fit:cover}"""
+
+V4EDIT = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.ph{{position:absolute;inset:0;width:100%;height:100%}}
+.pin::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,16,12,0) 45%,rgba(20,16,12,.55) 100%)}}
+.cap{{position:absolute;left:70px;right:70px;bottom:78px;z-index:1;color:#fbf8f3;text-align:center}}
+.cap .k{{color:#efe4d2}} .cap h1{{color:#fff;margin-top:20px}} .cap h1 em{{color:#f3e6cf}}
+.cap .line{{width:60px;height:1px;background:#efe4d2;margin:26px auto 0}}
+.cap p{{font:400 25px/1.5 'Jost';margin:22px auto 0;max-width:720px;color:#f5eee4}}
+.cap .u{{color:#efe4d2;margin-top:30px}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<img class="ph" src="{img}"><div class="cap"><div class="k">{kicker}</div><h1>{head}</h1><div class="line"></div>{sub}<div class="u">dryandcosy.com</div></div></div></body></html>"""
+
+V4GRID = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{padding:40px}}
+.g{{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr auto 1fr;gap:16px;height:100%}}
+.g img{{width:100%;height:100%}}
+.mid{{grid-column:1/3;text-align:center;padding:30px 0 26px}}
+.mid h1{{margin-top:14px}} .mid p{{font:400 23px/1.4 'Jost';color:#6d655c;margin:14px 0 0}}
+</style></head><body><div class="pin" style="--hs:{size}px"><div class="g">
+<img src="{i0}"><img src="{i1}"><div class="mid"><div class="k">{kicker}</div><h1>{head}</h1>{sub}</div><img src="{i2}"><img src="{i3}"></div></div></body></html>"""
+
+V4SHOP = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{display:flex;flex-direction:column}}
+.ph{{width:100%;height:760px}}
+.b{{flex:1;padding:44px 54px 40px;display:flex;flex-direction:column}}
+.b h1{{margin-top:14px}}
+.items{{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px;flex:1}}
+.it{{background:#fbf8f3;border:1px solid #e3dbcf;display:flex;flex-direction:column;align-items:center;padding:18px 14px 20px}}
+.it .im{{flex:1;width:100%;display:grid;place-items:center;background:#fff}}
+.it .im img{{width:82%;height:82%;object-fit:contain}}
+.it b{{font:italic 600 30px/1.1 'Cormorant Garamond';margin-top:16px;text-align:center}}
+.it span{{font:400 18px/1.3 'Jost';color:#8a8177;margin-top:6px;text-align:center}}
+.b .u{{text-align:center;margin-top:24px}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<img class="ph" src="{img}"><div class="b"><div class="k">{kicker}</div><h1>{head}</h1><div class="items">{items}</div><div class="u">dryandcosy.com</div></div></div></body></html>"""
+
+V4STEPS = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
+.pin{{display:flex;flex-direction:column}}
+.ph{{width:100%;height:600px}}
+.b{{flex:1;padding:50px 64px 40px;display:flex;flex-direction:column}}
+.b h1{{margin-top:14px}}
+ol{{list-style:none;padding:0;margin:30px 0 0;flex:1;display:flex;flex-direction:column;justify-content:space-around}}
+li{{display:grid;grid-template-columns:76px 1fr;align-items:baseline;border-top:1px solid #ddd3c5;padding-top:14px}}
+li i{{font:italic 500 44px/1 'Cormorant Garamond';color:#9a8466;font-style:italic}}
+li b{{font:500 27px/1.3 'Jost';color:#2b2724}} li span{{display:block;font:400 20px/1.35 'Jost';color:#8a8177;margin-top:4px}}
+.b .u{{text-align:center;margin-top:20px}}
+</style></head><body><div class="pin" style="--hs:{size}px">
+<img class="ph" src="{img}"><div class="b"><div class="k">{kicker}</div><h1>{head}</h1><ol>{steps}</ol><div class="u">dryandcosy.com</div></div></div></body></html>"""
+
 CATALOGUE = {x["id"]: x for x in yaml.safe_load((ROOT / "products.yaml").read_text())["products"]}
 
 def pimg(pid):
@@ -246,6 +302,20 @@ def fmt_head(p):
 def page_html(p):
     st = p.get("style")
     words = len((p["head"] + " " + (p.get("tail") or "")).split())
+    if st in ("v4edit", "v4grid", "v4shop", "v4steps"):
+        size = p.get("size") or (96 if words <= 4 else 82 if words <= 6 else 70)
+        sub = f"<p>{html.escape(p['sub'])}</p>" if p.get("sub") else ""
+        kw = dict(fonts=V4_FONTS, base=V4_BASE, size=size, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p))
+        if st == "v4edit":
+            return V4EDIT.format(img=html.escape(p["img"]), sub=sub, **kw)
+        if st == "v4grid":
+            ims = [html.escape(x) for x in p["imgs"]]
+            return V4GRID.format(i0=ims[0], i1=ims[1], i2=ims[2], i3=ims[3], sub=sub, **kw)
+        if st == "v4shop":
+            items = "".join(f'<div class="it"><div class="im"><img src="{pimg(pid)}"></div><b>{html.escape(n)}</b><span>{html.escape(w)}</span></div>' for pid, n, w in p["items"])
+            return V4SHOP.format(img=html.escape(p["img"]), items=items, **kw)
+        steps = "".join(f'<li><i>0{i+1}</i><div><b>{html.escape(a)}</b><span>{html.escape(b)}</span></div></li>' for i, (a, b) in enumerate(p["steps"]))
+        return V4STEPS.format(img=html.escape(p["img"]), steps=steps, **kw)
     if st == "v4recipe":
         rows = "".join(f'<div class="r"><img src="{html.escape(r["img"])}"><div class="t"><h2>{html.escape(r["name"])}</h2><ul>' + "".join(f"<li>{html.escape(x)}</li>" for x in r["list"]) + "</ul>" + (f'<p>{html.escape(r["note"])}</p>' if r.get("note") else "") + "</div></div>" for r in p["rows"])
         return V4RECIPE.format(fonts=V4_FONTS, size=84 if words <= 5 else 72, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p), rows=rows)
