@@ -114,7 +114,7 @@ WORD = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .u{{position:absolute;left:0;right:0;bottom:64px;text-align:center;z-index:1;font:500 21px/1 'Hanken Grotesk';letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.8)}}
 </style></head><body><div class="pin {pos}">
 <img class="ph" src="https://images.unsplash.com/{photo}?auto=format&fit=crop&w=1000&h=1500&q=90">
-<div class="w"><h1>{word}</h1><div class="m">{meta}</div><p>{definition}</p></div><div class="u">dryandcosy.com</div></div></body></html>"""
+<div class="w"><h1 style="font-size:{ws}px">{word}</h1><div class="m">{meta}</div><p>{definition}</p></div><div class="u">dryandcosy.com</div></div></body></html>"""
 
 COSTS = """<!doctype html><html><head><meta charset="utf-8">{fonts}<style>{base}
 .pin{{padding:84px 72px 60px;box-sizing:border-box;display:flex;flex-direction:column}}
@@ -357,7 +357,7 @@ def page_html(p):
                 f'img{{width:1000px;height:1500px;object-fit:cover;display:block}}</style></head><body>'
                 f'<img src="https://images.unsplash.com/{p["photo"]}?auto=format&fit=crop&w=1000&h=1500&q=92"></body></html>')
     if st == "word":
-        return WORD.format(fonts=FONTS, base=BASE_CSS, pos=p.get("pos", ""), photo=p["photo"], word=html.escape(p["head"]),
+        return WORD.format(fonts=FONTS, base=BASE_CSS, pos=p.get("pos", ""), photo=p["photo"], word=html.escape(p["head"]), ws=min(168, int(800/(len(p["head"])*0.5))),
                            meta=html.escape(p.get("meta", "")), definition=html.escape(p.get("definition", "")))
     if st == "product":
         stats = "".join(f"<div><b>{html.escape(str(a))}</b><span>{html.escape(b)}</span></div>" for a, b in (p.get("stats") or []))
