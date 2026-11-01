@@ -58,3 +58,8 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Post: fetch('/resource/PinResource/create/') with X-CSRFToken, source_url "/pin-creation-tool/".
 - Repin: fetch('/resource/RepinResource/create/') data {options:{board_id,pin_id,description:"",link:"",title:"",is_buyable_pin:false,carousel_slot_index:0}}, source_url "/pin/<id>/".
 - Search: GET /resource/BaseSearchResource/get/ options {query, scope:'pins', page_size:25}, header X-Pinterest-Pws-Handler 'www/search/[scope].js'.
+
+## Winner (1 Nov)
+- WORD pins win by far: Hygge 139 views / 8 saves, Hiraeth 61 / 2 saves, vs ~10 views for everything else. Second best: dark moody photo + serif headline (28 views).
+- Batch 2 of 10 word pins scheduled 5-9 Nov (2/day, 1 linked, 1 no link). Long words auto-shrink (ws in make_pins.py).
+- Next: more word pins (Irish/Scottish/Nordic cosy words), dark moody photos, centred or low text.
