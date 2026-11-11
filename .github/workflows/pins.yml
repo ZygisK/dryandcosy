@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install playwright pyyaml pillow && python -m playwright install --with-deps chromium
+      - run: pip install playwright pyyaml pillow && (python -m playwright install chromium && python -m playwright install-deps chromium) || python -m playwright install chromium
       - run: python ops/fetch_assets.py
       - run: python make_pins.py ${{ inputs.force && '--force' || '' }}
       - name: Commit rendered pins
