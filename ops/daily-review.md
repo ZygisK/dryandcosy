@@ -63,3 +63,6 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - WORD pins win by far: Hygge 139 views / 8 saves, Hiraeth 61 / 2 saves, vs ~10 views for everything else. Second best: dark moody photo + serif headline (28 views).
 - Batch 2 of 10 word pins scheduled 5-9 Nov (2/day, 1 linked, 1 no link). Long words auto-shrink (ws in make_pins.py).
 - Next: more word pins (Irish/Scottish/Nordic cosy words), dark moody photos, centred or low text.
+
+## Browser (user, 11 Nov)
+- Always post from the user's 24/7 Windows PC Chrome: deviceId 4967f73a-3d1b-476e-96bd-341d524ee2b0 (connected via switch_browser, labelled "PC"; shows as "Browser 2" in lists). If tools say several browsers are connected, call select_browser with this deviceId. Never use the other Chrome (12885a49-..., its tab groups break) and never the Mac.
