@@ -66,3 +66,5 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 
 ## Browser (user, 11 Nov)
 - Always post from the user's 24/7 Windows PC Chrome: deviceId 4967f73a-3d1b-476e-96bd-341d524ee2b0 (connected via switch_browser, labelled "PC"; shows as "Browser 2" in lists). If tools say several browsers are connected, call select_browser with this deviceId. Never use the other Chrome (12885a49-..., its tab groups break) and never the Mac.
+
+## Batch 3 (11 Nov): 5/day test, 12-14 Nov. 3 linked buyer-intent photo pins + 2 no-link (word/aesthetic) per day. Decision point 1 Dec: under 10k monthly impressions or under 30 outbound clicks -> stop or pivot (Etsy prints).
