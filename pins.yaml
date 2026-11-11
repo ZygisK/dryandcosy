@@ -1903,3 +1903,163 @@
   alt: 'Mys meaning: the Swedish word for getting cosy. To get cosy and content. Candles lit, a good book, nowhere to be.'
   status: posted
   pos: low
+
+# --- Batch 3 (11 Nov): 5/day test. Buyer-intent photo pins + word + aesthetic no-link.
+- slug: ph-dry-fast
+  photo: photo-1501127122-f385ca6ddd9d
+  head: Dry clothes indoors
+  tail: in a day, not three
+  url: /dry-clothes-indoors-fast/
+  board: Drying Clothes Indoors
+  title: How to dry clothes indoors fast in winter, in a day not three
+  description: 'How to dry clothes indoors fast in winter without a tumble dryer: spin twice, space the load, one warm room with the door shut and a dehumidifier or heated airer. Drying clothes indoors tips for UK and Irish homes that get washing dry in a day, not three. Save this for wash day.'
+  alt: How to dry clothes indoors fast in winter, in a day not three. Dry clothes indoors in a day, not three.
+  status: approved
+- slug: ph-where-dry
+  photo: photo-1636886407345-bc0007e90bbc
+  head: Where to dry washing
+  tail: the best and worst spots
+  url: /where-to-dry-washing-indoors/
+  board: Drying Clothes Indoors
+  title: 'Where to dry washing indoors: the best and worst spots'
+  description: 'Where to dry washing indoors in winter: the best spots for fast drying and the worst spots that cause damp and mould. Drying clothes indoors ideas for flats and small homes in the UK and Ireland, from the bathroom to the box room. Save this for rainy wash days.'
+  alt: 'Where to dry washing indoors: the best and worst spots. Where to dry washing the best and worst spots.'
+  status: approved
+- slug: ph-washing-smells
+  photo: photo-1585314293845-4db3b9d0c6e9
+  head: Washing smells damp?
+  tail: fix musty laundry for good
+  url: /washing-smells-damp/
+  board: Drying Clothes Indoors
+  title: Why does my washing smell damp? How to fix musty laundry
+  description: Why does my washing smell damp after drying indoors? Slow drying, a dirty machine and overloading are the usual causes. How to fix musty laundry for good with a hotter clean cycle, less detergent, an extra spin and faster drying. Laundry tips for UK and Irish homes. Save this.
+  alt: Why does my washing smell damp? How to fix musty laundry. Washing smells damp? fix musty laundry for good.
+  status: approved
+- slug: ph-heated-airer
+  photo: photo-1635716991409-00154370338f
+  head: Are heated airers
+  tail: worth it?
+  url: /heated-clothes-airer-guide/
+  board: Heated Airers & Clothes Airers
+  title: Are heated clothes airers worth it? Running costs and best picks
+  description: Are heated clothes airers worth it? What a heated airer costs to run per hour, how fast it dries a load, why a cover makes all the difference and the heated airers worth buying in the UK and Ireland. A cheap alternative to a tumble dryer. Save this before you buy.
+  alt: Are heated clothes airers worth it? Running costs and best picks. Are heated airers worth it?.
+  status: approved
+- slug: ph-dehum-cost
+  photo: photo-1522841147685-ec3230fd52f9
+  head: What a dehumidifier
+  tail: really costs to run
+  url: /dehumidifier-running-cost/
+  board: Dehumidifiers for Damp Homes
+  title: How much does a dehumidifier cost to run? UK and Ireland
+  description: How much does a dehumidifier cost to run per hour and per day in the UK and Ireland? Real running costs for compressor and desiccant dehumidifiers, how to run one cheaply and which type suits a cold, damp home. Save this before you switch it on.
+  alt: How much does a dehumidifier cost to run? UK and Ireland. What a dehumidifier really costs to run.
+  status: approved
+- slug: ph-bedroom-condensation
+  photo: photo-1633369918397-ea852fe4e091
+  head: Wet bedroom windows?
+  tail: why it happens, how to stop it
+  url: /condensation-in-bedroom/
+  board: Condensation & Damp Fixes
+  title: 'Condensation in the bedroom: why it happens and how to stop it'
+  description: 'Condensation in the bedroom every morning? Why bedroom windows get wet overnight, and how to stop it: a little ventilation, steady low heat, furniture off outside walls and a quiet dehumidifier. Bedroom condensation fixes for renters and homeowners. Save this.'
+  alt: 'Condensation in the bedroom: why it happens and how to stop it. Wet bedroom windows? why it happens, how to stop it.'
+  status: approved
+- slug: ph-mould-walls
+  photo: photo-1520971434558-0b482cb0013f
+  head: Mould on walls?
+  tail: get rid of it for good
+  url: /mould-on-walls/
+  board: Black Mould Prevention
+  title: 'Mould on walls: how to get rid of it and stop it coming back'
+  description: 'How to get rid of mould on walls and stop it coming back: clean it safely, find the cause, then fix the damp with ventilation, steady heat and a dehumidifier. Black mould on walls tips for UK and Irish homes and renters. Save this for later.'
+  alt: 'Mould on walls: how to get rid of it and stop it coming back. Mould on walls? get rid of it for good.'
+  status: approved
+- slug: ph-towels
+  photo: photo-1650481093978-6cc58e4649f4
+  head: Soft towels, dried indoors
+  tail: never damp or musty
+  url: /dry-towels-indoors/
+  board: Drying Clothes Indoors
+  title: How to dry towels indoors so they are soft, not damp and musty
+  description: 'How to dry towels indoors so they come out soft, not stiff, damp or musty: an extra spin, a good shake, hang them open, never folded over a radiator, and dry them in one warm room. Drying towels indoors tips for winter. Save this for wash day.'
+  alt: How to dry towels indoors so they are soft, not damp and musty. Soft towels, dried indoors never damp or musty.
+  status: approved
+- slug: ph-spin-dryer
+  photo: photo-1622473590925-e3616c0a41bf
+  head: The cheapest way
+  tail: to dry clothes faster indoors
+  url: /spin-dryer-guide/
+  board: Drying Clothes Indoors
+  title: Is a spin dryer worth it? The cheapest way to dry clothes faster
+  description: Is a spin dryer worth it? A spin dryer pulls far more water out of your washing in a few minutes for pennies, so clothes dry indoors in hours, not days. The cheapest way to dry clothes faster indoors in UK and Irish homes without a tumble dryer. Save this.
+  alt: Is a spin dryer worth it? The cheapest way to dry clothes faster. The cheapest way to dry clothes faster indoors.
+  status: approved
+- slug: ph-wash-day
+  photo: photo-1712123486120-c617559e95a7
+  head: Wash day,
+  tail: slow and simple
+  url: ''
+  board: Cosy Winter Home
+  title: Wash day, slow and simple
+  description: Wash day, slow and simple. Linen on the line, a calm routine and a home that smells clean. Slow living and simple home aesthetic.
+  alt: Wash day, slow and simple. Wash day, slow and simple.
+  status: approved
+- slug: ph-rain-glass
+  photo: photo-1494714198743-ba35ce177d03
+  head: Rain on the glass,
+  tail: washing on the airer
+  url: ''
+  board: Cosy Winter Home
+  title: Rain on the glass, washing on the airer
+  description: Rain on the glass, washing on the airer and the kettle on. A rainy day at home in winter, calm and cosy.
+  alt: Rain on the glass, washing on the airer. Rain on the glass, washing on the airer.
+  status: approved
+- slug: ph-fresh-linen
+  photo: photo-1638232928539-6e91c47ddec5
+  head: Fresh linen,
+  tail: dried indoors, never damp
+  url: ''
+  board: Cosy Winter Home
+  title: Fresh linen, dried indoors, never damp
+  description: Fresh linen bedding, dried indoors and never damp. A calm, clean bedroom and a simple winter home routine.
+  alt: Fresh linen, dried indoors, never damp. Fresh linen, dried indoors, never damp.
+  status: approved
+- slug: word-cluthar
+  style: word
+  photo: photo-1772968699685-4093f1c0d34d
+  head: Cluthar
+  meta: (adj.) Irish, KLUH-hur
+  definition: Snug, sheltered and warm. The feeling of being tucked in while the weather does its worst outside.
+  url: ''
+  board: Cosy Winter Home
+  title: 'Cluthar meaning: the Irish word for snug and sheltered'
+  description: 'Cluthar is the Irish word for snug, sheltered and warm: tucked in by the window while the rain does its worst outside. Beautiful words for a cosy home, slow living and hygge style winter evenings. Cosy home aesthetic and words to live by. Save this word for your cosy home board.'
+  alt: 'Cluthar meaning: the Irish word for snug and sheltered. Snug, sheltered and warm. The feeling of being tucked in while the weather does its worst outside.'
+  status: approved
+  pos: low
+- slug: word-hyggekrog
+  style: word
+  photo: photo-1685106908660-4f603efcdf68
+  head: Hyggekrog
+  meta: (n.) Danish, HOO-geh-krow
+  definition: A cosy little nook made for curling up. Cushions, a blanket, a window and somewhere to read.
+  url: ''
+  board: Cosy Winter Home
+  title: 'Hyggekrog meaning: the Danish word for a cosy little nook'
+  description: 'Hyggekrog is the Danish word for a cosy nook: a window seat with cushions, a soft blanket and a good book. Every home needs one. Beautiful words for a cosy home, slow living and hygge style winter evenings. Cosy home aesthetic and words to live by. Save this word for your cosy home board.'
+  alt: 'Hyggekrog meaning: the Danish word for a cosy little nook. A cosy little nook made for curling up. Cushions, a blanket, a window and somewhere to read.'
+  status: approved
+  pos: low
+- slug: word-cosagach
+  style: word
+  photo: photo-1729503019194-f3b46167904a
+  head: Cosagach
+  meta: (adj.) Scottish Gaelic, KOSS-uh-gakh
+  definition: Snug and sheltered, like a warm room looking out at a grey, misty day.
+  url: ''
+  board: Cosy Winter Home
+  title: 'Cosagach meaning: the Scottish Gaelic word for snug and sheltered'
+  description: 'Cosagach is the Scottish Gaelic word for snug and sheltered: a warm room looking out at a misty, grey day. Beautiful words for a cosy home, slow living and hygge style winter evenings. Cosy home aesthetic and words to live by. Save this word for your cosy home board.'
+  alt: 'Cosagach meaning: the Scottish Gaelic word for snug and sheltered. Snug and sheltered, like a warm room looking out at a grey, misty day.'
+  status: approved
