@@ -6,6 +6,7 @@ updated: 31 October 2026
 category: Heating
 cats: [heating]
 image: photo-1601617956235-c97e358d054f
+top_pick: heated-throw
 slug: hygge-meaning
 ---
 

@@ -6,6 +6,7 @@ updated: 30 October 2026
 category: Heating
 cats: [heating]
 image: photo-1734127317339-ece0bb42738e
+top_pick: heated-throw
 slug: rainy-day-cosy-home
 ---
 

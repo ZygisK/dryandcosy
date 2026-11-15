@@ -6,6 +6,7 @@ updated: 31 October 2026
 category: Heating
 cats: [heating, draughts]
 image: photo-1696814543693-31fcf942ccb7
+top_pick: heated-throw
 slug: cosy-living-room-ideas
 ---
 

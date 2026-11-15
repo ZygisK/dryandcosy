@@ -6,6 +6,7 @@ updated: 23 October 2026
 category: Heating
 cats: [heating, draughts, damp]
 image: photo-1501186758051-167ca3c0fde8
+top_pick: thermal-curtains
 slug: winter-home-checklist
 ---
 

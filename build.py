@@ -93,6 +93,26 @@ def inline_product(m):
     return (f'<div class="pick{" with-img" if img else ""}">{img}<div><span class="for">Best for {e(p["best"].lower())}</span><h4>{e(title(p))}</h4>{take}</div>'
             f'<a class="btn line" href="{amazon_url(p)}" rel="sponsored nofollow noopener" target="_blank">{label(p)}</a></div>')
 
+def top_pick(meta, body):
+    """Big 'Our top pick' box at the top of a guide plus a sticky buy bar: the guide's first product (or meta top_pick)."""
+    pid = meta.get("top_pick")
+    if not pid:
+        m = re.search(r'\[\[product id="([^"]+)"', body)
+        pid = m.group(1) if m else None
+    p = PRODUCTS.get(pid) if pid else None
+    if not p:
+        return "", ""
+    url = amazon_url(p)
+    img = f'<a class="tp-img" href="{url}" rel="sponsored nofollow noopener" target="_blank">{pimg(p, 400)}</a>' if p.get("img") else ""
+    take = f'<p class="tp-take">{e(p["take"])}</p>' if p.get("take") else f'<p class="tp-take">Best for {e(p["best"].lower())}.</p>'
+    box = (f'<aside class="toppick">{img}<div class="tp-body"><span class="tp-label">Our top pick</span>'
+           f'<h2 class="tp-name">{e(title(p))}</h2>{take}'
+           f'<a class="tp-btn" href="{url}" rel="sponsored nofollow noopener" target="_blank">Check today\'s price on Amazon</a>'
+           f'<span class="tp-note">Paid link. Prices change often, check the latest on Amazon.</span></div></aside>')
+    bar = (f'<div class="buybar"><span class="bb-name">Top pick: {e(title(p))}</span>'
+           f'<a class="bb-btn" href="{url}" rel="sponsored nofollow noopener" target="_blank">See price</a></div>')
+    return box, bar
+
 def render_md(body):
     body = re.sub(r"\[\[product (.*?)\]\]", inline_product, body)
     out = markdown.markdown(body, extensions=["tables", "attr_list", "md_in_html"])
@@ -159,12 +179,14 @@ def build():
         posts.append(meta)
         paras = body.strip().split("\n\n", 1)
         lede, rest = paras[0], (paras[1] if len(paras) > 1 else "")
+        tp_box, tp_bar = top_pick(meta, body)
         hero = f'<div class="article-hero">{photo(meta["image"], 2400, meta["title"], eager=True)}</div>' if meta.get("image") else ""
         art = f"""{hero}<div class="wrap narrow"><article class="article">
 <p class="crumbs"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {e(meta.get('category','Guide'))}</p>
 <h1>{e(meta['title'])}</h1><p class="lede">{e(lede)}</p>
+{tp_box}
 <p class="meta">Updated {e(str(meta.get('updated','')))}. Contains paid links. {DISCLOSURE_LINE}</p>
-{render_md(rest)}</article></div>"""
+{render_md(rest)}</article></div>{tp_bar}"""
         write(f"{meta['slug']}/index.html", layout(f"{meta['title']} | Dry & Cosy", meta.get("description", ""), art, meta["slug"] + "/", og=meta.get("image")))
     posts.sort(key=lambda m: str(m.get("date", "")), reverse=True)
 

@@ -6,6 +6,7 @@ updated: 11 October 2026
 category: Damp & Mould
 cats: [damp, laundry]
 image: photo-1699942681763-d1da9f692489
+top_pick: dehumidifier-compressor
 slug: best-dehumidifiers
 ---
 

@@ -6,6 +6,7 @@ updated: 23 October 2026
 category: Damp & Mould
 cats: [damp, bathroom]
 image: photo-1590611329686-7494753d96e0
+top_pick: dehumidifier-compressor
 slug: dehumidifier-for-bathroom
 ---
 

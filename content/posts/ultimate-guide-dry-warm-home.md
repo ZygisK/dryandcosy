@@ -6,6 +6,7 @@ updated: 19 October 2026
 category: Guides
 cats: [damp, laundry, heating, draughts]
 image: photo-1641232458416-feace752b346
+top_pick: dehumidifier-compressor
 slug: ultimate-guide-dry-warm-home
 ---
 

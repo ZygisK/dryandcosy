@@ -6,6 +6,7 @@ updated: 28 October 2026
 category: Damp & Mould
 cats: [damp]
 image: photo-1586205009278-cf9854b97d0c
+top_pick: dehumidifier-quiet
 slug: condensation-in-bedroom
 ---
 

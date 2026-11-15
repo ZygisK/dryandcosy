@@ -6,6 +6,7 @@ updated: 25 October 2026
 category: Heating
 cats: [heating]
 image: photo-1632489376751-18a62c663af8
+top_pick: heated-throw
 slug: hygge-winter-home-ideas
 ---
 
