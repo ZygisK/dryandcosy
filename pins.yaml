@@ -2063,3 +2063,145 @@
   description: 'Cosagach is the Scottish Gaelic word for snug and sheltered: a warm room looking out at a misty, grey day. Beautiful words for a cosy home, slow living and hygge style winter evenings. Cosy home aesthetic and words to live by. Save this word for your cosy home board.'
   alt: 'Cosagach meaning: the Scottish Gaelic word for snug and sheltered. Snug and sheltered, like a warm room looking out at a grey, misty day.'
   status: posted
+
+# --- Batch 4 (15 Nov): editorial (v4edit left) with new Higgsfield photos. User: these convert best.
+- slug: e2-heated-throw
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_030d9d80-20e8-47bc-b3b3-f480a81e2ba8.png
+  kicker: Warm for pennies
+  head: How I stay warm
+  tail: on the sofa all evening
+  sub: A heated throw, a lamp, and the heating down a degree.
+  url: /electric-blanket-vs-heated-throw/
+  board: Keep Your House Warm
+  title: 'Electric blanket vs heated throw: which keeps you warmer for less?'
+  description: 'How I stay warm on the sofa all winter for pennies: a heated throw costs a few pence an hour, far less than heating the whole room. Electric blanket vs heated throw compared, running costs and which to buy first for a cosy, cheap winter at home. Save this.'
+  alt: How I stay warm on the sofa all evening. A heated throw, a lamp, and the heating down a degree.
+  status: approved
+- slug: e2-bedroom-windows
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_b017db13-e447-4e73-83f6-50dbb8787b9d.png
+  kicker: Renter friendly
+  head: How I stopped
+  tail: my bedroom windows dripping
+  sub: A small dehumidifier, the door open an inch, no drilling.
+  url: /stop-condensation-renters/
+  board: Condensation & Damp Fixes
+  title: Condensation on windows hacks for renters, no drilling
+  description: 'How I stopped condensation on my bedroom windows without drilling or losing my deposit: a small dehumidifier, steady low heat, a little ventilation and furniture off the walls. Renter friendly condensation hacks for UK and Irish homes. Save this.'
+  alt: How I stopped my bedroom windows dripping. A small dehumidifier, the door open an inch, no drilling.
+  status: approved
+- slug: e2-small-airer
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_39146fd0-c418-4ed0-93ae-da80bacf81cb.png
+  kicker: Small home laundry
+  head: How I dry washing
+  tail: with no space to spare
+  sub: A slim airer in one warm room, folded away by evening.
+  url: /clothes-airer-ideas-small-spaces/
+  board: Drying Clothes Indoors
+  title: Clothes airer ideas for small spaces that fold away
+  description: 'How I dry washing indoors in a small flat with no utility room: a slim clothes airer in one warm room, door shut, folded away by evening. Clothes airer ideas for small spaces that fold flat or hang over a door. Save this for wash day.'
+  alt: How I dry washing with no space to spare. A slim airer in one warm room, folded away by evening.
+  status: approved
+- slug: e2-curtains
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_7471fab9-ae5b-4602-b880-225fa86556bd.png
+  kicker: Keep the heat in
+  head: The first thing
+  tail: I do at dusk
+  sub: Thermal curtains closed the moment it gets dark.
+  url: /window-insulation-ideas/
+  board: Keep Your House Warm
+  title: 'How to keep heat in through windows: cheap window insulation ideas'
+  description: 'The first thing I do at dusk in winter: close the thermal curtains. Cheap window insulation ideas that keep the heat in, from thermal curtains and window film to draught seal strips, for cosy, warmer rooms in UK and Irish homes. Save this.'
+  alt: The first thing I do at dusk. Thermal curtains closed the moment it gets dark.
+  status: approved
+- slug: e2-hallway
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_7bb0b957-e343-4649-a669-b94d8af85c57.png
+  kicker: The cheapest fix
+  head: How I fixed
+  tail: our freezing hallway
+  sub: A draught excluder at the door. The cold stays outside.
+  url: /front-door-draught-proofing/
+  board: Draught Proofing Ideas
+  title: 'Front door draught proofing: 6 cheap fixes that keep the heat in'
+  description: 'How I fixed our freezing hallway for a few pounds: a draught excluder, a brush strip and a letterbox cover on the front door. Front door draught proofing ideas that keep the heat in, renter friendly and cheap. Save this before the cold sets in.'
+  alt: How I fixed our freezing hallway. A draught excluder at the door. The cold stays outside.
+  status: approved
+- slug: e2-bathroom-dry
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132519_edda5fb1-f18a-4b2c-afb4-873b1f74e821.png
+  kicker: Mould free at last
+  head: How I keep
+  tail: my bathroom dry
+  sub: A small dehumidifier after every shower. No more black spots.
+  url: /dehumidifier-for-bathroom/
+  board: Dehumidifiers for Damp Homes
+  title: The best dehumidifier for a bathroom, and when you need one
+  description: 'How I keep my bathroom dry and mould free: a compact dehumidifier after every shower, towels rolled in a basket and the mirror clear. The best dehumidifier for a bathroom and when you actually need one. Save this.'
+  alt: How I keep my bathroom dry. A small dehumidifier after every shower. No more black spots.
+  status: approved
+- slug: e2-warm-bed
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_7c78bb9f-8490-4d4c-ba7c-a75ee1d10676.png
+  kicker: Cold night, warm bed
+  head: A warm bed
+  tail: on a cold night
+  sub: Lamp on, blanket folded, heating off.
+  url: ''
+  board: Cosy Winter Home
+  title: A warm bed on a cold night
+  description: A warm bed on a cold night. Linen bedding, a wool blanket and a soft bedside lamp. Cosy winter bedroom aesthetic.
+  alt: A warm bed on a cold night. Lamp on, blanket folded, heating off.
+  status: approved
+- slug: e2-kettle-on
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_52442ef3-2bfc-4d03-b49a-ddcb418d387f.png
+  kicker: Rainy evenings
+  head: Rain outside,
+  tail: kettle on
+  sub: A candle, a teapot and nowhere to be.
+  url: ''
+  board: Cosy Winter Home
+  title: Rain outside, kettle on
+  description: Rain on the window, the kettle on and a candle lit. A slow, cosy winter evening in the kitchen.
+  alt: Rain outside, kettle on. A candle, a teapot and nowhere to be.
+  status: approved
+- slug: e2-reading-corner
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_e8571d21-2ada-48d8-8ed8-cd652c38a5dc.png
+  kicker: Winter reading
+  head: My favourite
+  tail: corner in winter
+  sub: A wool armchair, a knitted throw and a stack of books.
+  url: ''
+  board: Cosy Winter Home
+  title: My favourite corner in winter
+  description: 'My favourite corner in winter: a wool armchair, a chunky knitted throw, a reading lamp and a stack of books. Cosy reading nook inspiration.'
+  alt: My favourite corner in winter. A wool armchair, a knitted throw and a stack of books.
+  status: approved
+- slug: e2-early-nights
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132519_3cf4fab3-2aaf-4a79-a835-52eff6e6e33a.png
+  kicker: November
+  head: Early nights,
+  tail: slow mornings
+  sub: A candle, a book and hot chocolate by the bed.
+  url: ''
+  board: Cosy Winter Home
+  title: Early nights, slow mornings
+  description: 'Early nights in November: a candle, a book and hot chocolate by the bed. Slow living and a cosy winter bedroom aesthetic.'
+  alt: Early nights, slow mornings. A candle, a book and hot chocolate by the bed.
+  status: approved
