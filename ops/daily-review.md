@@ -68,3 +68,8 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Always post from the user's 24/7 Windows PC Chrome: deviceId 4967f73a-3d1b-476e-96bd-341d524ee2b0 (connected via switch_browser, labelled "PC"; shows as "Browser 2" in lists). If tools say several browsers are connected, call select_browser with this deviceId. Never use the other Chrome (12885a49-..., its tab groups break) and never the Mac.
 
 ## Batch 3 (11 Nov): 5/day test, 12-14 Nov. 3 linked buyer-intent photo pins + 2 no-link (word/aesthetic) per day. Decision point 1 Dec: under 10k monthly impressions or under 30 outbound clicks -> stop or pivot (Etsy prints).
+
+## Format ranking (15 Nov, user + analytics)
+- 1. Editorial v4edit (pos left) with Higgsfield z_image photos and first-person "How I..." headlines: hygge 140, hot water bottle 136, laundry corner 81. User: "these were converting the most". Make more of these.
+- 2. Product round-up "3 best X for UK homes" (332-752). 3. Word pins (200+). Weakest: Unsplash stock photo + headline (ph-*), beige grids.
+- Batch 4 (10 e2-* editorial pins) scheduled 16-17 Nov, 5/day. Higgsfield credits used up (free plan); Plus trial needed for more.
