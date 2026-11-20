@@ -73,3 +73,9 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - 1. Editorial v4edit (pos left) with Higgsfield z_image photos and first-person "How I..." headlines: hygge 140, hot water bottle 136, laundry corner 81. User: "these were converting the most". Make more of these.
 - 2. Product round-up "3 best X for UK homes" (332-752). 3. Word pins (200+). Weakest: Unsplash stock photo + headline (ph-*), beige grids.
 - Batch 4 (10 e2-* editorial pins) scheduled 16-17 Nov, 5/day. Higgsfield credits used up (free plan); Plus trial needed for more.
+
+## Strategy change (20 Nov, user: "do whatever you think is best")
+- No-link rule DROPPED. Every pin links somewhere: aesthetic photos -> shop-the-look pages (/look-*/, cat home), practical pins -> guides with the top-pick box.
+- Reason: best pin "Coming home to this" (1,889 views) had no link; outbound click rate 0.13%.
+- Pinterest does NOT allow adding/changing links on existing pins (401 "You don't have permission to change this link"). Re-post as fresh pins with new headline instead (st-* pins).
+- 16 home decor products added (cat home). 12 shop-the-look pages built. Batch 5 (12 st-* pins) scheduled 21-23 Nov.
