@@ -11,6 +11,8 @@ slug: look-open-shelves
 
 Open shelves only look calm when everything on them matches. Glass, wood, stoneware and linen in soft natural tones.
 
+<img class="look-img" src="/img/look-open-shelves.jpg" alt="Shop the Look: Calm Open Kitchen Shelves" loading="lazy">
+
 ## What's in the photo
 
 [[product id="oak-shelves"]]

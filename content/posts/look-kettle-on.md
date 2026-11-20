@@ -11,6 +11,8 @@ slug: look-kettle-on
 
 Rain on the window, the kettle on and a candle lit. A slow, cosy winter evening in the kitchen.
 
+<img class="look-img" src="/img/look-kettle-on.jpg" alt="Shop the Look: Rain Outside, Kettle On" loading="lazy">
+
 ## What's in the photo
 
 [[product id="cream-teapot"]]

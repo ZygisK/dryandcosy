@@ -11,6 +11,8 @@ slug: look-early-nights
 
 Early nights in November: a candle, a book and hot chocolate by the bed. Small comforts that make the long dark evenings something to look forward to.
 
+<img class="look-img" src="/img/look-early-nights.jpg" alt="Shop the Look: Early Nights, Slow Mornings" loading="lazy">
+
 ## What's in the photo
 
 [[product id="linen-lamp"]]

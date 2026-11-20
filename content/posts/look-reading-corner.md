@@ -11,6 +11,8 @@ slug: look-reading-corner
 
 A wool armchair, a knitted throw, a reading lamp and a stack of books. Every home needs one corner like this for winter.
 
+<img class="look-img" src="/img/look-reading-corner.jpg" alt="Shop the Look: My Favourite Winter Reading Corner" loading="lazy">
+
 ## What's in the photo
 
 [[product id="knit-throw"]]

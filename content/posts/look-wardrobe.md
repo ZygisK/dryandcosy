@@ -11,6 +11,8 @@ slug: look-wardrobe
 
 Matching hangers and a few natural boxes make a wardrobe look calm every time you open it, and a couple of small things keep it smelling fresh.
 
+<img class="look-img" src="/img/look-wardrobe.jpg" alt="Shop the Look: A Calm, Fresh Wardrobe" loading="lazy">
+
 ## What's in the photo
 
 [[product id="wooden-hangers"]]

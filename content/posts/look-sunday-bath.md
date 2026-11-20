@@ -11,6 +11,8 @@ slug: look-sunday-bath
 
 Candle lit, warm water, phone in the other room. A bath tray and a few calm details turn an ordinary bath into a weekly ritual.
 
+<img class="look-img" src="/img/look-sunday-bath.jpg" alt="Shop the Look: A Sunday Bath Ritual" loading="lazy">
+
 ## What's in the photo
 
 [[product id="bath-tray"]]

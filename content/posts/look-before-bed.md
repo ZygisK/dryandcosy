@@ -11,6 +11,8 @@ slug: look-before-bed
 
 Lamp on, blanket warm, phone in the other room. A slow ten minutes before bed makes the whole day feel calmer.
 
+<img class="look-img" src="/img/look-before-bed.jpg" alt="Shop the Look: A Calm Winter Bedroom" loading="lazy">
+
 ## What's in the photo
 
 [[product id="linen-lamp"]]

@@ -11,6 +11,8 @@ slug: look-winter-evenings
 
 Fire lit, a heavy throw on the sofa, candles on the table and nowhere to be. You do not need a fireplace to get the feeling, just the right textures and warm light.
 
+<img class="look-img" src="/img/look-winter-evenings.jpg" alt="Shop the Look: Winter Evenings by the Fire" loading="lazy">
+
 ## What's in the photo
 
 [[product id="knit-throw"]]

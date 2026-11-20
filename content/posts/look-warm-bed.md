@@ -11,6 +11,8 @@ slug: look-warm-bed
 
 Lamp on, blanket folded, heating off. A bed that is warm before you get in means the rest of the room can stay cool.
 
+<img class="look-img" src="/img/look-warm-bed.jpg" alt="Shop the Look: A Warm Bed on a Cold Night" loading="lazy">
+
 ## What's in the photo
 
 [[product id="electric-blanket"]]

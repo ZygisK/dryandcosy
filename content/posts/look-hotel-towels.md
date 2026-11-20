@@ -11,6 +11,8 @@ slug: look-hotel-towels
 
 Hotel bathrooms feel calm because every towel matches. One colour, folded the same way, stacked in a basket.
 
+<img class="look-img" src="/img/look-hotel-towels.jpg" alt="Shop the Look: Hotel Towels at Home" loading="lazy">
+
 ## What's in the photo
 
 [[product id="ivory-towels"]]

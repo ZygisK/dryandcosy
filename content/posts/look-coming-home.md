@@ -11,6 +11,8 @@ slug: look-coming-home
 
 The hallway is the first thing you see when you come in from the cold. A few simple pieces make it feel warm and calm instead of cluttered.
 
+<img class="look-img" src="/img/look-coming-home.jpg" alt="Shop the Look: A Warm, Calm Entryway" loading="lazy">
+
 ## What's in the photo
 
 [[product id="peg-rail"]]

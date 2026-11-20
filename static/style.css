@@ -232,3 +232,4 @@ footer a:hover{text-decoration:underline;text-underline-offset:3px}
  .toppick .tp-body{flex:1 1 160px}
  .toppick .tp-name{font-size:20px}
 }
+.article .look-img{display:block;width:100%;max-width:560px;height:auto;margin:10px auto 30px;border-radius:4px}

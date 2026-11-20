@@ -11,6 +11,8 @@ slug: look-rainy-days
 
 A deep window seat, rain on the glass and a blanket you can sink into. Grey Irish and British days are made for this.
 
+<img class="look-img" src="/img/look-rainy-days.jpg" alt="Shop the Look: A Cosy Window Seat for Rainy Days" loading="lazy">
+
 ## What's in the photo
 
 [[product id="linen-cushions"]]
