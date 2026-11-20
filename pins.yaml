@@ -2205,3 +2205,173 @@
   description: 'Early nights in November: a candle, a book and hot chocolate by the bed. Slow living and a cosy winter bedroom aesthetic.'
   alt: Early nights, slow mornings. A candle, a book and hot chocolate by the bed.
   status: posted
+
+# --- Batch 5 (21 Nov): shop-the-look pins, every pin linked (no-link rule dropped).
+- slug: st-coming-home
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220608_60ba4e63-033b-4e06-bc6a-919f2ea08091.png
+  kicker: Shop the look
+  head: A warm, calm
+  tail: entryway
+  sub: Hooks, a basket and a candle by the door. Every piece linked.
+  url: /look-coming-home/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Warm, Calm Entryway'
+  description: 'A warm, calm entryway for winter: wooden coat hooks, a natural doormat, a basket for scarves, dried grasses and a candle by the door. Every piece in the photo, linked. Cosy home inspiration, entryway ideas, hallway decor and coat hooks. Save this for your winter home refresh.'
+  alt: A warm, calm entryway. Hooks, a basket and a candle by the door. Every piece linked.
+  status: approved
+- slug: st-winter-evenings
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220540_e5c921c2-ca97-420f-9429-750d154f0589.png
+  kicker: Shop the look
+  head: Winter evenings,
+  tail: by the fire
+  sub: Chunky knit, linen and candlelight. Every piece linked.
+  url: /look-winter-evenings/
+  board: Cosy Winter Home
+  title: 'Shop the look: Winter Evenings by the Fire'
+  description: 'Cosy winter evening living room ideas: a chunky knit throw, linen cushions, a sheepskin rug and candlelight. Every piece in the photo, linked. Cosy home inspiration, cosy living room ideas and winter decor. Save this for your winter home refresh.'
+  alt: Winter evenings, by the fire. Chunky knit, linen and candlelight. Every piece linked.
+  status: approved
+- slug: st-rainy-days
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220608_cc943900-137e-498c-b36e-5cdaa2af2531.png
+  kicker: Shop the look
+  head: A window seat
+  tail: for rainy days
+  sub: Linen cushions, a knit blanket and a pot of tea. Every piece linked.
+  url: /look-rainy-days/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Cosy Window Seat for Rainy Days'
+  description: 'Rainy day window seat ideas: linen cushions, a chunky knit blanket, a sheepskin and a proper pot of tea. Every piece in the photo, linked. Cosy home inspiration, window seat ideas and rainy day decor. Save this for your winter home refresh.'
+  alt: A window seat for rainy days. Linen cushions, a knit blanket and a pot of tea. Every piece linked.
+  status: approved
+- slug: st-before-bed
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220540_f3c9de97-54e6-4c54-b138-52ec62409da5.png
+  kicker: Shop the look
+  head: A calm
+  tail: winter bedroom
+  sub: Lamp light, natural bedding and a warm throw. Every piece linked.
+  url: /look-before-bed/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Calm Winter Bedroom'
+  description: 'Calm winter bedroom ideas: warm lamp light, natural cotton bedding, a wool throw and an electric blanket. Every piece in the photo, linked. Cosy home inspiration, winter bedroom ideas and cosy bedding. Save this for your winter home refresh.'
+  alt: A calm winter bedroom. Lamp light, natural bedding and a warm throw. Every piece linked.
+  status: approved
+- slug: st-open-shelves
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220717_a698b6c8-e9a4-4b54-9283-5d9c05796060.png
+  kicker: Shop the look
+  head: Calm open
+  tail: kitchen shelves
+  sub: Oak, glass jars, stoneware and linen. Every piece linked.
+  url: /look-open-shelves/
+  board: Cosy Winter Home
+  title: 'Shop the look: Calm Open Kitchen Shelves'
+  description: 'Open kitchen shelf styling ideas: oak floating shelves, glass jars with wooden lids, linen tea towels and stoneware. Every piece in the photo, linked. Cosy home inspiration, open shelf styling and kitchen decor. Save this for your winter home refresh.'
+  alt: Calm open kitchen shelves. Oak, glass jars, stoneware and linen. Every piece linked.
+  status: approved
+- slug: st-sunday-bath
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220656_82e8224f-c57e-4538-a8c4-014c7f0a575a.png
+  kicker: Shop the look
+  head: A Sunday
+  tail: bath ritual
+  sub: A bath tray, a candle and eucalyptus. Every piece linked.
+  url: /look-sunday-bath/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Sunday Bath Ritual'
+  description: 'Spa bath at home ideas: a bamboo bath tray, a candle, soft ivory towels and eucalyptus in the shower. Every piece in the photo, linked. Cosy home inspiration, spa bathroom ideas and bath decor. Save this for your winter home refresh.'
+  alt: A Sunday bath ritual. A bath tray, a candle and eucalyptus. Every piece linked.
+  status: approved
+- slug: st-hotel-towels
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220802_4f3ade93-2a3d-4786-a8e2-7b6880b4e962.png
+  kicker: Shop the look
+  head: Hotel towels
+  tail: at home
+  sub: Ivory towels, folded in thirds, in a basket. Every piece linked.
+  url: /look-hotel-towels/
+  board: Cosy Winter Home
+  title: 'Shop the look: Hotel Towels at Home'
+  description: 'Hotel style towels at home: soft ivory towels folded in thirds, stacked in a woven basket with a candle. Every piece in the photo, linked. Cosy home inspiration, hotel style bathroom and towel storage ideas. Save this for your winter home refresh.'
+  alt: Hotel towels at home. Ivory towels, folded in thirds, in a basket. Every piece linked.
+  status: approved
+- slug: st-wardrobe
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220512_c25e4abe-8ac5-452c-9aa9-8ede2505813b.png
+  kicker: Shop the look
+  head: A calm,
+  tail: fresh wardrobe
+  sub: Wooden hangers, lavender and natural boxes. Every piece linked.
+  url: /look-wardrobe/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Calm, Fresh Wardrobe'
+  description: 'Calm wardrobe ideas: matching wooden hangers, lavender sachets, seagrass boxes and moisture traps to keep it fresh. Every piece in the photo, linked. Cosy home inspiration, wardrobe organisation and calm closet ideas. Save this for your winter home refresh.'
+  alt: A calm, fresh wardrobe. Wooden hangers, lavender and natural boxes. Every piece linked.
+  status: approved
+- slug: st-warm-bed
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_7c78bb9f-8490-4d4c-ba7c-a75ee1d10676.png
+  kicker: Shop the look
+  head: A warm bed
+  tail: on a cold night
+  sub: Electric blanket, natural bedding, a wool throw. Every piece linked.
+  url: /look-warm-bed/
+  board: Cosy Winter Home
+  title: 'Shop the look: A Warm Bed on a Cold Night'
+  description: 'Warm winter bed ideas: an electric under-blanket, natural cotton bedding, a chunky wool throw and a soft bedside lamp. Every piece in the photo, linked. Cosy home inspiration, warm winter bed ideas and cosy bedding. Save this for your winter home refresh.'
+  alt: A warm bed on a cold night. Electric blanket, natural bedding, a wool throw. Every piece linked.
+  status: approved
+- slug: st-kettle-on
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_52442ef3-2bfc-4d03-b49a-ddcb418d387f.png
+  kicker: Shop the look
+  head: Rain outside,
+  tail: kettle on
+  sub: A cream teapot, heavy mugs and a candle. Every piece linked.
+  url: /look-kettle-on/
+  board: Cosy Winter Home
+  title: 'Shop the look: Rain Outside, Kettle On'
+  description: 'Cosy kitchen ideas for rainy days: a cream stoneware teapot, heavy mugs, a candle and linen tea towels. Every piece in the photo, linked. Cosy home inspiration, cosy kitchen ideas and teapots. Save this for your winter home refresh.'
+  alt: Rain outside, kettle on. A cream teapot, heavy mugs and a candle. Every piece linked.
+  status: approved
+- slug: st-reading-corner
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_e8571d21-2ada-48d8-8ed8-cd652c38a5dc.png
+  kicker: Shop the look
+  head: My winter
+  tail: reading corner
+  sub: A knit throw, a reading lamp and a sheepskin. Every piece linked.
+  url: /look-reading-corner/
+  board: Cosy Winter Home
+  title: 'Shop the look: My Favourite Winter Reading Corner'
+  description: 'Cosy reading nook ideas: a chunky knit throw, a warm reading lamp, a sheepskin and linen cushions. Every piece in the photo, linked. Cosy home inspiration, reading nook ideas and cosy corners. Save this for your winter home refresh.'
+  alt: My winter reading corner. A knit throw, a reading lamp and a sheepskin. Every piece linked.
+  status: approved
+- slug: st-early-nights
+  style: v4edit
+  pos: left
+  img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132519_3cf4fab3-2aaf-4a79-a835-52eff6e6e33a.png
+  kicker: Shop the look
+  head: Early nights,
+  tail: slow mornings
+  sub: A lamp, a candle and a good mug by the bed. Every piece linked.
+  url: /look-early-nights/
+  board: Cosy Winter Home
+  title: 'Shop the look: Early Nights, Slow Mornings'
+  description: 'Cosy winter bedside ideas: a candle, a warm lamp, a stoneware mug and soft natural bedding. Every piece in the photo, linked. Cosy home inspiration, bedside table ideas and cosy bedroom decor. Save this for your winter home refresh.'
+  alt: Early nights, slow mornings. A lamp, a candle and a good mug by the bed. Every piece linked.
+  status: approved
