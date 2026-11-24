@@ -314,7 +314,13 @@ def page_html(p):
         sub = f"<p>{html.escape(p['sub'])}</p>" if p.get("sub") else ""
         kw = dict(fonts=V4_FONTS, base=V4_BASE, size=size, kicker=html.escape(p.get("kicker", "")), head=fmt_head(p))
         if st == "v4edit":
-            return V4EDIT.format(img=html.escape(p["img"]), sub=sub, pos=p.get("pos", ""), **kw)
+            out = V4EDIT.format(img=html.escape(p["img"]), sub=sub, pos=p.get("pos", ""), **kw)
+            if p.get("badge"):
+                b = ('<div style="position:absolute;top:64px;left:60px;z-index:3;background:#f3e6cf;color:#2a1f16;'
+                     "font:600 34px/1 'Jost';letter-spacing:.14em;text-transform:uppercase;padding:20px 30px;border-radius:999px;"
+                     f'box-shadow:0 6px 24px rgba(0,0,0,.25)">{html.escape(p["badge"])}</div>')
+                out = out.replace('<img class="ph"', b + '<img class="ph"', 1)
+            return out
         if st == "v4grid":
             ims = [html.escape(x) for x in p["imgs"]]
             return V4GRID.format(i0=ims[0], i1=ims[1], i2=ims[2], i3=ims[3], sub=sub, **kw)

@@ -2377,9 +2377,10 @@
   status: posted
 - slug: bf-warm-home
   style: v4edit
+  badge: Black Friday
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_030d9d80-20e8-47bc-b3b3-f480a81e2ba8.png
-  kicker: Black Friday 2026
+  kicker: Worth it this week
   head: What is worth buying
   tail: for a warm, dry home
   sub: The short list, and how to spot a fake deal.
@@ -2391,9 +2392,10 @@
   status: approved
 - slug: xg-always-cold
   style: v4edit
+  badge: Gift guide
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_7c78bb9f-8490-4d4c-ba7c-a75ee1d10676.png
-  kicker: Christmas gift guide
+  kicker: Christmas 2026
   head: Gifts for someone
   tail: who is always cold
   sub: Warm gifts they will use every night until March.
@@ -2405,9 +2407,10 @@
   status: approved
 - slug: bf-dehumidifier
   style: v4edit
+  badge: Black Friday
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_b017db13-e447-4e73-83f6-50dbb8787b9d.png
-  kicker: Black Friday watchlist
+  kicker: Worth it this week
   head: The one thing
   tail: I would buy this week
   sub: A dehumidifier. Dry windows by January.
@@ -2419,9 +2422,10 @@
   status: approved
 - slug: xg-heated-throw
   style: v4edit
+  badge: Christmas gift
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220608_59de2a6b-3403-4670-8258-c3ef366b304d.png
-  kicker: Gift idea
+  kicker: Christmas 2026
   head: The cosy gift
   tail: they will use every night
   sub: A heated throw. Pennies an hour, warm all winter.
@@ -2433,9 +2437,10 @@
   status: approved
 - slug: xg-first-home
   style: v4edit
+  badge: Gift guide
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220608_60ba4e63-033b-4e06-bc6a-919f2ea08091.png
-  kicker: Gift guide
+  kicker: Christmas 2026
   head: Gifts for a first home
   tail: they will actually use
   sub: The practical things nobody thinks to buy.
@@ -2447,9 +2452,10 @@
   status: approved
 - slug: bf-heated-airer
   style: v4edit
+  badge: Black Friday
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132331_39146fd0-c418-4ed0-93ae-da80bacf81cb.png
-  kicker: Black Friday
+  kicker: Worth it this week
   head: 'Worth waiting for:'
   tail: a heated airer and cover
   sub: Washing dry in hours, for pennies, all winter.
@@ -2461,9 +2467,10 @@
   status: approved
 - slug: xg-cosy-night-in
   style: v4edit
+  badge: Gift guide
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_e8571d21-2ada-48d8-8ed8-cd652c38a5dc.png
-  kicker: Christmas gift guide
+  kicker: Christmas 2026
   head: A cosy night in,
   tail: wrapped up as a gift
   sub: A throw, a candle and a good mug.
@@ -2475,9 +2482,10 @@
   status: approved
 - slug: xg-for-mum
   style: v4edit
+  badge: Gifts for mum
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220656_82e8224f-c57e-4538-a8c4-014c7f0a575a.png
-  kicker: Gifts for mum
+  kicker: Christmas 2026
   head: Gifts for mum
   tail: who has everything
   sub: Warm, calm and actually used. Not another candle set.
@@ -2489,9 +2497,10 @@
   status: approved
 - slug: xg-new-homeowners
   style: v4edit
+  badge: Gift guide
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261115_132455_52442ef3-2bfc-4d03-b49a-ddcb418d387f.png
-  kicker: Christmas gift guide
+  kicker: Christmas 2026
   head: Practical gifts
   tail: for new homeowners
   sub: The first winter in a new home, sorted.
@@ -2503,9 +2512,10 @@
   status: approved
 - slug: bf-heated-throw
   style: v4edit
+  badge: Black Friday
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220540_e5c921c2-ca97-420f-9429-750d154f0589.png
-  kicker: Black Friday
+  kicker: Worth it this week
   head: Heat the person,
   tail: not the room
   sub: A heated throw at pennies an hour. Worth it this week.
@@ -2517,9 +2527,10 @@
   status: approved
 - slug: xg-stocking
   style: v4edit
+  badge: Stocking fillers
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220802_4f3ade93-2a3d-4786-a8e2-7b6880b4e962.png
-  kicker: Stocking fillers
+  kicker: Christmas 2026
   head: Small cosy gifts
   tail: for stockings
   sub: A hot water bottle, good mugs, lavender.
@@ -2531,9 +2542,10 @@
   status: approved
 - slug: bf-cyber-monday
   style: v4edit
+  badge: Cyber Monday
   pos: left
   img: https://d8j0ntlcm91z4.cloudfront.net/user_3FDbNzlEbXxPd9YTEesHn3buNHV/hf_20261027_220740_eb7b3813-0f10-4e69-9091-6caef3582977.png
-  kicker: Cyber Monday
+  kicker: Worth it this week
   head: 'Last chance:'
   tail: a warmer bedroom for less
   sub: A dehumidifier, an electric blanket, thermal curtains.
