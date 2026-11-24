@@ -79,3 +79,8 @@ Goal ladder: 1k impressions/month -> 10k/month -> steady outbound clicks -> Amaz
 - Reason: best pin "Coming home to this" (1,889 views) had no link; outbound click rate 0.13%.
 - Pinterest does NOT allow adding/changing links on existing pins (401 "You don't have permission to change this link"). Re-post as fresh pins with new headline instead (st-* pins).
 - 16 home decor products added (cat home). 12 shop-the-look pages built. Batch 5 (12 st-* pins) scheduled 21-23 Nov.
+
+## 24 Nov: seasonal push
+New pages: /black-friday-warm-home/, /cosy-christmas-gifts/, /gifts-for-a-first-home/ (top-pick box on each).
+12 pins bf-*/xg-* (v4edit + new `badge` pill: Black Friday / Gift guide). No fake discounts: copy says "check today's price".
+Schedule: 24 Nov x4, 25 x3, 26 x2, 27 x2, 30 Nov Cyber Monday. Judge by outbound clicks + Amazon clicks in first week of Dec.
